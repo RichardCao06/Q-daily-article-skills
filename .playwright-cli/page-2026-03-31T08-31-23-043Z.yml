@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: https://www.zxmoto.com/
+      - img [ref=e7]
+      - img [ref=e8]
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "首页" [ref=e13] [cursor=pointer]:
+          - /url: https://www.zxmoto.com/
+      - listitem [ref=e14]:
+        - generic [ref=e15]:
+          - link "产品世界" [ref=e16] [cursor=pointer]:
+            - /url: javascript:;
+          - text: 
+        - generic:
+          - text: 
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "摩托车系列" [ref=e21] [cursor=pointer]:
+                - /url: /index.php?c=category&id=7
+                - img [ref=e22]
+                - text: 摩托车系列
+          - generic [ref=e23]:
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link "500RR" [ref=e27] [cursor=pointer]:
+                  - /url: /index.php?c=show&id=56
+              - listitem [ref=e28]:
+                - link "500F" [ref=e29] [cursor=pointer]:
+                  - /url: /index.php?c=show&id=57
+              - listitem [ref=e30]:
+                - link "820RR" [ref=e31] [cursor=pointer]:
+                  - /url: /index.php?c=show&id=58
+            - link "500RR" [ref=e34] [cursor=pointer]:
+              - /url: /index.php?c=show&id=56
+              - img [ref=e35]
+              - paragraph [ref=e36]: 500RR
+      - listitem [ref=e37]:
+        - generic [ref=e38]:
+          - link "新闻资讯" [ref=e39] [cursor=pointer]:
+            - /url: javascript:;
+          - text: 
+      - listitem [ref=e40]:
+        - link "张雪赛事" [ref=e42] [cursor=pointer]:
+          - /url: /index.php?c=category&id=3
+      - listitem [ref=e43]:
+        - generic [ref=e44]:
+          - link "服务支持" [ref=e45] [cursor=pointer]:
+            - /url: javascript:;
+          - text: 
+      - listitem [ref=e46]:
+        - generic [ref=e47]:
+          - link "关于我们" [ref=e48] [cursor=pointer]:
+            - /url: javascript:;
+          - text: 
+      - listitem [ref=e49]:
+        - link "APP" [ref=e51] [cursor=pointer]:
+          - /url: /index.php?c=category&id=6
+    - generic [ref=e52]:
+      - generic [ref=e54] [cursor=pointer]: 
+      - link "EN" [ref=e56] [cursor=pointer]:
+        - /url: http://www.zxmotoglobal.com
+  - text:  
+  - list [ref=e60]:
+    - listitem [ref=e61]:
+      - link [ref=e63] [cursor=pointer]:
+        - /url: /index.php?c=show&id=299
+        - img [ref=e64]
+      - generic [ref=e65]:
+        - heading "WSBK葡萄牙站正赛第二回合" [level=3] [ref=e66]:
+          - link "WSBK葡萄牙站正赛第二回合" [ref=e67] [cursor=pointer]:
+            - /url: /index.php?c=show&id=299
+        - generic [ref=e68]:
+          - link "查看详情" [ref=e69] [cursor=pointer]:
+            - /url: /index.php?c=show&id=299
+          - generic [ref=e70]: 2026-03-31
+    - listitem [ref=e71]:
+      - link [ref=e73] [cursor=pointer]:
+        - /url: /index.php?c=show&id=298
+        - img [ref=e74]
+      - generic [ref=e75]:
+        - heading "WSBK葡萄牙站正赛第一回合" [level=3] [ref=e76]:
+          - link "WSBK葡萄牙站正赛第一回合" [ref=e77] [cursor=pointer]:
+            - /url: /index.php?c=show&id=298
+        - generic [ref=e78]:
+          - link "查看详情" [ref=e79] [cursor=pointer]:
+            - /url: /index.php?c=show&id=298
+          - generic [ref=e80]: 2026-03-31
+    - listitem [ref=e81]:
+      - link [ref=e83] [cursor=pointer]:
+        - /url: /index.php?c=show&id=25
+        - img [ref=e84]
+      - generic [ref=e85]:
+        - heading "ZXMOTO丨澳大利亚站赛事简报！" [level=3] [ref=e86]:
+          - link "ZXMOTO丨澳大利亚站赛事简报！" [ref=e87] [cursor=pointer]:
+            - /url: /index.php?c=show&id=25
+        - generic [ref=e88]:
+          - link "查看详情" [ref=e89] [cursor=pointer]:
+            - /url: /index.php?c=show&id=25
+          - generic [ref=e90]: 2026-02-03
+  - generic [ref=e93]:
+    - link [ref=e95] [cursor=pointer]:
+      - /url: ""
+      - img [ref=e96]
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "热门车型" [level=3] [ref=e99]
+        - generic [ref=e100]:
+          - link "500RR" [ref=e101] [cursor=pointer]:
+            - /url: /index.php?c=show&id=56
+          - link "500F" [ref=e102] [cursor=pointer]:
+            - /url: /index.php?c=show&id=57
+          - link "820RR" [ref=e103] [cursor=pointer]:
+            - /url: /index.php?c=show&id=58
+      - generic [ref=e104]:
+        - heading "新闻资讯" [level=3] [ref=e105]
+        - generic [ref=e106]:
+          - link "安全驾驶培训" [ref=e107] [cursor=pointer]:
+            - /url: /index.php?c=category&id=9
+          - link "品牌活动" [ref=e108] [cursor=pointer]:
+            - /url: /index.php?c=category&id=10
+      - generic [ref=e109]:
+        - heading "服务支持" [level=3] [ref=e110]
+        - generic [ref=e111]:
+          - link "售后反馈" [ref=e112] [cursor=pointer]:
+            - /url: /index.php?c=category&id=11
+          - link "全国联保" [ref=e113] [cursor=pointer]:
+            - /url: /index.php?c=category&id=13
+          - link "品牌门店" [ref=e114] [cursor=pointer]:
+            - /url: /index.php?c=category&id=14
+      - generic [ref=e115]:
+        - heading "关于我们" [level=3] [ref=e116]
+        - generic [ref=e117]:
+          - link "公司介绍" [ref=e118] [cursor=pointer]:
+            - /url: /index.php?c=category&id=15
+          - link "品牌故事" [ref=e119] [cursor=pointer]:
+            - /url: /index.php?c=category&id=16
+          - link "经销商加盟" [ref=e120] [cursor=pointer]:
+            - /url: /index.php?c=category&id=17
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - heading "全国统一服务热线" [level=4] [ref=e123]
+        - strong [ref=e124]: 400-886-2661
+      - generic [ref=e125]:
+        - link [ref=e126] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e127]
+        - link [ref=e128] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e129]
+        - link [ref=e130] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e131]
+  - generic [ref=e132]:
+    - generic [ref=e133]: ZXMOTO张雪机车_版权所有 © 2023-2026
+    - emphasis [ref=e134]: ｜
+    - generic [ref=e135]:
+      - text: 备案号：
+      - link "渝ICP备2024041761号-1" [ref=e136] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/
+  - text: 
