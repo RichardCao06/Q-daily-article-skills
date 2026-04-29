@@ -168,7 +168,49 @@ Prepare a markdown-ready article:
 
 Use `references/layout-style.md`.
 
-### 6. Publish Pass
+### 6. Final Read Pass
+
+Read the article from start to end **as a reader who has never seen the
+topic card**.
+
+The reader does not care which column hosts the article, doesn't know
+about column-styles rules, and shouldn't see any sentence that talks
+ABOUT the writing rather than ABOUT the subject. Catch:
+
+- meta-commentary that survived the writing pass:
+  "为什么这一篇值得在 `好论文` 栏目里发", "按 `好论文` 栏目的约束……",
+  "这是好论文该有的样子", "this article", "in this column", and any
+  heading or sentence that names the article-type ("data-piece",
+  "explainer") inside the prose
+- draft markers: `TODO`, `FIXME`, `XXX`, `HACK`, `WIP`, `占位符`,
+  `[draft]`, lorem ipsum
+- editor placeholders: `[insert quote here]`, `<author name>`,
+  `{date}`, `[TBD]`, `[TKTK]`
+- empty headings, empty list items
+- unclosed `**bold` markers (a line with an odd count of `**`)
+
+Two ways to run this pass:
+
+```
+# 1. Standalone scan, errors → exit 1, machine-readable JSON option
+python3 scripts/validate_article.py <article.md>
+python3 scripts/validate_article.py <article.md> --json
+python3 scripts/validate_article.py <article.md> --strict   # CI mode
+
+# 2. Automatically run as a pre-flight gate in publish_to_daily.py
+python3 scripts/publish_to_daily.py <article.md> --execute
+# Skip with --skip-content-check ONLY for metacritical pieces about
+# Q-daily itself (the rare exception).
+```
+
+The full checklist + rationale lives in `references/final-read.md`.
+
+This pass exists because at least one article shipped with the topic-card
+scaffolding ("为什么这一篇值得在 `好论文` 栏目里发") still in the body.
+Fact-check catches FACTUAL errors; layout catches STRUCTURAL errors;
+neither catches "this still reads like notes". Hence: a dedicated pass.
+
+### 7. Publish Pass
 
 When the target is Q-daily / Supabase, do not stop at a local Markdown draft.
 
@@ -215,6 +257,7 @@ This publish step is complete only when:
 - `references/column-styles.md` — per-column (`好文章` / `好观点` / `好家伙` / `好论文`) length / opening / voice / image rules
 - `references/topic-selection-and-routing.md` — two-axis (栏目 × 领域) routing, topic card, article-type ↔ column mapping
 - `references/fact-check.md` — required pass between writing and publishing; verify every number / date / quote against literal source
+- `references/final-read.md` — required pass between layout and publishing; catches meta-commentary, draft markers, placeholders that survived the writing pass
 - `references/image-style.md`
 - `references/image-source-priority.md` — slot-based source ranking + paper/report figure extraction (for `好论文`)
 - `references/layout-style.md` — frontmatter spec including `column:` and `category:` fields
