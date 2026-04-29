@@ -201,6 +201,68 @@ class ExtractPrimaryImageAssetsTest(unittest.TestCase):
         asset = payload["assets"][0]
         self.assertEqual(asset["asset_url"], "https://www.example.com/images/wsbk-celebration.jpg")
 
+    def test_decodes_html_escaped_image_urls(self) -> None:
+        jobs = {
+            "jobs": [
+                {
+                    "slot": "hero",
+                    "title": "OpenAI workspace agents",
+                    "url": "https://www.example.com/news/story",
+                    "domain": "www.example.com",
+                    "source_tier": "official",
+                    "output_path": "/tmp/hero-1.png",
+                }
+            ]
+        }
+
+        html = """
+        <html><head>
+        <meta property="og:image" content="https://www.example.com/images/workspace-agents.webp?w=3840&amp;q=90&amp;fm=webp">
+        </head><body>
+        <article><p>workspace agents</p></article>
+        </body></html>
+        """
+        manifest = {
+            "https://www.example.com/images/workspace-agents.webp?w=3840&q=90&fm=webp": {
+                "width": 3840,
+                "height": 2160,
+                "format": "WEBP",
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            jobs_path = Path(tmpdir) / "jobs.json"
+            html_path = Path(tmpdir) / "page.html"
+            manifest_path = Path(tmpdir) / "manifest.json"
+            jobs_path.write_text(json.dumps(jobs, ensure_ascii=False), encoding="utf-8")
+            html_path.write_text(html, encoding="utf-8")
+            manifest_path.write_text(json.dumps(manifest, ensure_ascii=False), encoding="utf-8")
+
+            result = subprocess.run(
+                [
+                    "python3",
+                    str(SCRIPT),
+                    str(jobs_path),
+                    "--fixture-html",
+                    str(html_path),
+                    "--fixture-manifest",
+                    str(manifest_path),
+                    "--dry-run",
+                ],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+        self.assertEqual(result.returncode, 0, msg=result.stderr)
+        payload = json.loads(result.stdout)
+        self.assertEqual(len(payload["assets"]), 1)
+        asset = payload["assets"][0]
+        self.assertEqual(
+            asset["asset_url"],
+            "https://www.example.com/images/workspace-agents.webp?w=3840&q=90&fm=webp",
+        )
+
     def test_reads_jsonld_images_for_news_pages(self) -> None:
         jobs = {
             "jobs": [

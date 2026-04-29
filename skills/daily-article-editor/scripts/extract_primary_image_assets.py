@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import html as html_lib
 import io
 import json
 import re
@@ -108,7 +109,7 @@ def collect_assets(page_url: str, fixture_html: str, manifest: dict) -> list[dic
     seen = set()
     items = []
     for src in srcs:
-        asset_url = urljoin(page_url, src)
+        asset_url = urljoin(page_url, html_lib.unescape(src))
         if asset_url in seen:
             continue
         seen.add(asset_url)
