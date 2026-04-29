@@ -311,6 +311,90 @@ def split_blocks(body: str) -> list[tuple[str, str]]:
     return merged
 
 
+# ---------------------------------------------------------------------------
+# post-publish render verification
+# ---------------------------------------------------------------------------
+
+# Once the DB commit succeeds, optionally curl the live origin and assert
+# the rendered HTML actually contains the markers we depend on for editorial
+# layout. This catches the silent class of regression where:
+#   - the DB has the right blocks but the frontend doesn't render them
+#     (list-block compression bug, inline-markdown literal-character bug)
+#   - the frontend hasn't redeployed since the schema changed
+#   - CDN / browser cache is serving stale HTML
+#
+# This is intentionally a soft check: failures print warnings and exit 5
+# (instead of 0), but the DB is already committed at that point. The
+# operator decides whether to roll back or fix-forward.
+
+# What we look for. Tuple of (description, regex pattern, severity).
+# severity:
+#   "required" — every published article should have these
+#   "expected" — block-kind-dependent; only checked if the article has that block
+_RENDER_CHECKS_REQUIRED = [
+    ("article served (200)", "REQUEST_OK"),
+    # Hero image arrived as <img>
+    ("hero image rendered", r'<img[^>]+(?:storyImage|heroImage)'),
+    # Title H1
+    ("title rendered", r"<h1[^>]*>"),
+]
+_RENDER_CHECKS_FOR_BLOCK_KINDS = {
+    # If the article had list blocks, the rendered HTML must contain a <ul> or <ol>
+    "list":      ("list block rendered", r'<(?:ul|ol)[^>]*storyList'),
+    # If the article had H2/H3 headings, the rendered HTML must contain them
+    "heading":   ("heading rendered", r"<h[23][^>]*storySectionHeading"),
+    # If column_slug is set, the badge must show
+    "column":    ("column badge rendered", r"storyColumn"),
+}
+
+
+def verify_rendered(slug: str, base_url: str, present_block_kinds: set[str], timeout: float = 30.0) -> tuple[bool, list[str]]:
+    """Curl base_url/articles/<slug> and check editorial layout markers.
+
+    Returns (passed, messages). `messages` lists every check + outcome —
+    pass or fail — so the operator sees a complete picture even on success.
+    """
+    import urllib.error
+    import urllib.request
+
+    url = f"{base_url.rstrip('/')}/articles/{slug}"
+    messages: list[str] = []
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "QDailyPublishVerify/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read().decode("utf-8", errors="ignore")
+    except urllib.error.HTTPError as e:
+        messages.append(f"  fail - article served (200): got HTTP {e.code}")
+        return False, messages
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        messages.append(f"  fail - article served (200): network error {type(e).__name__}: {e}")
+        return False, messages
+
+    failed = 0
+
+    # The "200" check is implicit in successfully reading the body
+    messages.append(f"  ok   - article served (200) at {url}")
+
+    for desc, pattern in _RENDER_CHECKS_REQUIRED[1:]:  # skip the synthetic 200 entry
+        if re.search(pattern, body):
+            messages.append(f"  ok   - {desc}")
+        else:
+            messages.append(f"  fail - {desc} (no match for /{pattern}/)")
+            failed += 1
+
+    for kind, (desc, pattern) in _RENDER_CHECKS_FOR_BLOCK_KINDS.items():
+        if kind not in present_block_kinds:
+            continue
+        if re.search(pattern, body):
+            messages.append(f"  ok   - {desc}")
+        else:
+            messages.append(f"  fail - {desc} (no match for /{pattern}/)")
+            failed += 1
+
+    return failed == 0, messages
+
+
 def rewrite_markdown(source: str, url_map: dict[str, str]) -> str:
     out_lines = []
     for line in source.splitlines():
@@ -342,6 +426,25 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--open-policy", action="store_true")
     ap.add_argument("--env-file", default=DEFAULT_ENV_FILE)
     ap.add_argument("--bucket", default=DEFAULT_BUCKET)
+    ap.add_argument(
+        "--verify-render",
+        nargs="?",
+        const="https://www.pigppy.site",
+        default=None,
+        metavar="BASE_URL",
+        help="After commit, curl <BASE_URL>/articles/<slug> and assert the rendered "
+             "HTML contains the editorial layout markers (hero img, column badge, list "
+             "block, headings) that match what we just stored. Catches silent "
+             "rendering regressions where DB writes succeed but frontend doesn't render. "
+             "Default base URL is https://www.pigppy.site if no value is provided.",
+    )
+    ap.add_argument(
+        "--verify-render-warmup",
+        type=float,
+        default=10.0,
+        help="Seconds to wait between commit and render verification, "
+             "to let CDN / Next.js ISR pick up the new article (default 10).",
+    )
     return ap.parse_args()
 
 
@@ -557,6 +660,32 @@ def main() -> int:
             return 3
         finally:
             conn.close()
+
+        # Optional post-commit render verification (G9). Soft check —
+        # failures don't roll back the DB, just report. Operator decides
+        # whether to fix-forward or revert.
+        if args.verify_render:
+            base_url = args.verify_render
+            warmup = max(0.0, args.verify_render_warmup)
+            if warmup > 0:
+                import time
+                print(f"[verify] waiting {warmup:.0f}s for CDN / ISR warmup before fetching {base_url}/articles/{slug}")
+                time.sleep(warmup)
+
+            present_kinds = {kind for kind, _ in blocks}
+            # column_slug presence is its own pseudo-kind so the badge check fires
+            if fm.get("column"):
+                present_kinds.add("column")
+
+            ok, msgs = verify_rendered(slug, base_url, present_kinds)
+            print("[verify] render checks:")
+            for m in msgs:
+                print(m)
+            if not ok:
+                print(f"[verify] one or more render checks failed against {base_url}", file=sys.stderr)
+                print(f"[verify] DB IS COMMITTED. Fix the rendering layer (frontend deploy / cache purge / schema sync) and re-run with --verify-render to re-check.", file=sys.stderr)
+                return 5
+            print(f"[verify] all render checks passed at {base_url}")
 
         return 0
     finally:
