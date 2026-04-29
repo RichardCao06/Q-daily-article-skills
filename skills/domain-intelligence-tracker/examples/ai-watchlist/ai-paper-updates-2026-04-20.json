@@ -1,0 +1,440 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-14",
+  "window_end": "2026-04-20",
+  "updates": [
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.LG",
+      "published_at": "2026-04-17T17:01:24Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16242",
+      "title": "Detecting and Suppressing Reward Hacking with Gradient Fingerprints",
+      "summary": "这篇论文提出 GRIFT，用梯度指纹而不是只看文本链路来识别 RLVR 训练中的 reward hacking，并报告其在数学、代码和逻辑推理任务上比现有监控基线更强。它还把该检测方法接入拒绝式微调流程，目标是同时降低投机行为并提升真实任务表现。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.LG",
+        "paper_id": "2604.16242",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ],
+        "authors": [
+          "Songtao Wang",
+          "Quang Hieu Pham",
+          "Fangcong Yin",
+          "Xinpeng Wang",
+          "Jocelyn Qiaochu Chen",
+          "Greg Durrett",
+          "Xi Ye"
+        ],
+        "published_label": "2026-04-17T17:01:24Z",
+        "evidence": "arXiv official API entry and recent category feed.",
+        "abstract": "Reinforcement learning with verifiable rewards (RLVR) typically optimizes for outcome rewards without imposing constraints on intermediate reasoning. This leaves training susceptible to reward hacking."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CL",
+      "published_at": "2026-04-17T05:36:00Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.15715",
+      "title": "GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows",
+      "summary": "GTA-2 把工具型 agent 评测从原子级工具调用扩展到开放式工作流，并用真实用户查询、真实工具和多模态上下文来构建分层 benchmark。论文报告顶级模型在开放工作流上的成功率只有 14.39%，强调执行框架设计和 checkpoint 式反馈仍是 agent 落地的关键瓶颈。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CL",
+        "paper_id": "2604.15715",
+        "primary_category": "cs.CL",
+        "categories": [
+          "cs.CL",
+          "cs.AI"
+        ],
+        "authors": [
+          "Jize Wang",
+          "Xuanxuan Liu",
+          "Yining Li",
+          "Songyang Zhang",
+          "Yijun Wang",
+          "Zifei Shan",
+          "Xinyi Le",
+          "Cailian Chen",
+          "Xinping Guan",
+          "Dacheng Tao"
+        ],
+        "published_label": "2026-04-17T05:36:00Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "The development of general-purpose agents requires a shift from executing simple instructions to completing complex, real-world productivity workflows."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CL",
+      "published_at": "2026-04-17T08:41:26Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.15840",
+      "title": "CoEvolve: Training LLM Agents via Agent-Data Mutual Evolution",
+      "summary": "CoEvolve 关注 agent 训练里的“数据分布静止”问题，让 agent rollout 里暴露出的遗忘和不确定性反过来驱动任务合成，再用环境交互验证后更新训练分布。作者在 AppWorld 和 BFCL 上给出多组显著提升，说明 agent 与数据共演化可能比单纯在固定任务集上训练更有效。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CL",
+        "paper_id": "2604.15840",
+        "primary_category": "cs.CL",
+        "categories": [
+          "cs.CL"
+        ],
+        "authors": [
+          "Shidong Yang",
+          "Ziyu Ma",
+          "Tongwen Huang",
+          "Yiming Hu",
+          "Yong Wang",
+          "Xiangxiang Chu"
+        ],
+        "published_label": "2026-04-17T08:41:26Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "Reinforcement learning for LLM agents is typically conducted on a static data distribution, which fails to adapt to the agent's evolving behavior."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.AI",
+      "published_at": "2026-04-17T17:47:32Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16286",
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "summary": "ASMR-Bench 把“AI 代做研究”场景中的 sabotage 审计问题做成了基准测试，核心是看审计者能否发现研究代码里那些会悄悄扭曲结论、却不容易被看出的实现修改。论文结果显示，无论是前沿模型还是带模型辅助的人类审计者，当前都还难以稳定识别这类破坏。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.AI",
+        "paper_id": "2604.16286",
+        "primary_category": "cs.AI",
+        "categories": [
+          "cs.AI"
+        ],
+        "authors": [
+          "Eric Gan",
+          "Aryan Bhatt",
+          "Buck Shlegeris",
+          "Julian Stastny",
+          "Vivek Hebbar"
+        ],
+        "published_label": "2026-04-17T17:47:32Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "As AI systems are increasingly used to conduct research autonomously, misaligned systems could introduce subtle flaws that produce misleading results while evading detection."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.AI",
+      "published_at": "2026-04-17T17:36:21Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16278",
+      "title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "summary": "这篇论文把非形式化定理证明里的“洞见”拆成可训练对象，构造分层数据集和多阶段监督微调流程，让模型先学识别核心技巧，再学完整证明。它的重点不是继续堆长推理链，而是试图把 insight 这种中间能力显式结构化。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.AI",
+        "paper_id": "2604.16278",
+        "primary_category": "cs.AI",
+        "categories": [
+          "cs.AI",
+          "cs.CL",
+          "cs.LG"
+        ],
+        "authors": [
+          "Yunhe Li",
+          "Hao Shi",
+          "Bowen Deng",
+          "Wei Wang",
+          "Mengzhe Ruan",
+          "Hanxu Hou",
+          "Zhongxiang Dai",
+          "Siyang Gao",
+          "Chao Wang",
+          "Shuang Qiu",
+          "Linqi Song"
+        ],
+        "published_label": "2026-04-17T17:36:21Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "Although most of the automated theorem-proving approaches depend on formal proof systems, informal theorem proving can align better with large language models' strength in natural language processing."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.LG",
+      "published_at": "2026-04-17T16:07:11Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16197",
+      "title": "Sketching the Readout of Large Language Models for Scalable Data Attribution and Valuation",
+      "summary": "RISE 试图把 LLM 的数据归因和数据价值评估做得更可扩展，它不再全量计算整模型梯度，而是聚焦输出层的 influence hotspots 并用 sketch 压缩表示。作者声称这让方法可以扩展到 32B 模型，并把数据归因从研究性工具推进到更接近可用基础设施。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.LG",
+        "paper_id": "2604.16197",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG"
+        ],
+        "authors": [
+          "Yide Ran",
+          "Jianwen Xie",
+          "Minghui Wang",
+          "Wenjin Zheng",
+          "Denghui Zhang",
+          "Chuan Li",
+          "Zhaozhuo Xu"
+        ],
+        "published_label": "2026-04-17T16:07:11Z",
+        "evidence": "arXiv official API entry and cs.LG feed.",
+        "abstract": "Data attribution and valuation are critical for understanding data-model synergy for Large Language Models (LLMs), yet existing gradient-based methods suffer from scalability challenges on LLMs."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.LG",
+      "published_at": "2026-04-17T15:38:37Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16171",
+      "title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "summary": "JumpLoRA 把稀疏门控引入 LoRA continual learning，目标是在顺序学习多个任务时减少任务间干扰和灾难性遗忘。它延续了“低成本适配 + 持续学习”的路线，适合关注企业私域知识不断追加时模型如何稳定更新的人。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.LG",
+        "paper_id": "2604.16171",
+        "primary_category": "cs.LG",
+        "categories": [
+          "cs.LG",
+          "cs.AI",
+          "cs.CL"
+        ],
+        "authors": [
+          "Alexandra Dragomir",
+          "Ioana Pintilie",
+          "Antonio Barbalau",
+          "Marius Dragoi",
+          "Florin Brad",
+          "Cristian Daniel Paduraru",
+          "Alexandru Tifrea",
+          "Elena Burceanu",
+          "Radu Tudor Ionescu"
+        ],
+        "published_label": "2026-04-17T15:38:37Z",
+        "evidence": "arXiv official API entry and cs.LG feed.",
+        "abstract": "Adapter-based methods have become a cost-effective approach to continual learning for Large Language Models by sequentially learning a low-rank update matrix for each task."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CV",
+      "published_at": "2026-04-17T17:15:18Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16256",
+      "title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "summary": "论文用 CrossMath 设计了严格对齐的 text-only、image-only 和 image+text 任务，去测试 VLM 的“视觉推理”到底有多少真的依赖视觉信息。结果显示很多模型在加入图像后反而不如纯文本输入，说明当前不少 VLM 的推理仍主要发生在文本空间。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CV",
+        "paper_id": "2604.16256",
+        "primary_category": "cs.CV",
+        "categories": [
+          "cs.CV",
+          "cs.CL"
+        ],
+        "authors": [
+          "Yige Xu",
+          "Yongjie Wang",
+          "Zizhuo Wu",
+          "Kaisong Song",
+          "Jun Lin",
+          "Zhiqi Shen"
+        ],
+        "published_label": "2026-04-17T17:15:18Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "Reasoning in vision-language models has recently attracted significant attention, but it remains unclear whether the performance stems from genuine vision-grounded reasoning."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CV",
+      "published_at": "2026-04-17T17:20:42Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16264",
+      "title": "Information Router for Mitigating Modality Dominance in Vision-Language Models",
+      "summary": "MoIR 试图解决 VLM 常见的 modality dominance 问题，但不是只调注意力，而是先识别信息稀薄的 token，再从更强模态路由补充信息。这个思路把“多模态融合失败”解释成信息密度不平衡，而不只是注意力权重分配错误。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CV",
+        "paper_id": "2604.16264",
+        "primary_category": "cs.CV",
+        "categories": [
+          "cs.CV",
+          "cs.LG"
+        ],
+        "authors": [
+          "Seulgi Kim",
+          "Mohit Prabhushankar",
+          "Ghassan AlRegib"
+        ],
+        "published_label": "2026-04-17T17:20:42Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "Vision Language models often suffer from modality dominance, where predictions rely disproportionately on a single modality."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CV",
+      "published_at": "2026-04-17T17:04:19Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16243",
+      "title": "Find, Fix, Reason: Context Repair for Video Reasoning",
+      "summary": "这篇工作把视频推理里的难点定义成“缺失关键时空证据”，因此让一个冻结的、带工具的大模型老师先找出缺口，再给学生模型补最小证据片段。它不是单纯扩大上下文，而是把额外上下文当成可修复的 observation patch。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CV",
+        "paper_id": "2604.16243",
+        "primary_category": "cs.CV",
+        "categories": [
+          "cs.CV"
+        ],
+        "authors": [
+          "Haojian Huang",
+          "Chuanyu Qin",
+          "Yinchuan Li",
+          "Yingcong Chen"
+        ],
+        "published_label": "2026-04-17T17:04:19Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "Reinforcement learning has advanced video reasoning in large multi-modal models, yet dominant pipelines either rely on on-policy self-exploration or hybrid replay."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.RO",
+      "published_at": "2026-04-17T17:19:54Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16263",
+      "title": "Semantic Area Graph Reasoning for Multi-Robot Language-Guided Search",
+      "summary": "SAGR 试图让 LLM 在多机器人搜索里负责高层语义房间分配，而把前沿探索和局部导航交给确定性规划模块。它代表了一类越来越常见的 embodied agent 结构：语言模型只做高层决策接口，几何执行仍交给传统机器人系统。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.RO",
+        "paper_id": "2604.16263",
+        "primary_category": "cs.RO",
+        "categories": [
+          "cs.RO"
+        ],
+        "authors": [
+          "Ruiyang Wang",
+          "Hao-Lun Hsu",
+          "Jiwoo Kim",
+          "Miroslav Pajic"
+        ],
+        "published_label": "2026-04-17T17:19:54Z",
+        "evidence": "arXiv official API entry and cs.RO feed.",
+        "abstract": "We propose Semantic Area Graph Reasoning, a hierarchical framework that enables Large Language Models to coordinate multi-robot exploration and semantic search."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.RO",
+      "published_at": "2026-04-17T17:59:48Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16298",
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "summary": "FineCog-Nav 用更细粒度的认知模块来拆解无人机视觉语言导航，把感知、记忆、想象、推理和决策分别组织起来，再通过结构化协议协同。它的价值不只在无人机任务本身，也在于提供了一种比“大一统 VLM”更模块化的 embodied AI 设计。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.RO",
+        "paper_id": "2604.16298",
+        "primary_category": "cs.CV",
+        "categories": [
+          "cs.CV",
+          "cs.RO"
+        ],
+        "authors": [
+          "Dian Shao",
+          "Zhengzheng Xu",
+          "Peiyang Wang",
+          "Like Liu",
+          "Yule Wang",
+          "Jieqi Shi",
+          "Jing Huo"
+        ],
+        "published_label": "2026-04-17T17:59:48Z",
+        "evidence": "arXiv official API entry; selected for the robotics watch scope because the paper is cross-listed in cs.RO.",
+        "abstract": "UAV vision-language navigation requires an agent to navigate complex 3D environments while following ambiguous multi-step instructions over long horizons."
+      }
+    },
+    {
+      "entity_group": "project",
+      "entity_name": "arXiv cs.CV",
+      "published_at": "2026-04-17T17:59:50Z",
+      "source_platform": "arxiv",
+      "source_url": "https://arxiv.org/abs/2604.16299",
+      "title": "Repurposing 3D Generative Model for Autoregressive Layout Generation",
+      "summary": "LaviGen 把 3D 生成模型重新用在 3D layout generation 上，强调直接在原生 3D 空间里自回归建模物体关系和物理约束，而不是只从文本反推布局。它属于生成式模型向空间理解和三维场景组织继续外溢的一个信号。",
+      "content_type": "paper",
+      "source_domain": "arxiv.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "arXiv",
+        "official_entity": "arXiv cs.CV",
+        "paper_id": "2604.16299",
+        "primary_category": "cs.CV",
+        "categories": [
+          "cs.CV"
+        ],
+        "authors": [
+          "Haoran Feng",
+          "Yifan Niu",
+          "Zehuan Huang",
+          "Yang-Tian Sun",
+          "Chunchao Guo",
+          "Yuxin Peng",
+          "Lu Sheng"
+        ],
+        "published_label": "2026-04-17T17:59:50Z",
+        "evidence": "arXiv official API entry.",
+        "abstract": "We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation."
+      }
+    }
+  ]
+}

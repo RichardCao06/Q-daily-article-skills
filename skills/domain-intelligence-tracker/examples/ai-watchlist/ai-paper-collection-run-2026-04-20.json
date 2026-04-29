@@ -1,0 +1,26 @@
+{
+  "domain": "ai",
+  "goal": "Track weekly AI paper updates from official paper sources in the current monitoring window.",
+  "window_start": "2026-04-14",
+  "window_end": "2026-04-20",
+  "entity_scope": [
+    "project"
+  ],
+  "source_policy": {
+    "priority": [
+      "official arXiv category feed",
+      "official arXiv paper page",
+      "official conference or publication page"
+    ],
+    "include_media": false,
+    "include_community": false,
+    "notes": "This weekly run keeps only first-party paper records with an explicit in-window publication timestamp. The current batch is a curated set of high-signal papers, not an exhaustive dump of every submission."
+  },
+  "output_targets": [
+    "tracked_entities",
+    "entity_sources",
+    "entity_updates",
+    "collection_runs"
+  ],
+  "notes": "Weekly paper run executed on 2026-04-20 Asia/Shanghai for 2026-04-14 through 2026-04-20. Synced 13 arXiv paper updates across cs.AI, cs.CL, cs.CV, cs.LG, and cs.RO using the existing AI paper-source directory as the entity registry."
+}

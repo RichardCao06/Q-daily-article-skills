@@ -1,0 +1,29 @@
+{
+  "domain": "ai",
+  "goal": "Track first-party AI updates worth monitoring as of 2026-04-23, with emphasis on enterprise workflow, developer infrastructure, privacy, and vertical adoption signals.",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-23",
+  "entity_scope": [
+    "person",
+    "company",
+    "product"
+  ],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official newsroom",
+      "official engineering blog",
+      "official product page"
+    ],
+    "include_media": false,
+    "include_community": false,
+    "notes": "This daily run keeps only first-party pages with an explicit April 22, 2026 publication label or an official in-page publication timestamp."
+  },
+  "output_targets": [
+    "tracked_entities",
+    "entity_sources",
+    "entity_updates",
+    "collection_runs"
+  ],
+  "notes": "Daily run executed on 2026-04-23 Asia/Shanghai. Reused the existing AI watchlist entity snapshot from 2026-04-20 and added five verified first-party updates from OpenAI and Google DeepMind published on 2026-04-22."
+}

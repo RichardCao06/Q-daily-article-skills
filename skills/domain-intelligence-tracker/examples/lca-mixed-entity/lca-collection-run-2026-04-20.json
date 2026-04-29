@@ -1,0 +1,31 @@
+{
+  "domain": "lca",
+  "goal": "Track official weekly updates for priority LCA software, vendors, institutions, and practitioners.",
+  "window_start": "2026-04-14",
+  "window_end": "2026-04-20",
+  "entity_scope": [
+    "person",
+    "company",
+    "product",
+    "institution",
+    "project"
+  ],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official blog or updates page",
+      "official docs",
+      "official news or event page"
+    ],
+    "include_media": false,
+    "include_community": false,
+    "notes": "This weekly run keeps only first-party pages with an explicit in-window date, update label, or scheduled official event date."
+  },
+  "output_targets": [
+    "tracked_entities",
+    "entity_sources",
+    "entity_updates",
+    "collection_runs"
+  ],
+  "notes": "Weekly run executed on 2026-04-20 Asia/Shanghai for 2026-04-14 through 2026-04-20. Verified official items from SimaPro and One Click LCA. Could not verify in-window first-party updates from the sources checked for GreenDelta/openLCA, ecoinvent, Brightway, or PACT Method."
+}

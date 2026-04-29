@@ -1,0 +1,92 @@
+{
+  "domain": "lca",
+  "window_start": "2026-03-01",
+  "window_end": "2026-04-14",
+  "updates": [
+    {
+      "entity_group": "product",
+      "entity_name": "openLCA",
+      "published_at": "2026-03-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.openlca.org/openlca-trainings/",
+      "title": "openLCA Trainings 2026",
+      "summary": "openLCA 官方页面在 3 月 24 日更新 2026 年培训安排，体现出产品生态在培训与采用侧的最新官方动作。",
+      "content_type": "announcement",
+      "source_domain": "openlca.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "openLCA / GreenDelta",
+        "published_label": "Published on March 24, 2026",
+        "evidence": "Official openLCA page with explicit publication date"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "One Click LCA",
+      "published_at": "2026-03-01T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://oneclicklca.com/blog/whats-new-in-one-click-lca-in-march-2026",
+      "title": "What’s new in One Click LCA in March 2026",
+      "summary": "One Click LCA 官方博客在 3 月发布月度产品更新，涵盖平台功能、数据与工作流改进，是典型的软件型 LCA 领域一手更新。",
+      "content_type": "release-notes",
+      "source_domain": "oneclicklca.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "One Click LCA",
+        "published_label": "March 2026",
+        "evidence": "Official One Click LCA blog entry for March 2026 updates"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "SimaPro",
+      "published_at": "2026-03-26T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://simapro.com/updates/cloud-release-notes-26-03-2026/",
+      "title": "SimaPro cloud release notes 26.03.2026",
+      "summary": "SimaPro 官方更新页在 3 月 26 日发布云端版本更新说明，属于产品级正式发布信息，适合作为 LCA 领域的高信号追踪源。",
+      "content_type": "release-notes",
+      "source_domain": "simapro.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "SimaPro",
+        "published_label": "26.03.2026",
+        "evidence": "Official SimaPro updates page with exact date in title"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "LCA for Experts",
+      "published_at": "2026-03-03T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://sphera.com/resources/product-sustainability-lca-risks-epd-webinar/",
+      "title": "Understanding LCA risks and pitfalls from major EPD program operators",
+      "summary": "Sphera 在 3 月发布与 EPD 与 LCA 风险相关的官方 webinar 页面，反映企业级 LCA 软件生态在方法应用与客户教育侧的最新官方输出。",
+      "content_type": "webinar",
+      "source_domain": "sphera.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Sphera",
+        "published_label": "March 3, 2026",
+        "evidence": "Official Sphera resource page with explicit date"
+      }
+    },
+    {
+      "entity_group": "institution",
+      "entity_name": "Life Cycle Initiative",
+      "published_at": "2026-03-02T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://www.lifecycleinitiative.org/call-for-case-studies-and-datasets-illustrating-how-biodiversity-is-addressed-in-life-cycle-assessment-lca-and-sustainability-management/",
+      "title": "Call for case studies and datasets on biodiversity in LCA",
+      "summary": "Life Cycle Initiative 于 3 月 2 日发布案例与数据征集公告，显示其在生物多样性与 LCA 方法学结合方面的近期官方推进方向。",
+      "content_type": "call",
+      "source_domain": "lifecycleinitiative.org",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Life Cycle Initiative",
+        "published_label": "March 2, 2026",
+        "evidence": "Official Life Cycle Initiative announcement with exact date"
+      }
+    }
+  ]
+}

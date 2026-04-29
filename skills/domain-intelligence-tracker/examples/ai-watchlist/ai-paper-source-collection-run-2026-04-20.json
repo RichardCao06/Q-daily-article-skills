@@ -1,0 +1,26 @@
+{
+  "domain": "ai",
+  "goal": "Add AI paper-tracking source directory entries for high-signal paper feeds, conference indexes, and official lab publication pages.",
+  "window_start": "2026-04-20",
+  "window_end": "2026-04-20",
+  "entity_scope": [
+    "project"
+  ],
+  "source_policy": {
+    "priority": [
+      "official preprint feed",
+      "official conference or anthology page",
+      "official lab publication page",
+      "high-signal paper discovery tool"
+    ],
+    "include_media": false,
+    "include_community": true,
+    "notes": "This run stores source-directory entries only. No paper updates are being collected in this step."
+  },
+  "output_targets": [
+    "tracked_entities",
+    "entity_sources",
+    "collection_runs"
+  ],
+  "notes": "Source-directory sync executed on 2026-04-20 Asia/Shanghai to extend the AI domain with paper-tracking resources such as arXiv categories, OpenReview conference pages, publication archives, and frontier lab research pages."
+}

@@ -1,0 +1,138 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-07",
+  "window_end": "2026-04-14",
+  "updates": [
+    {
+      "entity_group": "person",
+      "entity_name": "Sam Altman",
+      "published_at": "2026-04-08T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "title": "The next phase of enterprise AI",
+      "summary": "OpenAI 于 4 月 8 日发布企业 AI 阶段性更新，披露企业收入占比已超过 40%，并强调 Frontier、ChatGPT、Codex 与 agent 工作流的企业化推进。",
+      "content_type": "news",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "attributed_person": "Sam Altman",
+        "published_label": "April 8, 2026",
+        "evidence": "OpenAI official page dated April 8, 2026."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-08T00:00:00Z",
+      "source_platform": "x",
+      "source_url": "https://x.com/demishassabis/status/2041928454887686305",
+      "title": "Demis Hassabis on 20VC, AGI, science and medicine",
+      "summary": "Demis Hassabis 在 4 月 8 日的 X 帖文中提到，他与 Harry Stebbings 讨论了通往 AGI 的路径，以及 AI 如何加速科学与医学研究。",
+      "content_type": "post",
+      "source_domain": "x.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "X",
+        "official_entity": "Demis Hassabis",
+        "published_label": "Apr 8, 2026",
+        "evidence": "Search result shows official @demishassabis post dated Apr 8, 2026."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Mark Zuckerberg",
+      "published_at": "2026-04-07T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://about.fb.com/news/2026/04/can-europe-seize-the-ai-moment/",
+      "title": "Can Europe Seize the AI Moment?",
+      "summary": "Meta 于 4 月 7 日在官方 Newsroom 发布欧洲 AI 政策文章，主张欧洲应减少制度性障碍、加速 AI 投资与落地，体现了 Meta 在欧洲 AI 议题上的最新官方立场。",
+      "content_type": "news",
+      "source_domain": "about.fb.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Meta Newsroom",
+        "official_entity": "Meta",
+        "attributed_person": "Mark Zuckerberg",
+        "published_label": "April 7, 2026",
+        "evidence": "Meta official Newsroom page dated April 7, 2026."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Mark Zuckerberg",
+      "published_at": "2026-04-08T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "title": "Introducing Muse Spark: MSL’s First Model, Purpose-Built to Prioritize People",
+      "summary": "Meta 于 4 月 8 日发布 Muse Spark，称其为 Meta Superintelligence Labs 的首个模型，已开始驱动 Meta AI app 与网站，并计划扩展到 WhatsApp、Instagram、Facebook 与 AI 眼镜。",
+      "content_type": "announcement",
+      "source_domain": "about.fb.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Meta Newsroom",
+        "official_entity": "Meta",
+        "attributed_person": "Mark Zuckerberg",
+        "published_label": "April 8, 2026",
+        "evidence": "Meta official Newsroom page dated April 8, 2026."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Arthur Mensch",
+      "published_at": "2026-04-07T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://europe.mistral.ai/",
+      "title": "European AI: a playbook to own it",
+      "summary": "Arthur Mensch 以 Mistral AI 联合创始人兼 CEO 身份在 4 月 7 日发布欧洲 AI 白皮书，主张通过人才、单一市场、基础设施和采用端协同，推动欧洲掌握本土 AI 主导权。",
+      "content_type": "essay",
+      "source_domain": "europe.mistral.ai",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Mistral AI",
+        "official_entity": "Mistral AI",
+        "published_label": "April 7, 2026",
+        "evidence": "Official Mistral page with Arthur Mensch signature and published date."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Arthur Mensch",
+      "published_at": "2026-04-12T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://mistral.ai/news/voxtral-tts",
+      "title": "Speaking of Voxtral",
+      "summary": "Mistral 在 4 月中旬发布 Voxtral TTS，推出首个多语种文本转语音模型，强调 9 种语言、低延迟和企业级语音代理场景，属于 Arthur Mensch 领导团队的一手产品更新。",
+      "content_type": "announcement",
+      "source_domain": "mistral.ai",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Mistral AI",
+        "official_entity": "Mistral AI",
+        "attributed_person": "Arthur Mensch",
+        "published_label": "Published 2 days ago as of 2026-04-14 search snapshot",
+        "evidence": "Official Mistral news page and search result indicating publication within the last 2 days."
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Aravind Srinivas",
+      "published_at": "2026-04-09T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://www.perplexity.ai/it/hub/blog/plaid-integration-provides-full-view-of-personal-finances",
+      "title": "Plaid integration provides full view of personal finances",
+      "summary": "Perplexity 团队于 4 月 9 日发布官方博客，宣布通过 Plaid 打通银行、信用卡和贷款数据，扩展 Perplexity 在个人金融与 Computer 工作流中的能力，可视为 Aravind Srinivas 团队的一手产品更新。",
+      "content_type": "announcement",
+      "source_domain": "perplexity.ai",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Perplexity Team",
+        "official_entity": "Perplexity",
+        "attributed_person": "Aravind Srinivas",
+        "published_label": "9 Apr 2026",
+        "evidence": "Official Perplexity blog result shows publication date April 9, 2026."
+      }
+    }
+  ]
+}

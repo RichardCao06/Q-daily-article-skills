@@ -1,0 +1,5562 @@
+{
+  "domain": "ai",
+  "snapshot_date": "2026-04-14",
+  "entities": [
+    {
+      "entity_group": "person",
+      "rank": 1,
+      "name": "Sam Altman",
+      "description": "首选 X + 个人博客 + OpenAI 发布页",
+      "official_url": "https://blog.samaltman.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://blog.samaltman.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/sama",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "OpenAI",
+          "url": "https://openai.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 1,
+        "name": "Sam Altman",
+        "official_url": "https://blog.samaltman.com/",
+        "official_links_markdown": "[博客](https://blog.samaltman.com/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/sama",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "OpenAI",
+            "url": "https://openai.com/"
+          }
+        ],
+        "other_links_markdown": "[OpenAI](https://openai.com/)",
+        "notes": "首选 X + 个人博客 + OpenAI 发布页",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Sam Altman",
+            "[博客](https://blog.samaltman.com/)",
+            "[@sama](https://x.com/sama)",
+            "-",
+            "[OpenAI](https://openai.com/)",
+            "首选 `X + 个人博客 + OpenAI 发布页`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 2,
+      "name": "Demis Hassabis",
+      "description": "首选 X + DeepMind blog",
+      "official_url": "https://deepmind.google/about/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://deepmind.google/about/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/demishassabis",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Google I/O Speaker",
+          "url": "https://io.google/2025/speakers/demis-hassabis",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 2,
+        "name": "Demis Hassabis",
+        "official_url": "https://deepmind.google/about/",
+        "official_links_markdown": "[Google DeepMind](https://deepmind.google/about/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/demishassabis",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Google I/O Speaker",
+            "url": "https://io.google/2025/speakers/demis-hassabis"
+          }
+        ],
+        "other_links_markdown": "[Google I/O Speaker](https://io.google/2025/speakers/demis-hassabis)",
+        "notes": "首选 X + DeepMind blog",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Demis Hassabis",
+            "[Google DeepMind](https://deepmind.google/about/)",
+            "[@demishassabis](https://x.com/demishassabis)",
+            "-",
+            "[Google I/O Speaker](https://io.google/2025/speakers/demis-hassabis)",
+            "首选 `X + DeepMind blog`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 3,
+      "name": "Dario Amodei",
+      "description": "个人公开社媒较弱，优先盯 Anthropic 官方",
+      "official_url": "https://www.anthropic.com/company",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.anthropic.com/company",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Anthropic News",
+          "url": "https://www.anthropic.com/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 3,
+        "name": "Dario Amodei",
+        "official_url": "https://www.anthropic.com/company",
+        "official_links_markdown": "[Anthropic 公司页](https://www.anthropic.com/company)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Anthropic News",
+            "url": "https://www.anthropic.com/news"
+          }
+        ],
+        "other_links_markdown": "[Anthropic News](https://www.anthropic.com/news)",
+        "notes": "个人公开社媒较弱，优先盯 Anthropic 官方",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Dario Amodei",
+            "[Anthropic 公司页](https://www.anthropic.com/company)",
+            "-",
+            "-",
+            "[Anthropic News](https://www.anthropic.com/news)",
+            "个人公开社媒较弱，优先盯 Anthropic 官方"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 4,
+      "name": "Jensen Huang",
+      "description": "重点看 GTC、Keynote、NVIDIA Newsroom",
+      "official_url": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@nvidia",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "NVIDIA Facebook",
+          "url": "https://www.facebook.com/NVIDIA/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 4,
+        "name": "Jensen Huang",
+        "official_url": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/",
+        "official_links_markdown": "[NVIDIA 管理层](https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": "https://www.youtube.com/@nvidia",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "NVIDIA Facebook",
+            "url": "https://www.facebook.com/NVIDIA/"
+          }
+        ],
+        "other_links_markdown": "[NVIDIA Facebook](https://www.facebook.com/NVIDIA/)",
+        "notes": "重点看 GTC、Keynote、NVIDIA Newsroom",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Jensen Huang",
+            "[NVIDIA 管理层](https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/)",
+            "-",
+            "[NVIDIA](https://www.youtube.com/@nvidia)",
+            "[NVIDIA Facebook](https://www.facebook.com/NVIDIA/)",
+            "重点看 GTC、Keynote、NVIDIA Newsroom"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 5,
+      "name": "Mark Zuckerberg",
+      "description": "优先看 IG / Threads / Meta 新闻",
+      "official_url": "https://about.meta.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://about.meta.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/zuck",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/zuck/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Threads",
+          "url": "https://www.threads.net/@zuck",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 5,
+        "name": "Mark Zuckerberg",
+        "official_url": "https://about.meta.com/",
+        "official_links_markdown": "[Meta](https://about.meta.com/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/zuck"
+          },
+          {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/zuck/"
+          },
+          {
+            "label": "Threads",
+            "url": "https://www.threads.net/@zuck"
+          }
+        ],
+        "other_links_markdown": "[Facebook](https://www.facebook.com/zuck), [Instagram](https://www.instagram.com/zuck/), [Threads](https://www.threads.net/@zuck)",
+        "notes": "优先看 IG / Threads / Meta 新闻",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Mark Zuckerberg",
+            "[Meta](https://about.meta.com/)",
+            "-",
+            "-",
+            "[Facebook](https://www.facebook.com/zuck), [Instagram](https://www.instagram.com/zuck/), [Threads](https://www.threads.net/@zuck)",
+            "优先看 IG / Threads / Meta 新闻"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 6,
+      "name": "Satya Nadella",
+      "description": "首选 X + Microsoft AI blog",
+      "official_url": "https://news.microsoft.com/exec/satya-nadella/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://news.microsoft.com/exec/satya-nadella/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/satyanadella",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/satyanadella/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 6,
+        "name": "Satya Nadella",
+        "official_url": "https://news.microsoft.com/exec/satya-nadella/",
+        "official_links_markdown": "[Microsoft 领导页](https://news.microsoft.com/exec/satya-nadella/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/satyanadella",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/satyanadella/"
+          }
+        ],
+        "other_links_markdown": "[LinkedIn](https://www.linkedin.com/in/satyanadella/)",
+        "notes": "首选 X + Microsoft AI blog",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Satya Nadella",
+            "[Microsoft 领导页](https://news.microsoft.com/exec/satya-nadella/)",
+            "[@satyanadella](https://x.com/satyanadella)",
+            "-",
+            "[LinkedIn](https://www.linkedin.com/in/satyanadella/)",
+            "首选 `X + Microsoft AI blog`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 7,
+      "name": "Ilya Sutskever",
+      "description": "公开输出很少，任何动静都高信号",
+      "official_url": "https://ssi.inc/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://ssi.inc/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/ilyasutskever",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 7,
+        "name": "Ilya Sutskever",
+        "official_url": "https://ssi.inc/",
+        "official_links_markdown": "[SSI](https://ssi.inc/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/ilyasutskever",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "公开输出很少，任何动静都高信号",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Ilya Sutskever",
+            "[SSI](https://ssi.inc/)",
+            "[@ilyasutskever](https://x.com/ilyasutskever)",
+            "-",
+            "-",
+            "公开输出很少，任何动静都高信号"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 8,
+      "name": "Mira Murati",
+      "description": "优先盯公司博客 / 新闻页",
+      "official_url": "https://thinkingmachines.ai/about",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://thinkingmachines.ai/about",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 8,
+        "name": "Mira Murati",
+        "official_url": "https://thinkingmachines.ai/about",
+        "official_links_markdown": "[Thinking Machines Lab](https://thinkingmachines.ai/about)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "优先盯公司博客 / 新闻页",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Mira Murati",
+            "[Thinking Machines Lab](https://thinkingmachines.ai/about)",
+            "-",
+            "-",
+            "-",
+            "优先盯公司博客 / 新闻页"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 9,
+      "name": "Liang Wenfeng",
+      "description": "个人公开渠道很少，优先盯 DeepSeek 官网与 GitHub",
+      "official_url": "https://deepseek.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://deepseek.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 9,
+        "name": "Liang Wenfeng",
+        "official_url": "https://deepseek.com/",
+        "official_links_markdown": "[DeepSeek](https://deepseek.com/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "个人公开渠道很少，优先盯 DeepSeek 官网与 GitHub",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Liang Wenfeng",
+            "[DeepSeek](https://deepseek.com/)",
+            "-",
+            "-",
+            "-",
+            "个人公开渠道很少，优先盯 DeepSeek 官网与 GitHub"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 10,
+      "name": "Fei-Fei Li",
+      "description": "优先盯 Stanford HAI / World Labs",
+      "official_url": "https://profiles.stanford.edu/fei-fei-li",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://profiles.stanford.edu/fei-fei-li",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Stanford HAI",
+          "url": "https://hai.stanford.edu/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 10,
+        "name": "Fei-Fei Li",
+        "official_url": "https://profiles.stanford.edu/fei-fei-li",
+        "official_links_markdown": "[Stanford](https://profiles.stanford.edu/fei-fei-li)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Stanford HAI",
+            "url": "https://hai.stanford.edu/"
+          }
+        ],
+        "other_links_markdown": "[Stanford HAI](https://hai.stanford.edu/)",
+        "notes": "优先盯 Stanford HAI / World Labs",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Fei-Fei Li",
+            "[Stanford](https://profiles.stanford.edu/fei-fei-li)",
+            "-",
+            "-",
+            "[Stanford HAI](https://hai.stanford.edu/)",
+            "优先盯 Stanford HAI / World Labs"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 11,
+      "name": "Alexandr Wang",
+      "description": "X 活跃，兼看 Scale 报告与活动",
+      "official_url": "https://scale.com/about",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://scale.com/about",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/alexandr_wang",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Scale Events",
+          "url": "https://exchange.scale.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 11,
+        "name": "Alexandr Wang",
+        "official_url": "https://scale.com/about",
+        "official_links_markdown": "[Scale AI](https://scale.com/about)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/alexandr_wang",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Scale Events",
+            "url": "https://exchange.scale.com/"
+          }
+        ],
+        "other_links_markdown": "[Scale Events](https://exchange.scale.com/)",
+        "notes": "X 活跃，兼看 Scale 报告与活动",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Alexandr Wang",
+            "[Scale AI](https://scale.com/about)",
+            "[@alexandr_wang](https://x.com/alexandr_wang)",
+            "-",
+            "[Scale Events](https://exchange.scale.com/)",
+            "`X` 活跃，兼看 Scale 报告与活动"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 12,
+      "name": "Mustafa Suleyman",
+      "description": "首选 X + Microsoft AI 发布",
+      "official_url": "https://www.microsoft.com/en-us/ai",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.microsoft.com/en-us/ai",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/mustafasuleyman",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 12,
+        "name": "Mustafa Suleyman",
+        "official_url": "https://www.microsoft.com/en-us/ai",
+        "official_links_markdown": "[Microsoft AI](https://www.microsoft.com/en-us/ai)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/mustafasuleyman",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Microsoft",
+            "url": "https://www.microsoft.com/en-us/ai"
+          }
+        ],
+        "other_links_markdown": "[Microsoft](https://www.microsoft.com/en-us/ai)",
+        "notes": "首选 X + Microsoft AI 发布",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Mustafa Suleyman",
+            "[Microsoft AI](https://www.microsoft.com/en-us/ai)",
+            "[@mustafasuleyman](https://x.com/mustafasuleyman)",
+            "-",
+            "[Microsoft](https://www.microsoft.com/en-us/ai)",
+            "首选 `X + Microsoft AI 发布`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 13,
+      "name": "Aravind Srinivas",
+      "description": "首选 X + Perplexity Hub",
+      "official_url": "https://www.perplexity.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.perplexity.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/AravSrinivas",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Perplexity Blog",
+          "url": "https://www.perplexity.ai/hub/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 13,
+        "name": "Aravind Srinivas",
+        "official_url": "https://www.perplexity.ai/",
+        "official_links_markdown": "[Perplexity](https://www.perplexity.ai/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/AravSrinivas",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Perplexity Blog",
+            "url": "https://www.perplexity.ai/hub/blog"
+          }
+        ],
+        "other_links_markdown": "[Perplexity Blog](https://www.perplexity.ai/hub/blog)",
+        "notes": "首选 X + Perplexity Hub",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Aravind Srinivas",
+            "[Perplexity](https://www.perplexity.ai/)",
+            "[@AravSrinivas](https://x.com/AravSrinivas)",
+            "-",
+            "[Perplexity Blog](https://www.perplexity.ai/hub/blog)",
+            "首选 `X + Perplexity Hub`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 14,
+      "name": "Arthur Mensch",
+      "description": "首选 X + Mistral News",
+      "official_url": "https://mistral.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://mistral.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/arthurmensch",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Mistral News",
+          "url": "https://mistral.ai/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 14,
+        "name": "Arthur Mensch",
+        "official_url": "https://mistral.ai/",
+        "official_links_markdown": "[Mistral AI](https://mistral.ai/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/arthurmensch",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Mistral News",
+            "url": "https://mistral.ai/news"
+          }
+        ],
+        "other_links_markdown": "[Mistral News](https://mistral.ai/news)",
+        "notes": "首选 X + Mistral News",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Arthur Mensch",
+            "[Mistral AI](https://mistral.ai/)",
+            "[@arthurmensch](https://x.com/arthurmensch)",
+            "-",
+            "[Mistral News](https://mistral.ai/news)",
+            "首选 `X + Mistral News`"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 15,
+      "name": "Clément Delangue",
+      "description": "开源生态信号密度很高",
+      "official_url": "https://huggingface.co/clementdelangue",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://huggingface.co/clementdelangue",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/ClementDelangue",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/clementdelangue/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 15,
+        "name": "Clément Delangue",
+        "official_url": "https://huggingface.co/clementdelangue",
+        "official_links_markdown": "[Hugging Face](https://huggingface.co/clementdelangue)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/ClementDelangue",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/clementdelangue/"
+          }
+        ],
+        "other_links_markdown": "[LinkedIn](https://www.linkedin.com/in/clementdelangue/)",
+        "notes": "开源生态信号密度很高",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Clément Delangue",
+            "[Hugging Face](https://huggingface.co/clementdelangue)",
+            "[@ClementDelangue](https://x.com/ClementDelangue)",
+            "-",
+            "[LinkedIn](https://www.linkedin.com/in/clementdelangue/)",
+            "开源生态信号密度很高"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 16,
+      "name": "Thomas Wolf",
+      "description": "优先看开源、agents、robotics 方向",
+      "official_url": "https://huggingface.co/ThomWolf",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://huggingface.co/ThomWolf",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/Thom_Wolf",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 16,
+        "name": "Thomas Wolf",
+        "official_url": "https://huggingface.co/ThomWolf",
+        "official_links_markdown": "[Hugging Face](https://huggingface.co/ThomWolf)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/Thom_Wolf",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Hugging Face Blog",
+            "url": "https://huggingface.co/blog"
+          }
+        ],
+        "other_links_markdown": "[Hugging Face Blog](https://huggingface.co/blog)",
+        "notes": "优先看开源、agents、robotics 方向",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Thomas Wolf",
+            "[Hugging Face](https://huggingface.co/ThomWolf)",
+            "[@Thom_Wolf](https://x.com/Thom_Wolf)",
+            "-",
+            "[Hugging Face Blog](https://huggingface.co/blog)",
+            "优先看开源、agents、robotics 方向"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 17,
+      "name": "Andrej Karpathy",
+      "description": "技术解释力极强，单条含金量高",
+      "official_url": "https://karpathy.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://karpathy.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/karpathy",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@AndrejKarpathy",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 17,
+        "name": "Andrej Karpathy",
+        "official_url": "https://karpathy.ai/",
+        "official_links_markdown": "[个人站](https://karpathy.ai/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/karpathy",
+        "youtube_url": "https://www.youtube.com/@AndrejKarpathy",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "技术解释力极强，单条含金量高",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Andrej Karpathy",
+            "[个人站](https://karpathy.ai/)",
+            "[@karpathy](https://x.com/karpathy)",
+            "[YouTube](https://www.youtube.com/@AndrejKarpathy)",
+            "-",
+            "技术解释力极强，单条含金量高"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 18,
+      "name": "Noam Shazeer",
+      "description": "公开社媒弱，优先盯 Google 研究发布",
+      "official_url": "https://research.google/people/noam-shazeer/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://research.google/people/noam-shazeer/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 18,
+        "name": "Noam Shazeer",
+        "official_url": "https://research.google/people/noam-shazeer/",
+        "official_links_markdown": "[Google Research](https://research.google/people/noam-shazeer/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "公开社媒弱，优先盯 Google 研究发布",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Noam Shazeer",
+            "[Google Research](https://research.google/people/noam-shazeer/)",
+            "-",
+            "-",
+            "-",
+            "公开社媒弱，优先盯 Google 研究发布"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 19,
+      "name": "Aidan Gomez",
+      "description": "企业 AI / 多语种信号源",
+      "official_url": "https://cohere.com/about",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://cohere.com/about",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/aidangomez",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Cohere Blog",
+          "url": "https://cohere.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 19,
+        "name": "Aidan Gomez",
+        "official_url": "https://cohere.com/about",
+        "official_links_markdown": "[Cohere](https://cohere.com/about)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/aidangomez",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Cohere Blog",
+            "url": "https://cohere.com/blog"
+          }
+        ],
+        "other_links_markdown": "[Cohere Blog](https://cohere.com/blog)",
+        "notes": "企业 AI / 多语种信号源",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Aidan Gomez",
+            "[Cohere](https://cohere.com/about)",
+            "[@aidangomez](https://x.com/aidangomez)",
+            "-",
+            "[Cohere Blog](https://cohere.com/blog)",
+            "企业 AI / 多语种信号源"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "person",
+      "rank": 20,
+      "name": "Elon Musk",
+      "description": "高噪音，但对 xAI / Grok 仍是一级信号源",
+      "official_url": "https://x.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://x.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/elonmusk",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "person",
+        "rank": 20,
+        "name": "Elon Musk",
+        "official_url": "https://x.ai/",
+        "official_links_markdown": "[xAI](https://x.ai/)",
+        "blog_or_news_url": null,
+        "blog_or_news_markdown": null,
+        "x_url": "https://x.com/elonmusk",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": "高噪音，但对 xAI / Grok 仍是一级信号源",
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "人物",
+            "官网 / 机构页",
+            "X",
+            "YouTube",
+            "Facebook / Instagram / LinkedIn / 其他",
+            "备注"
+          ],
+          "cells": [
+            "Elon Musk",
+            "[xAI](https://x.ai/)",
+            "[@elonmusk](https://x.com/elonmusk)",
+            "-",
+            "-",
+            "高噪音，但对 xAI / Grok 仍是一级信号源"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 1,
+      "name": "OpenAI",
+      "description": null,
+      "official_url": "https://openai.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://openai.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://openai.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/OpenAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Community Forum",
+          "url": "https://community.openai.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 1,
+        "name": "OpenAI",
+        "official_url": "https://openai.com/",
+        "official_links_markdown": "[官网](https://openai.com/)",
+        "blog_or_news_url": "https://openai.com/news/",
+        "blog_or_news_markdown": "[News](https://openai.com/news/)",
+        "x_url": "https://x.com/OpenAI",
+        "youtube_url": "https://www.youtube.com/@OpenAI",
+        "reddit_url": "https://www.reddit.com/r/OpenAI/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Community Forum",
+            "url": "https://community.openai.com/"
+          }
+        ],
+        "other_links_markdown": "[Community Forum](https://community.openai.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "OpenAI",
+            "[官网](https://openai.com/)",
+            "[News](https://openai.com/news/)",
+            "[@OpenAI](https://x.com/OpenAI)",
+            "[OpenAI](https://www.youtube.com/@OpenAI)",
+            "[r/OpenAI](https://www.reddit.com/r/OpenAI/) `社区`",
+            "-",
+            "[Community Forum](https://community.openai.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 2,
+      "name": "Google DeepMind",
+      "description": null,
+      "official_url": "https://deepmind.google/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://deepmind.google/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://deepmind.google/discover/blog/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/GoogleDeepMind",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GoogleDeepMind",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Google Blog AI",
+          "url": "https://blog.google/technology/ai/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 2,
+        "name": "Google DeepMind",
+        "official_url": "https://deepmind.google/",
+        "official_links_markdown": "[官网](https://deepmind.google/)",
+        "blog_or_news_url": "https://deepmind.google/discover/blog/",
+        "blog_or_news_markdown": "[Blog](https://deepmind.google/discover/blog/)",
+        "x_url": "https://x.com/GoogleDeepMind",
+        "youtube_url": "https://www.youtube.com/@GoogleDeepMind",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Google Blog AI",
+            "url": "https://blog.google/technology/ai/"
+          }
+        ],
+        "other_links_markdown": "[Google Blog AI](https://blog.google/technology/ai/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Google DeepMind",
+            "[官网](https://deepmind.google/)",
+            "[Blog](https://deepmind.google/discover/blog/)",
+            "[@GoogleDeepMind](https://x.com/GoogleDeepMind)",
+            "[Google DeepMind](https://www.youtube.com/@GoogleDeepMind)",
+            "-",
+            "-",
+            "[Google Blog AI](https://blog.google/technology/ai/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 3,
+      "name": "Anthropic",
+      "description": null,
+      "official_url": "https://www.anthropic.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.anthropic.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.anthropic.com/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/AnthropicAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@AnthropicAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/Anthropic/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Claude Docs",
+          "url": "https://docs.anthropic.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 3,
+        "name": "Anthropic",
+        "official_url": "https://www.anthropic.com/",
+        "official_links_markdown": "[官网](https://www.anthropic.com/)",
+        "blog_or_news_url": "https://www.anthropic.com/news",
+        "blog_or_news_markdown": "[News](https://www.anthropic.com/news)",
+        "x_url": "https://x.com/AnthropicAI",
+        "youtube_url": "https://www.youtube.com/@AnthropicAI",
+        "reddit_url": "https://www.reddit.com/r/Anthropic/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Claude Docs",
+            "url": "https://docs.anthropic.com/"
+          }
+        ],
+        "other_links_markdown": "[Claude Docs](https://docs.anthropic.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Anthropic",
+            "[官网](https://www.anthropic.com/)",
+            "[News](https://www.anthropic.com/news)",
+            "[@AnthropicAI](https://x.com/AnthropicAI)",
+            "[Anthropic](https://www.youtube.com/@AnthropicAI)",
+            "[r/Anthropic](https://www.reddit.com/r/Anthropic/) `社区`",
+            "-",
+            "[Claude Docs](https://docs.anthropic.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 4,
+      "name": "NVIDIA",
+      "description": null,
+      "official_url": "https://www.nvidia.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.nvidia.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://nvidianews.nvidia.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/nvidia",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@nvidia",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/nvidia/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/NVIDIA/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 4,
+        "name": "NVIDIA",
+        "official_url": "https://www.nvidia.com/",
+        "official_links_markdown": "[官网](https://www.nvidia.com/)",
+        "blog_or_news_url": "https://nvidianews.nvidia.com/",
+        "blog_or_news_markdown": "[Newsroom](https://nvidianews.nvidia.com/), [Blog](https://blogs.nvidia.com/)",
+        "x_url": "https://x.com/nvidia",
+        "youtube_url": "https://www.youtube.com/@nvidia",
+        "reddit_url": "https://www.reddit.com/r/nvidia/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/NVIDIA/"
+          }
+        ],
+        "other_links_markdown": "[Facebook](https://www.facebook.com/NVIDIA/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "NVIDIA",
+            "[官网](https://www.nvidia.com/)",
+            "[Newsroom](https://nvidianews.nvidia.com/), [Blog](https://blogs.nvidia.com/)",
+            "[@nvidia](https://x.com/nvidia)",
+            "[NVIDIA](https://www.youtube.com/@nvidia)",
+            "[r/nvidia](https://www.reddit.com/r/nvidia/) `社区`",
+            "-",
+            "[Facebook](https://www.facebook.com/NVIDIA/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 5,
+      "name": "Meta",
+      "description": null,
+      "official_url": "https://about.meta.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://about.meta.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://about.fb.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "AI at Meta",
+          "url": "https://ai.meta.com/blog/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 5,
+        "name": "Meta",
+        "official_url": "https://about.meta.com/",
+        "official_links_markdown": "[官网](https://about.meta.com/)",
+        "blog_or_news_url": "https://about.fb.com/news/",
+        "blog_or_news_markdown": "[Newsroom](https://about.fb.com/news/)",
+        "x_url": "https://x.com/Meta",
+        "youtube_url": "https://www.youtube.com/@Meta",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/Meta"
+          },
+          {
+            "label": "AI at Meta",
+            "url": "https://ai.meta.com/blog/"
+          }
+        ],
+        "other_links_markdown": "[Facebook](https://www.facebook.com/Meta), [AI at Meta](https://ai.meta.com/blog/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Meta",
+            "[官网](https://about.meta.com/)",
+            "[Newsroom](https://about.fb.com/news/)",
+            "[@Meta](https://x.com/Meta)",
+            "[Meta](https://www.youtube.com/@Meta)",
+            "-",
+            "-",
+            "[Facebook](https://www.facebook.com/Meta), [AI at Meta](https://ai.meta.com/blog/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 6,
+      "name": "Microsoft",
+      "description": null,
+      "official_url": "https://www.microsoft.com/en-us/ai",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.microsoft.com/en-us/ai",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://blogs.microsoft.com/ai/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/Microsoft",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Microsoft",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/company/microsoft/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 6,
+        "name": "Microsoft",
+        "official_url": "https://www.microsoft.com/en-us/ai",
+        "official_links_markdown": "[Microsoft AI](https://www.microsoft.com/en-us/ai)",
+        "blog_or_news_url": "https://blogs.microsoft.com/ai/",
+        "blog_or_news_markdown": "[Microsoft AI Blog](https://blogs.microsoft.com/ai/)",
+        "x_url": "https://x.com/Microsoft",
+        "youtube_url": "https://www.youtube.com/@Microsoft",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/company/microsoft/"
+          }
+        ],
+        "other_links_markdown": "[LinkedIn](https://www.linkedin.com/company/microsoft/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Microsoft",
+            "[Microsoft AI](https://www.microsoft.com/en-us/ai)",
+            "[Microsoft AI Blog](https://blogs.microsoft.com/ai/)",
+            "[@Microsoft](https://x.com/Microsoft)",
+            "[Microsoft](https://www.youtube.com/@Microsoft)",
+            "-",
+            "-",
+            "[LinkedIn](https://www.linkedin.com/company/microsoft/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 7,
+      "name": "xAI",
+      "description": null,
+      "official_url": "https://x.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://x.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://x.ai/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/xai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@xAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/xAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "Grok Help",
+          "url": "https://help.x.com/en/using-x/about-grok",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 7,
+        "name": "xAI",
+        "official_url": "https://x.ai/",
+        "official_links_markdown": "[官网](https://x.ai/)",
+        "blog_or_news_url": "https://x.ai/blog",
+        "blog_or_news_markdown": "[Blog](https://x.ai/blog)",
+        "x_url": "https://x.com/xai",
+        "youtube_url": "https://www.youtube.com/@xAI",
+        "reddit_url": "https://www.reddit.com/r/xAI/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Grok Help",
+            "url": "https://help.x.com/en/using-x/about-grok"
+          }
+        ],
+        "other_links_markdown": "[Grok Help](https://help.x.com/en/using-x/about-grok)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "xAI",
+            "[官网](https://x.ai/)",
+            "[Blog](https://x.ai/blog)",
+            "[@xai](https://x.com/xai)",
+            "[xAI](https://www.youtube.com/@xAI)",
+            "[r/xAI](https://www.reddit.com/r/xAI/) `社区`",
+            "-",
+            "[Grok Help](https://help.x.com/en/using-x/about-grok)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 8,
+      "name": "DeepSeek",
+      "description": null,
+      "official_url": "https://deepseek.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://deepseek.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/DeepSeek/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "GitHub",
+          "url": "https://github.com/deepseek-ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 8,
+        "name": "DeepSeek",
+        "official_url": "https://deepseek.com/",
+        "official_links_markdown": "[官网](https://deepseek.com/)",
+        "blog_or_news_url": "https://deepseek.com/",
+        "blog_or_news_markdown": "[官网更新入口](https://deepseek.com/), [状态页](https://status.deepseek.com/)",
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": "https://www.reddit.com/r/DeepSeek/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/deepseek-ai"
+          }
+        ],
+        "other_links_markdown": "[GitHub](https://github.com/deepseek-ai)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "DeepSeek",
+            "[官网](https://deepseek.com/)",
+            "[官网更新入口](https://deepseek.com/), [状态页](https://status.deepseek.com/)",
+            "-",
+            "-",
+            "[r/DeepSeek](https://www.reddit.com/r/DeepSeek/) `社区`",
+            "-",
+            "[GitHub](https://github.com/deepseek-ai)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 9,
+      "name": "Alibaba / Qwen",
+      "description": null,
+      "official_url": "https://qwen.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://qwen.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "Blog or news",
+          "url": "https://github.com/QwenLM/Qwen",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/Qwen_AI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/CV4E9rpNSD",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "GitHub Org",
+          "url": "https://github.com/QwenLM",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 9,
+        "name": "Alibaba / Qwen",
+        "official_url": "https://qwen.ai/",
+        "official_links_markdown": "[Qwen](https://qwen.ai/)",
+        "blog_or_news_url": "https://github.com/QwenLM/Qwen",
+        "blog_or_news_markdown": "[GitHub 官方仓库](https://github.com/QwenLM/Qwen), [Alibaba Cloud Blog](https://www.alibabacloud.com/blog)",
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": "https://www.reddit.com/r/Qwen_AI/",
+        "discord_url": "https://discord.gg/CV4E9rpNSD",
+        "other_links": [
+          {
+            "label": "GitHub Org",
+            "url": "https://github.com/QwenLM"
+          }
+        ],
+        "other_links_markdown": "[GitHub Org](https://github.com/QwenLM)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Alibaba / Qwen",
+            "[Qwen](https://qwen.ai/)",
+            "[GitHub 官方仓库](https://github.com/QwenLM/Qwen), [Alibaba Cloud Blog](https://www.alibabacloud.com/blog)",
+            "-",
+            "-",
+            "[r/Qwen_AI](https://www.reddit.com/r/Qwen_AI/) `社区`",
+            "[官方 Discord](https://discord.gg/CV4E9rpNSD)",
+            "[GitHub Org](https://github.com/QwenLM)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 10,
+      "name": "Mistral AI",
+      "description": null,
+      "official_url": "https://mistral.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://mistral.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://mistral.ai/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/MistralAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MistralAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/mistralai",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Docs",
+          "url": "https://docs.mistral.ai/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 10,
+        "name": "Mistral AI",
+        "official_url": "https://mistral.ai/",
+        "official_links_markdown": "[官网](https://mistral.ai/)",
+        "blog_or_news_url": "https://mistral.ai/news",
+        "blog_or_news_markdown": "[News](https://mistral.ai/news)",
+        "x_url": "https://x.com/MistralAI",
+        "youtube_url": "https://www.youtube.com/@MistralAI",
+        "reddit_url": null,
+        "discord_url": "https://discord.gg/mistralai",
+        "other_links": [
+          {
+            "label": "Docs",
+            "url": "https://docs.mistral.ai/"
+          }
+        ],
+        "other_links_markdown": "[Docs](https://docs.mistral.ai/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Mistral AI",
+            "[官网](https://mistral.ai/)",
+            "[News](https://mistral.ai/news)",
+            "[@MistralAI](https://x.com/MistralAI)",
+            "[Mistral AI](https://www.youtube.com/@MistralAI)",
+            "-",
+            "[官方 Discord](https://discord.gg/mistralai)",
+            "[Docs](https://docs.mistral.ai/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 11,
+      "name": "Perplexity",
+      "description": null,
+      "official_url": "https://www.perplexity.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.perplexity.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.perplexity.ai/hub/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/perplexity_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerplexityAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/perplexity_ai/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Help Center",
+          "url": "https://www.perplexity.ai/help-center/en",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 11,
+        "name": "Perplexity",
+        "official_url": "https://www.perplexity.ai/",
+        "official_links_markdown": "[官网](https://www.perplexity.ai/)",
+        "blog_or_news_url": "https://www.perplexity.ai/hub/blog",
+        "blog_or_news_markdown": "[Hub / Blog](https://www.perplexity.ai/hub/blog)",
+        "x_url": "https://x.com/perplexity_ai",
+        "youtube_url": "https://www.youtube.com/@PerplexityAI",
+        "reddit_url": "https://www.reddit.com/r/perplexity_ai/",
+        "discord_url": "https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord",
+        "other_links": [
+          {
+            "label": "Help Center",
+            "url": "https://www.perplexity.ai/help-center/en"
+          }
+        ],
+        "other_links_markdown": "[Help Center](https://www.perplexity.ai/help-center/en)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Perplexity",
+            "[官网](https://www.perplexity.ai/)",
+            "[Hub / Blog](https://www.perplexity.ai/hub/blog)",
+            "[@perplexity_ai](https://x.com/perplexity_ai)",
+            "[Perplexity](https://www.youtube.com/@PerplexityAI)",
+            "[r/perplexity_ai](https://www.reddit.com/r/perplexity_ai/) `社区`",
+            "[官方说明](https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord)",
+            "[Help Center](https://www.perplexity.ai/help-center/en)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 12,
+      "name": "Hugging Face",
+      "description": null,
+      "official_url": "https://huggingface.co/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://huggingface.co/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://huggingface.co/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/huggingface",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HuggingFace",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/huggingface/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://hf.co/join/discord",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "GitHub",
+          "url": "https://github.com/huggingface",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Forum",
+          "url": "https://discuss.huggingface.co/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 12,
+        "name": "Hugging Face",
+        "official_url": "https://huggingface.co/",
+        "official_links_markdown": "[官网](https://huggingface.co/)",
+        "blog_or_news_url": "https://huggingface.co/blog",
+        "blog_or_news_markdown": "[Blog](https://huggingface.co/blog)",
+        "x_url": "https://x.com/huggingface",
+        "youtube_url": "https://www.youtube.com/@HuggingFace",
+        "reddit_url": "https://www.reddit.com/r/huggingface/",
+        "discord_url": "https://hf.co/join/discord",
+        "other_links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/huggingface"
+          },
+          {
+            "label": "Forum",
+            "url": "https://discuss.huggingface.co/"
+          }
+        ],
+        "other_links_markdown": "[GitHub](https://github.com/huggingface), [Forum](https://discuss.huggingface.co/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Hugging Face",
+            "[官网](https://huggingface.co/)",
+            "[Blog](https://huggingface.co/blog)",
+            "[@huggingface](https://x.com/huggingface)",
+            "[Hugging Face](https://www.youtube.com/@HuggingFace)",
+            "[r/huggingface](https://www.reddit.com/r/huggingface/) `社区`",
+            "[官方 Discord](https://hf.co/join/discord)",
+            "[GitHub](https://github.com/huggingface), [Forum](https://discuss.huggingface.co/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 13,
+      "name": "Amazon / AWS AI",
+      "description": null,
+      "official_url": "https://aws.amazon.com/ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://aws.amazon.com/ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://aws.amazon.com/blogs/machine-learning/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/awscloud",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@amazonwebservices",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/amazonwebservices/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 13,
+        "name": "Amazon / AWS AI",
+        "official_url": "https://aws.amazon.com/ai/",
+        "official_links_markdown": "[AWS AI](https://aws.amazon.com/ai/)",
+        "blog_or_news_url": "https://aws.amazon.com/blogs/machine-learning/",
+        "blog_or_news_markdown": "[AWS ML Blog](https://aws.amazon.com/blogs/machine-learning/)",
+        "x_url": "https://x.com/awscloud",
+        "youtube_url": "https://www.youtube.com/@amazonwebservices",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Facebook",
+            "url": "https://www.facebook.com/amazonwebservices/"
+          }
+        ],
+        "other_links_markdown": "[Facebook](https://www.facebook.com/amazonwebservices/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Amazon / AWS AI",
+            "[AWS AI](https://aws.amazon.com/ai/)",
+            "[AWS ML Blog](https://aws.amazon.com/blogs/machine-learning/)",
+            "[@awscloud](https://x.com/awscloud)",
+            "[AWS](https://www.youtube.com/@amazonwebservices)",
+            "-",
+            "-",
+            "[Facebook](https://www.facebook.com/amazonwebservices/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 14,
+      "name": "Anysphere",
+      "description": null,
+      "official_url": "https://anysphere.inc/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://anysphere.inc/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://cursor.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/anysphere",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Cursor",
+          "url": "https://cursor.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 14,
+        "name": "Anysphere",
+        "official_url": "https://anysphere.inc/",
+        "official_links_markdown": "[官网](https://anysphere.inc/)",
+        "blog_or_news_url": "https://cursor.com/blog",
+        "blog_or_news_markdown": "[Cursor Blog](https://cursor.com/blog)",
+        "x_url": "https://x.com/anysphere",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Cursor",
+            "url": "https://cursor.com/"
+          }
+        ],
+        "other_links_markdown": "[Cursor](https://cursor.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Anysphere",
+            "[官网](https://anysphere.inc/)",
+            "[Cursor Blog](https://cursor.com/blog)",
+            "[@anysphere](https://x.com/anysphere)",
+            "-",
+            "-",
+            "-",
+            "[Cursor](https://cursor.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 15,
+      "name": "Scale AI",
+      "description": null,
+      "official_url": "https://scale.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://scale.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://scale.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/scale_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ScaleAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Scale Exchange",
+          "url": "https://exchange.scale.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 15,
+        "name": "Scale AI",
+        "official_url": "https://scale.com/",
+        "official_links_markdown": "[官网](https://scale.com/)",
+        "blog_or_news_url": "https://scale.com/blog",
+        "blog_or_news_markdown": "[Blog](https://scale.com/blog)",
+        "x_url": "https://x.com/scale_ai",
+        "youtube_url": "https://www.youtube.com/@ScaleAI",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Scale Exchange",
+            "url": "https://exchange.scale.com/"
+          }
+        ],
+        "other_links_markdown": "[Scale Exchange](https://exchange.scale.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Scale AI",
+            "[官网](https://scale.com/)",
+            "[Blog](https://scale.com/blog)",
+            "[@scale_ai](https://x.com/scale_ai)",
+            "[Scale AI](https://www.youtube.com/@ScaleAI)",
+            "-",
+            "-",
+            "[Scale Exchange](https://exchange.scale.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 16,
+      "name": "Safe Superintelligence",
+      "description": null,
+      "official_url": "https://ssi.inc/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://ssi.inc/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 16,
+        "name": "Safe Superintelligence",
+        "official_url": "https://ssi.inc/",
+        "official_links_markdown": "[官网](https://ssi.inc/)",
+        "blog_or_news_url": "https://ssi.inc/",
+        "blog_or_news_markdown": "[官网声明](https://ssi.inc/)",
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "-",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Safe Superintelligence",
+            "[官网](https://ssi.inc/)",
+            "[官网声明](https://ssi.inc/)",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 17,
+      "name": "Thinking Machines Lab",
+      "description": null,
+      "official_url": "https://thinkingmachines.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://thinkingmachines.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://thinkingmachines.ai/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/thinkymachines",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Docs / Tinker",
+          "url": "https://tinker-docs.thinkingmachines.ai/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 17,
+        "name": "Thinking Machines Lab",
+        "official_url": "https://thinkingmachines.ai/",
+        "official_links_markdown": "[官网](https://thinkingmachines.ai/)",
+        "blog_or_news_url": "https://thinkingmachines.ai/blog",
+        "blog_or_news_markdown": "[Blog](https://thinkingmachines.ai/blog), [News](https://thinkingmachines.ai/news)",
+        "x_url": "https://x.com/thinkymachines",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Docs / Tinker",
+            "url": "https://tinker-docs.thinkingmachines.ai/"
+          }
+        ],
+        "other_links_markdown": "[Docs / Tinker](https://tinker-docs.thinkingmachines.ai/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Thinking Machines Lab",
+            "[官网](https://thinkingmachines.ai/)",
+            "[Blog](https://thinkingmachines.ai/blog), [News](https://thinkingmachines.ai/news)",
+            "[@thinkymachines](https://x.com/thinkymachines)",
+            "-",
+            "-",
+            "-",
+            "[Docs / Tinker](https://tinker-docs.thinkingmachines.ai/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 18,
+      "name": "World Labs",
+      "description": null,
+      "official_url": "https://www.worldlabs.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.worldlabs.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/theworldlabs",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@WorldLabsAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/jSSSgXWT3v",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theworldlabs/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 18,
+        "name": "World Labs",
+        "official_url": "https://www.worldlabs.ai/",
+        "official_links_markdown": "[官网](https://www.worldlabs.ai/)",
+        "blog_or_news_url": "https://www.worldlabs.ai/",
+        "blog_or_news_markdown": "[主页更新](https://www.worldlabs.ai/), [Docs](https://docs.worldlabs.ai/)",
+        "x_url": "https://x.com/theworldlabs",
+        "youtube_url": "https://www.youtube.com/@WorldLabsAI",
+        "reddit_url": null,
+        "discord_url": "https://discord.gg/jSSSgXWT3v",
+        "other_links": [
+          {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/theworldlabs/"
+          }
+        ],
+        "other_links_markdown": "[Instagram](https://www.instagram.com/theworldlabs/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "World Labs",
+            "[官网](https://www.worldlabs.ai/)",
+            "[主页更新](https://www.worldlabs.ai/), [Docs](https://docs.worldlabs.ai/)",
+            "[@theworldlabs](https://x.com/theworldlabs)",
+            "[World Labs](https://www.youtube.com/@WorldLabsAI)",
+            "-",
+            "[官方 Discord](https://discord.gg/jSSSgXWT3v)",
+            "[Instagram](https://www.instagram.com/theworldlabs/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 19,
+      "name": "Cohere",
+      "description": null,
+      "official_url": "https://cohere.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://cohere.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://cohere.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/cohere",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Docs",
+          "url": "https://docs.cohere.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 19,
+        "name": "Cohere",
+        "official_url": "https://cohere.com/",
+        "official_links_markdown": "[官网](https://cohere.com/)",
+        "blog_or_news_url": "https://cohere.com/blog",
+        "blog_or_news_markdown": "[Blog](https://cohere.com/blog)",
+        "x_url": "https://x.com/cohere",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Docs",
+            "url": "https://docs.cohere.com/"
+          }
+        ],
+        "other_links_markdown": "[Docs](https://docs.cohere.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Cohere",
+            "[官网](https://cohere.com/)",
+            "[Blog](https://cohere.com/blog)",
+            "[@cohere](https://x.com/cohere)",
+            "-",
+            "-",
+            "-",
+            "[Docs](https://docs.cohere.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "company",
+      "rank": 20,
+      "name": "CoreWeave",
+      "description": null,
+      "official_url": "https://www.coreweave.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.coreweave.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.coreweave.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/CoreWeave",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@CoreWeave",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/company/coreweave/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "company",
+        "rank": 20,
+        "name": "CoreWeave",
+        "official_url": "https://www.coreweave.com/",
+        "official_links_markdown": "[官网](https://www.coreweave.com/)",
+        "blog_or_news_url": "https://www.coreweave.com/blog",
+        "blog_or_news_markdown": "[Blog](https://www.coreweave.com/blog)",
+        "x_url": "https://x.com/CoreWeave",
+        "youtube_url": "https://www.youtube.com/@CoreWeave",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/company/coreweave/"
+          }
+        ],
+        "other_links_markdown": "[LinkedIn](https://www.linkedin.com/company/coreweave/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "公司",
+            "官网",
+            "博客 / 新闻",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "CoreWeave",
+            "[官网](https://www.coreweave.com/)",
+            "[Blog](https://www.coreweave.com/blog)",
+            "[@CoreWeave](https://x.com/CoreWeave)",
+            "[CoreWeave](https://www.youtube.com/@CoreWeave)",
+            "-",
+            "-",
+            "[LinkedIn](https://www.linkedin.com/company/coreweave/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 1,
+      "name": "ChatGPT",
+      "description": null,
+      "official_url": "https://openai.com/chatgpt/overview/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://openai.com/chatgpt/overview/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://openai.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "OpenAI Forum",
+          "url": "https://community.openai.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 1,
+        "name": "ChatGPT",
+        "official_url": "https://openai.com/chatgpt/overview/",
+        "official_links_markdown": "[产品页](https://openai.com/chatgpt/overview/)",
+        "blog_or_news_url": "https://openai.com/news/",
+        "blog_or_news_markdown": "[OpenAI News](https://openai.com/news/), [ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)",
+        "x_url": "https://x.com/OpenAI",
+        "youtube_url": "https://www.youtube.com/@OpenAI",
+        "reddit_url": "https://www.reddit.com/r/ChatGPT/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "OpenAI Forum",
+            "url": "https://community.openai.com/"
+          }
+        ],
+        "other_links_markdown": "[OpenAI Forum](https://community.openai.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "ChatGPT",
+            "[产品页](https://openai.com/chatgpt/overview/)",
+            "[OpenAI News](https://openai.com/news/), [ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)",
+            "[@OpenAI](https://x.com/OpenAI)",
+            "[OpenAI](https://www.youtube.com/@OpenAI)",
+            "[r/ChatGPT](https://www.reddit.com/r/ChatGPT/) `社区`",
+            "-",
+            "[OpenAI Forum](https://community.openai.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 2,
+      "name": "Claude",
+      "description": null,
+      "official_url": "https://www.anthropic.com/claude",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.anthropic.com/claude",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.anthropic.com/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/AnthropicAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@AnthropicAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/ClaudeAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Status",
+          "url": "https://status.anthropic.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 2,
+        "name": "Claude",
+        "official_url": "https://www.anthropic.com/claude",
+        "official_links_markdown": "[产品页](https://www.anthropic.com/claude) / [App](https://claude.ai/)",
+        "blog_or_news_url": "https://www.anthropic.com/news",
+        "blog_or_news_markdown": "[Anthropic News](https://www.anthropic.com/news), [Docs](https://docs.anthropic.com/)",
+        "x_url": "https://x.com/AnthropicAI",
+        "youtube_url": "https://www.youtube.com/@AnthropicAI",
+        "reddit_url": "https://www.reddit.com/r/ClaudeAI/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Status",
+            "url": "https://status.anthropic.com/"
+          }
+        ],
+        "other_links_markdown": "[Status](https://status.anthropic.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Claude",
+            "[产品页](https://www.anthropic.com/claude) / [App](https://claude.ai/)",
+            "[Anthropic News](https://www.anthropic.com/news), [Docs](https://docs.anthropic.com/)",
+            "[@AnthropicAI](https://x.com/AnthropicAI)",
+            "[Anthropic](https://www.youtube.com/@AnthropicAI)",
+            "[r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) `社区`",
+            "-",
+            "[Status](https://status.anthropic.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 3,
+      "name": "Gemini",
+      "description": null,
+      "official_url": "https://gemini.google.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://gemini.google.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://blog.google/technology/ai/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/GeminiApp",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@google",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/GeminiAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Help",
+          "url": "https://support.google.com/gemini/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 3,
+        "name": "Gemini",
+        "official_url": "https://gemini.google.com/",
+        "official_links_markdown": "[Gemini](https://gemini.google.com/)",
+        "blog_or_news_url": "https://blog.google/technology/ai/",
+        "blog_or_news_markdown": "[Google AI Blog](https://blog.google/technology/ai/)",
+        "x_url": "https://x.com/GeminiApp",
+        "youtube_url": "https://www.youtube.com/@google",
+        "reddit_url": "https://www.reddit.com/r/GeminiAI/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Help",
+            "url": "https://support.google.com/gemini/"
+          }
+        ],
+        "other_links_markdown": "[Help](https://support.google.com/gemini/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Gemini",
+            "[Gemini](https://gemini.google.com/)",
+            "[Google AI Blog](https://blog.google/technology/ai/)",
+            "[@GeminiApp](https://x.com/GeminiApp)",
+            "[Google](https://www.youtube.com/@google)",
+            "[r/GeminiAI](https://www.reddit.com/r/GeminiAI/) `社区`",
+            "-",
+            "[Help](https://support.google.com/gemini/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 4,
+      "name": "NotebookLM",
+      "description": null,
+      "official_url": "https://notebooklm.google.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://notebooklm.google.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://blog.google/technology/ai/notebooklm/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/NotebookLM",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@google",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 4,
+        "name": "NotebookLM",
+        "official_url": "https://notebooklm.google.com/",
+        "official_links_markdown": "[产品页](https://notebooklm.google.com/)",
+        "blog_or_news_url": "https://blog.google/technology/ai/notebooklm/",
+        "blog_or_news_markdown": "[Google Blog / NotebookLM](https://blog.google/technology/ai/notebooklm/), [Help](https://support.google.com/notebooklm/)",
+        "x_url": "https://x.com/NotebookLM",
+        "youtube_url": "https://www.youtube.com/@google",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "产品级 X 很值得盯",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "NotebookLM",
+            "[产品页](https://notebooklm.google.com/)",
+            "[Google Blog / NotebookLM](https://blog.google/technology/ai/notebooklm/), [Help](https://support.google.com/notebooklm/)",
+            "[@NotebookLM](https://x.com/NotebookLM)",
+            "[Google](https://www.youtube.com/@google)",
+            "-",
+            "-",
+            "产品级 X 很值得盯"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 5,
+      "name": "Perplexity",
+      "description": null,
+      "official_url": "https://www.perplexity.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.perplexity.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.perplexity.ai/hub/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/perplexity_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerplexityAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/perplexity_ai/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Help Center",
+          "url": "https://www.perplexity.ai/help-center/en",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 5,
+        "name": "Perplexity",
+        "official_url": "https://www.perplexity.ai/",
+        "official_links_markdown": "[产品页](https://www.perplexity.ai/)",
+        "blog_or_news_url": "https://www.perplexity.ai/hub/blog",
+        "blog_or_news_markdown": "[Hub / Blog](https://www.perplexity.ai/hub/blog)",
+        "x_url": "https://x.com/perplexity_ai",
+        "youtube_url": "https://www.youtube.com/@PerplexityAI",
+        "reddit_url": "https://www.reddit.com/r/perplexity_ai/",
+        "discord_url": "https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord",
+        "other_links": [
+          {
+            "label": "Help Center",
+            "url": "https://www.perplexity.ai/help-center/en"
+          }
+        ],
+        "other_links_markdown": "[Help Center](https://www.perplexity.ai/help-center/en)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Perplexity",
+            "[产品页](https://www.perplexity.ai/)",
+            "[Hub / Blog](https://www.perplexity.ai/hub/blog)",
+            "[@perplexity_ai](https://x.com/perplexity_ai)",
+            "[Perplexity](https://www.youtube.com/@PerplexityAI)",
+            "[r/perplexity_ai](https://www.reddit.com/r/perplexity_ai/) `社区`",
+            "[官方说明](https://www.perplexity.ai/help-center/en/articles/10354908-what-is-our-discord)",
+            "[Help Center](https://www.perplexity.ai/help-center/en)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 6,
+      "name": "Comet",
+      "description": null,
+      "official_url": "https://www.perplexity.ai/comet",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.perplexity.ai/comet",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://www.perplexity.ai/hub/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/perplexity_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerplexityAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/perplexity_ai/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 6,
+        "name": "Comet",
+        "official_url": "https://www.perplexity.ai/comet",
+        "official_links_markdown": "[产品页](https://www.perplexity.ai/comet)",
+        "blog_or_news_url": "https://www.perplexity.ai/hub/blog",
+        "blog_or_news_markdown": "[Perplexity Hub](https://www.perplexity.ai/hub/blog)",
+        "x_url": "https://x.com/perplexity_ai",
+        "youtube_url": "https://www.youtube.com/@PerplexityAI",
+        "reddit_url": "https://www.reddit.com/r/perplexity_ai/",
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "使用母品牌渠道追踪",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Comet",
+            "[产品页](https://www.perplexity.ai/comet)",
+            "[Perplexity Hub](https://www.perplexity.ai/hub/blog)",
+            "[@perplexity_ai](https://x.com/perplexity_ai)",
+            "[Perplexity](https://www.youtube.com/@PerplexityAI)",
+            "[r/perplexity_ai](https://www.reddit.com/r/perplexity_ai/) `社区`",
+            "同上",
+            "使用母品牌渠道追踪"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 7,
+      "name": "Cursor",
+      "description": null,
+      "official_url": "https://cursor.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://cursor.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://cursor.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/cursor_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cursor_ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/cursor/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://cursor.com/en-US/community",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Forum",
+          "url": "https://forum.cursor.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 7,
+        "name": "Cursor",
+        "official_url": "https://cursor.com/",
+        "official_links_markdown": "[产品页](https://cursor.com/)",
+        "blog_or_news_url": "https://cursor.com/blog",
+        "blog_or_news_markdown": "[Blog](https://cursor.com/blog), [Docs](https://docs.cursor.com/)",
+        "x_url": "https://x.com/cursor_ai",
+        "youtube_url": "https://www.youtube.com/@cursor_ai",
+        "reddit_url": "https://www.reddit.com/r/cursor/",
+        "discord_url": "https://cursor.com/en-US/community",
+        "other_links": [
+          {
+            "label": "Forum",
+            "url": "https://forum.cursor.com/"
+          }
+        ],
+        "other_links_markdown": "[Forum](https://forum.cursor.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Cursor",
+            "[产品页](https://cursor.com/)",
+            "[Blog](https://cursor.com/blog), [Docs](https://docs.cursor.com/)",
+            "[@cursor_ai](https://x.com/cursor_ai)",
+            "[Cursor](https://www.youtube.com/@cursor_ai)",
+            "[r/cursor](https://www.reddit.com/r/cursor/) `社区`",
+            "[社区页](https://cursor.com/en-US/community)",
+            "[Forum](https://forum.cursor.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 8,
+      "name": "GitHub Copilot",
+      "description": null,
+      "official_url": "https://github.com/features/copilot",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "Official source",
+          "url": "https://github.com/features/copilot",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://github.blog/ai-and-ml/github-copilot/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/github",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GitHub",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/githubcopilot/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "Docs",
+          "url": "https://docs.github.com/en/copilot",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 8,
+        "name": "GitHub Copilot",
+        "official_url": "https://github.com/features/copilot",
+        "official_links_markdown": "[产品页](https://github.com/features/copilot)",
+        "blog_or_news_url": "https://github.blog/ai-and-ml/github-copilot/",
+        "blog_or_news_markdown": "[GitHub Copilot 分类](https://github.blog/ai-and-ml/github-copilot/), [Changelog](https://github.blog/changelog/)",
+        "x_url": "https://x.com/github",
+        "youtube_url": "https://www.youtube.com/@GitHub",
+        "reddit_url": "https://www.reddit.com/r/githubcopilot/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Docs",
+            "url": "https://docs.github.com/en/copilot"
+          }
+        ],
+        "other_links_markdown": "[Docs](https://docs.github.com/en/copilot)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "GitHub Copilot",
+            "[产品页](https://github.com/features/copilot)",
+            "[GitHub Copilot 分类](https://github.blog/ai-and-ml/github-copilot/), [Changelog](https://github.blog/changelog/)",
+            "[@GitHub](https://x.com/github)",
+            "[GitHub](https://www.youtube.com/@GitHub)",
+            "[r/githubcopilot](https://www.reddit.com/r/githubcopilot/) `社区`",
+            "-",
+            "[Docs](https://docs.github.com/en/copilot)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 9,
+      "name": "Windsurf",
+      "description": null,
+      "official_url": "https://windsurf.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://windsurf.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://windsurf.com/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/windsurf",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://docs.windsurf.com/windsurf",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Docs",
+          "url": "https://docs.windsurf.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 9,
+        "name": "Windsurf",
+        "official_url": "https://windsurf.com/",
+        "official_links_markdown": "[产品页](https://windsurf.com/)",
+        "blog_or_news_url": "https://windsurf.com/blog",
+        "blog_or_news_markdown": "[Blog](https://windsurf.com/blog), [Docs](https://docs.windsurf.com/)",
+        "x_url": "https://x.com/windsurf",
+        "youtube_url": null,
+        "reddit_url": null,
+        "discord_url": "https://docs.windsurf.com/windsurf",
+        "other_links": [
+          {
+            "label": "Docs",
+            "url": "https://docs.windsurf.com/"
+          }
+        ],
+        "other_links_markdown": "[Docs](https://docs.windsurf.com/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Windsurf",
+            "[产品页](https://windsurf.com/)",
+            "[Blog](https://windsurf.com/blog), [Docs](https://docs.windsurf.com/)",
+            "[@windsurf](https://x.com/windsurf)",
+            "-",
+            "-",
+            "[官方社区页](https://docs.windsurf.com/windsurf)",
+            "[Docs](https://docs.windsurf.com/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 10,
+      "name": "Meta AI",
+      "description": null,
+      "official_url": "https://www.meta.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.meta.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://ai.meta.com/blog/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/AIatMeta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Meta Newsroom",
+          "url": "https://about.fb.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 10,
+        "name": "Meta AI",
+        "official_url": "https://www.meta.ai/",
+        "official_links_markdown": "[产品页](https://www.meta.ai/)",
+        "blog_or_news_url": "https://ai.meta.com/blog/",
+        "blog_or_news_markdown": "[Meta AI Blog](https://ai.meta.com/blog/)",
+        "x_url": "https://x.com/AIatMeta",
+        "youtube_url": "https://www.youtube.com/@Meta",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Meta Newsroom",
+            "url": "https://about.fb.com/news/"
+          }
+        ],
+        "other_links_markdown": "[Meta Newsroom](https://about.fb.com/news/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Meta AI",
+            "[产品页](https://www.meta.ai/)",
+            "[Meta AI Blog](https://ai.meta.com/blog/)",
+            "[@AIatMeta](https://x.com/AIatMeta)",
+            "[Meta](https://www.youtube.com/@Meta)",
+            "-",
+            "-",
+            "[Meta Newsroom](https://about.fb.com/news/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 11,
+      "name": "Grok",
+      "description": null,
+      "official_url": "https://help.x.com/en/using-x/about-grok",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "Official source",
+          "url": "https://help.x.com/en/using-x/about-grok",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://x.ai/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/grok",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@xAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/xAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 11,
+        "name": "Grok",
+        "official_url": "https://help.x.com/en/using-x/about-grok",
+        "official_links_markdown": "[说明页](https://help.x.com/en/using-x/about-grok)",
+        "blog_or_news_url": "https://x.ai/blog",
+        "blog_or_news_markdown": "[xAI Blog](https://x.ai/blog), [X Help](https://help.x.com/en/using-x/about-grok)",
+        "x_url": "https://x.com/grok",
+        "youtube_url": "https://www.youtube.com/@xAI",
+        "reddit_url": "https://www.reddit.com/r/xAI/",
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "产品发布经常先出现在 X",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Grok",
+            "[说明页](https://help.x.com/en/using-x/about-grok)",
+            "[xAI Blog](https://x.ai/blog), [X Help](https://help.x.com/en/using-x/about-grok)",
+            "[@grok](https://x.com/grok), [@xai](https://x.com/xai)",
+            "[xAI](https://www.youtube.com/@xAI)",
+            "[r/xAI](https://www.reddit.com/r/xAI/) `社区`",
+            "-",
+            "产品发布经常先出现在 X"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 12,
+      "name": "DeepSeek",
+      "description": null,
+      "official_url": "https://deepseek.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://deepseek.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://api-docs.deepseek.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/DeepSeek/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "GitHub",
+          "url": "https://github.com/deepseek-ai",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 12,
+        "name": "DeepSeek",
+        "official_url": "https://deepseek.com/",
+        "official_links_markdown": "[主站](https://deepseek.com/), [Web App](https://chat.deepseek.com/)",
+        "blog_or_news_url": "https://api-docs.deepseek.com/",
+        "blog_or_news_markdown": "[API Docs](https://api-docs.deepseek.com/), [Status](https://status.deepseek.com/)",
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": "https://www.reddit.com/r/DeepSeek/",
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "GitHub",
+            "url": "https://github.com/deepseek-ai"
+          }
+        ],
+        "other_links_markdown": "[GitHub](https://github.com/deepseek-ai)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "DeepSeek",
+            "[主站](https://deepseek.com/), [Web App](https://chat.deepseek.com/)",
+            "[API Docs](https://api-docs.deepseek.com/), [Status](https://status.deepseek.com/)",
+            "-",
+            "-",
+            "[r/DeepSeek](https://www.reddit.com/r/DeepSeek/) `社区`",
+            "-",
+            "[GitHub](https://github.com/deepseek-ai)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 13,
+      "name": "Qwen",
+      "description": null,
+      "official_url": "https://qwen.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://qwen.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "Blog or news",
+          "url": "https://github.com/QwenLM/Qwen",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/Qwen_AI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/CV4E9rpNSD",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "github",
+          "platform": "github",
+          "label": "GitHub Org",
+          "url": "https://github.com/QwenLM",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 13,
+        "name": "Qwen",
+        "official_url": "https://qwen.ai/",
+        "official_links_markdown": "[产品页](https://qwen.ai/)",
+        "blog_or_news_url": "https://github.com/QwenLM/Qwen",
+        "blog_or_news_markdown": "[GitHub 官方仓库](https://github.com/QwenLM/Qwen), [DashScope](https://dashscope.aliyun.com/)",
+        "x_url": null,
+        "youtube_url": null,
+        "reddit_url": "https://www.reddit.com/r/Qwen_AI/",
+        "discord_url": "https://discord.gg/CV4E9rpNSD",
+        "other_links": [
+          {
+            "label": "GitHub Org",
+            "url": "https://github.com/QwenLM"
+          }
+        ],
+        "other_links_markdown": "[GitHub Org](https://github.com/QwenLM)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Qwen",
+            "[产品页](https://qwen.ai/)",
+            "[GitHub 官方仓库](https://github.com/QwenLM/Qwen), [DashScope](https://dashscope.aliyun.com/)",
+            "-",
+            "-",
+            "[r/Qwen_AI](https://www.reddit.com/r/Qwen_AI/) `社区`",
+            "[官方 Discord](https://discord.gg/CV4E9rpNSD)",
+            "[GitHub Org](https://github.com/QwenLM)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 14,
+      "name": "Le Chat",
+      "description": null,
+      "official_url": "https://chat.mistral.ai/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://chat.mistral.ai/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://mistral.ai/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/MistralAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MistralAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/mistralai",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 14,
+        "name": "Le Chat",
+        "official_url": "https://chat.mistral.ai/",
+        "official_links_markdown": "[产品页](https://chat.mistral.ai/)",
+        "blog_or_news_url": "https://mistral.ai/news",
+        "blog_or_news_markdown": "[Mistral News](https://mistral.ai/news), [Docs](https://docs.mistral.ai/)",
+        "x_url": "https://x.com/MistralAI",
+        "youtube_url": "https://www.youtube.com/@MistralAI",
+        "reddit_url": null,
+        "discord_url": "https://discord.gg/mistralai",
+        "other_links": [],
+        "other_links_markdown": "使用 Mistral 主品牌追踪",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Le Chat",
+            "[产品页](https://chat.mistral.ai/)",
+            "[Mistral News](https://mistral.ai/news), [Docs](https://docs.mistral.ai/)",
+            "[@MistralAI](https://x.com/MistralAI)",
+            "[Mistral AI](https://www.youtube.com/@MistralAI)",
+            "-",
+            "[官方 Discord](https://discord.gg/mistralai)",
+            "使用 Mistral 主品牌追踪"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 15,
+      "name": "Hugging Face Hub",
+      "description": null,
+      "official_url": "https://huggingface.co/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://huggingface.co/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://huggingface.co/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/huggingface",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HuggingFace",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/huggingface/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://hf.co/join/discord",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Forum",
+          "url": "https://discuss.huggingface.co/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 15,
+        "name": "Hugging Face Hub",
+        "official_url": "https://huggingface.co/",
+        "official_links_markdown": "[Hub](https://huggingface.co/)",
+        "blog_or_news_url": "https://huggingface.co/blog",
+        "blog_or_news_markdown": "[Blog](https://huggingface.co/blog)",
+        "x_url": "https://x.com/huggingface",
+        "youtube_url": "https://www.youtube.com/@HuggingFace",
+        "reddit_url": "https://www.reddit.com/r/huggingface/",
+        "discord_url": "https://hf.co/join/discord",
+        "other_links": [
+          {
+            "label": "Forum",
+            "url": "https://discuss.huggingface.co/"
+          }
+        ],
+        "other_links_markdown": "[Forum](https://discuss.huggingface.co/)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Hugging Face Hub",
+            "[Hub](https://huggingface.co/)",
+            "[Blog](https://huggingface.co/blog)",
+            "[@huggingface](https://x.com/huggingface)",
+            "[Hugging Face](https://www.youtube.com/@HuggingFace)",
+            "[r/huggingface](https://www.reddit.com/r/huggingface/) `社区`",
+            "[官方 Discord](https://hf.co/join/discord)",
+            "[Forum](https://discuss.huggingface.co/)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 16,
+      "name": "Sora",
+      "description": null,
+      "official_url": "https://openai.com/sora/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://openai.com/sora/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://openai.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@OpenAI",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/SoraAI/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 16,
+        "name": "Sora",
+        "official_url": "https://openai.com/sora/",
+        "official_links_markdown": "[产品页](https://openai.com/sora/)",
+        "blog_or_news_url": "https://openai.com/news/",
+        "blog_or_news_markdown": "[OpenAI News](https://openai.com/news/)",
+        "x_url": "https://x.com/OpenAI",
+        "youtube_url": "https://www.youtube.com/@OpenAI",
+        "reddit_url": "https://www.reddit.com/r/SoraAI/",
+        "discord_url": null,
+        "other_links": [],
+        "other_links_markdown": "使用 OpenAI 主品牌追踪",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Sora",
+            "[产品页](https://openai.com/sora/)",
+            "[OpenAI News](https://openai.com/news/)",
+            "[@OpenAI](https://x.com/OpenAI)",
+            "[OpenAI](https://www.youtube.com/@OpenAI)",
+            "[r/SoraAI](https://www.reddit.com/r/SoraAI/) `社区`",
+            "-",
+            "使用 OpenAI 主品牌追踪"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 17,
+      "name": "Midjourney",
+      "description": null,
+      "official_url": "https://www.midjourney.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.midjourney.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Blog or news",
+          "url": "https://updates.midjourney.com/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/midjourney",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@midjourney",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/midjourney/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "discord",
+          "platform": "discord",
+          "label": "Discord",
+          "url": "https://discord.gg/midjourney",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 17,
+        "name": "Midjourney",
+        "official_url": "https://www.midjourney.com/",
+        "official_links_markdown": "[官网](https://www.midjourney.com/)",
+        "blog_or_news_url": "https://updates.midjourney.com/",
+        "blog_or_news_markdown": "[Updates](https://updates.midjourney.com/), [Docs](https://docs.midjourney.com/)",
+        "x_url": "https://x.com/midjourney",
+        "youtube_url": "https://www.youtube.com/@midjourney",
+        "reddit_url": "https://www.reddit.com/r/midjourney/",
+        "discord_url": "https://discord.gg/midjourney",
+        "other_links": [],
+        "other_links_markdown": "Web 与 Discord 都要看",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Midjourney",
+            "[官网](https://www.midjourney.com/)",
+            "[Updates](https://updates.midjourney.com/), [Docs](https://docs.midjourney.com/)",
+            "[@midjourney](https://x.com/midjourney)",
+            "[Midjourney](https://www.youtube.com/@midjourney)",
+            "[r/midjourney](https://www.reddit.com/r/midjourney/) `社区`",
+            "[官方 Discord](https://discord.gg/midjourney)",
+            "Web 与 Discord 都要看"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 18,
+      "name": "Runway",
+      "description": null,
+      "official_url": "https://runwayml.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://runwayml.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://runwayml.com/news",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/runwayml",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@RunwayML",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/runwayml/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://help.runwayml.com/hc/en-us/articles/20821762056723-Getting-Help-with-your-Runway-Account",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Meetups",
+          "url": "https://runwayml.com/meetups",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 18,
+        "name": "Runway",
+        "official_url": "https://runwayml.com/",
+        "official_links_markdown": "[官网](https://runwayml.com/)",
+        "blog_or_news_url": "https://runwayml.com/news",
+        "blog_or_news_markdown": "[News](https://runwayml.com/news), [Help](https://help.runwayml.com/)",
+        "x_url": "https://x.com/runwayml",
+        "youtube_url": "https://www.youtube.com/@RunwayML",
+        "reddit_url": "https://www.reddit.com/r/runwayml/",
+        "discord_url": "https://help.runwayml.com/hc/en-us/articles/20821762056723-Getting-Help-with-your-Runway-Account",
+        "other_links": [
+          {
+            "label": "Meetups",
+            "url": "https://runwayml.com/meetups"
+          }
+        ],
+        "other_links_markdown": "[Meetups](https://runwayml.com/meetups)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Runway",
+            "[官网](https://runwayml.com/)",
+            "[News](https://runwayml.com/news), [Help](https://help.runwayml.com/)",
+            "[@runwayml](https://x.com/runwayml)",
+            "[Runway](https://www.youtube.com/@RunwayML)",
+            "[r/runwayml](https://www.reddit.com/r/runwayml/) `社区`",
+            "[官方说明](https://help.runwayml.com/hc/en-us/articles/20821762056723-Getting-Help-with-your-Runway-Account)",
+            "[Meetups](https://runwayml.com/meetups)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 19,
+      "name": "ElevenLabs",
+      "description": null,
+      "official_url": "https://elevenlabs.io/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://elevenlabs.io/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://elevenlabs.io/blog",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/elevenlabsio",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ElevenLabsIO",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "reddit",
+          "platform": "reddit",
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/ElevenLabs/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Discord",
+          "url": "https://help.elevenlabs.io/hc/en-us/articles/13416631610641-Is-there-a-community-for-ElevenLabs",
+          "is_official": false,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Docs",
+          "url": "https://elevenlabs.io/docs",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 19,
+        "name": "ElevenLabs",
+        "official_url": "https://elevenlabs.io/",
+        "official_links_markdown": "[官网](https://elevenlabs.io/)",
+        "blog_or_news_url": "https://elevenlabs.io/blog",
+        "blog_or_news_markdown": "[Blog](https://elevenlabs.io/blog), [Help](https://help.elevenlabs.io/)",
+        "x_url": "https://x.com/elevenlabsio",
+        "youtube_url": "https://www.youtube.com/@ElevenLabsIO",
+        "reddit_url": "https://www.reddit.com/r/ElevenLabs/",
+        "discord_url": "https://help.elevenlabs.io/hc/en-us/articles/13416631610641-Is-there-a-community-for-ElevenLabs",
+        "other_links": [
+          {
+            "label": "Docs",
+            "url": "https://elevenlabs.io/docs"
+          }
+        ],
+        "other_links_markdown": "[Docs](https://elevenlabs.io/docs)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "ElevenLabs",
+            "[官网](https://elevenlabs.io/)",
+            "[Blog](https://elevenlabs.io/blog), [Help](https://help.elevenlabs.io/)",
+            "[@elevenlabsio](https://x.com/elevenlabsio)",
+            "[YouTube](https://www.youtube.com/@ElevenLabsIO)",
+            "[r/ElevenLabs](https://www.reddit.com/r/ElevenLabs/) `社区`",
+            "[官方社区说明](https://help.elevenlabs.io/hc/en-us/articles/13416631610641-Is-there-a-community-for-ElevenLabs)",
+            "[Docs](https://elevenlabs.io/docs)"
+          ]
+        }
+      }
+    },
+    {
+      "entity_group": "product",
+      "rank": 20,
+      "name": "Ray-Ban Meta",
+      "description": null,
+      "official_url": "https://www.meta.com/smart-glasses/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official source",
+          "url": "https://www.meta.com/smart-glasses/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": null
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog or news",
+          "url": "https://about.fb.com/news/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "youtube",
+          "platform": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Meta",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Ray-Ban 页面",
+          "url": "https://www.ray-ban.com/usa/discover-ray-ban-meta-smart-glasses",
+          "is_official": true,
+          "is_primary": false,
+          "notes": null
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "product",
+        "rank": 20,
+        "name": "Ray-Ban Meta",
+        "official_url": "https://www.meta.com/smart-glasses/",
+        "official_links_markdown": "[产品页](https://www.meta.com/smart-glasses/)",
+        "blog_or_news_url": "https://about.fb.com/news/",
+        "blog_or_news_markdown": "[Meta Newsroom](https://about.fb.com/news/)",
+        "x_url": "https://x.com/Meta",
+        "youtube_url": "https://www.youtube.com/@Meta",
+        "reddit_url": null,
+        "discord_url": null,
+        "other_links": [
+          {
+            "label": "Ray-Ban 页面",
+            "url": "https://www.ray-ban.com/usa/discover-ray-ban-meta-smart-glasses"
+          }
+        ],
+        "other_links_markdown": "[Ray-Ban 页面](https://www.ray-ban.com/usa/discover-ray-ban-meta-smart-glasses)",
+        "notes": null,
+        "source_date": "2026-04-14",
+        "source_file": "/Users/shujudagongren/Documents/learnspace/qdaily-backup/ai-tracking-directory-2026-04-14.md",
+        "raw_row": {
+          "header": [
+            "产品",
+            "官网 / 主入口",
+            "更新 / 文档",
+            "X",
+            "YouTube",
+            "Reddit",
+            "Discord",
+            "Facebook / 其他"
+          ],
+          "cells": [
+            "Ray-Ban Meta",
+            "[产品页](https://www.meta.com/smart-glasses/)",
+            "[Meta Newsroom](https://about.fb.com/news/)",
+            "[@Meta](https://x.com/Meta)",
+            "[Meta](https://www.youtube.com/@Meta)",
+            "-",
+            "-",
+            "[Ray-Ban 页面](https://www.ray-ban.com/usa/discover-ray-ban-meta-smart-glasses)"
+          ]
+        }
+      }
+    }
+  ]
+}

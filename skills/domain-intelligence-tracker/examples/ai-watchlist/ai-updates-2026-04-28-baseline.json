@@ -1,0 +1,2758 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-24",
+  "updates": [
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/",
+      "title": "Models — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://deepmind.google/about/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:18Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/gemini/embedding/",
+      "title": "Gemini Embedding 2 — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://deepmind.google/about/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:20Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/gemma/",
+      "title": "Gemma — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://deepmind.google/about/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:21Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/gemma/gemma-4/",
+      "title": "Gemma 4 — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://deepmind.google/about/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:23Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Demis Hassabis",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/gemini-robotics/",
+      "title": "Gemini Robotics — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://deepmind.google/about/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:25Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Jensen Huang",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/geforce-now/new-this-week/",
+      "title": "GeForce NOW Updates",
+      "summary": "Tune in every week for latest updates #GFNThursdayUpdates",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:08Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:27Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Jensen Huang",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/about-nvidia/partners/partner-expert-program/",
+      "title": "NVIDIA Partner Expert Program 2026",
+      "summary": "Register to elevate your expertise as an NVIDIA partner in EMEA.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:08Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:28Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Jensen Huang",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/about-nvidia/ai-for-good/",
+      "title": "AI Breakthroughs by NVIDIA for Global Impact",
+      "summary": "See how NVIDIA leads AI for good in science, health, and beyond.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:08Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:30Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Jensen Huang",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/data-center/mission-control/",
+      "title": "NVIDIA Mission Control",
+      "summary": "Software-Defined Expertise and Intelligence for AI Factories.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:08Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:31Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Jensen Huang",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/data-center/dgx-vera-rubin-nvl72/",
+      "title": "NVIDIA DGX Vera Rubin NVL72",
+      "summary": "The foundation for Gigascale AI Training and Inference.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:08Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://www.nvidia.com/en-us/about-nvidia/management/jensen-huang/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:32Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Fei-Fei Li",
+      "published_at": "2026-04-24T23:13:41+00:00",
+      "source_platform": "website",
+      "source_url": "https://hai.stanford.edu/events/ai-science-accelerating-discovery",
+      "title": "AI+Science: Accelerating Discovery | Stanford HAI",
+      "summary": "AI+Science: Accelerating Discovery is an interdisciplinary conference bringing together researchers across physics, mathematics, chemistry, biology, neuroscience, and more to examine how AI is reshaping scientific discovery.",
+      "content_type": "post",
+      "source_domain": "hai.stanford.edu",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:13:41+00:00",
+        "feed_source": "https://hai.stanford.edu/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:34Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Fei-Fei Li",
+      "published_at": "2026-04-24T17:18:52+00:00",
+      "source_platform": "website",
+      "source_url": "https://hai.stanford.edu/research/grant-programs/hoffman-yee-research-grants",
+      "title": "Hoffman-Yee Research Grants | Stanford HAI",
+      "summary": "The Hoffman-Yee Research Grants are designed to address significant scientific, technical, or societal challenges requiring an interdisciplinary team and a bold approach.These grants are made possible by a gift from philanthropists Reid Hoffman and Michelle Yee.",
+      "content_type": "post",
+      "source_domain": "hai.stanford.edu",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T17:18:52+00:00",
+        "feed_source": "https://hai.stanford.edu/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:40Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Fei-Fei Li",
+      "published_at": "2026-04-22T20:35:30+00:00",
+      "source_platform": "website",
+      "source_url": "https://hai.stanford.edu/news/danae-metaxa-algorithms-change-how-we-think-about-world-and-ourselves",
+      "title": "Danaë Metaxa: Algorithms Change How We Think About the World and Ourselves | Stanford HAI",
+      "summary": "The Stanford Ph.D student and first-generation American examines algorithmic representation and its impact on our sense of belonging.",
+      "content_type": "post",
+      "source_domain": "hai.stanford.edu",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T20:35:30+00:00",
+        "feed_source": "https://hai.stanford.edu/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:28:51Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Fei-Fei Li",
+      "published_at": "2026-04-22T20:49:05+00:00",
+      "source_platform": "website",
+      "source_url": "https://hai.stanford.edu/news/are-universal-self-supervised-learning-algorithms-within-reach",
+      "title": "Are Universal Self-Supervised Learning Algorithms Within Reach? | Stanford HAI",
+      "summary": "A new benchmarking tool helps AI scholars train algorithms that work on any domain, from images to text, video, medical images, and more — all at the same time.",
+      "content_type": "post",
+      "source_domain": "hai.stanford.edu",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T20:49:05+00:00",
+        "feed_source": "https://hai.stanford.edu/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:00Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Fei-Fei Li",
+      "published_at": "2026-04-22T23:25:54+00:00",
+      "source_platform": "website",
+      "source_url": "https://hai.stanford.edu/news/stanford-hai-welcomes-graduate-postdoc-fellows",
+      "title": "Stanford HAI Welcomes Graduate, Postdoc Fellows | Stanford HAI",
+      "summary": "30 scholars from multiple disciplines will join HAI to study human-centered AI.",
+      "content_type": "post",
+      "source_domain": "hai.stanford.edu",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T23:25:54+00:00",
+        "feed_source": "https://hai.stanford.edu/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:13Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Thomas Wolf",
+      "published_at": "2026-04-24T14:24:27.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/docs/accelerate",
+      "title": "accelerate (auto-titled from URL after fetch_error)",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T14:24:27.000Z",
+        "feed_source": "https://huggingface.co/ThomWolf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:22Z",
+        "status": "fetch_error_500"
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Thomas Wolf",
+      "published_at": "2026-04-23T12:29:53.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/learn/context-course",
+      "title": "context-course (auto-titled from URL after fetch_error)",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23T12:29:53.000Z",
+        "feed_source": "https://huggingface.co/ThomWolf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:25Z",
+        "status": "fetch_error_500"
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Thomas Wolf",
+      "published_at": "2026-04-24T19:42:32.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/docs/optimum-intel",
+      "title": "🤗 Optimum Intel · Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T19:42:32.000Z",
+        "feed_source": "https://huggingface.co/ThomWolf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:28Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Thomas Wolf",
+      "published_at": "2026-04-23T13:38:57.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/docs/reachy_mini",
+      "title": "Reachy Mini 🤖 · Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23T13:38:57.000Z",
+        "feed_source": "https://huggingface.co/ThomWolf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:31Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Thomas Wolf",
+      "published_at": "2026-04-24T18:32:50.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/docs/timm",
+      "title": "timm · Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T18:32:50.000Z",
+        "feed_source": "https://huggingface.co/ThomWolf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:37Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Aidan Gomez",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://cohere.com/about",
+      "title": "About Our Company | Cohere",
+      "summary": "Cohere empowers every developer and enterprise to build high-impact applications with secure and scalable AI.",
+      "content_type": "post",
+      "source_domain": "cohere.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://cohere.com/about"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:39Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Aidan Gomez",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://cohere.com/careers",
+      "title": "Careers | Cohere",
+      "summary": "Join our talented team to help enterprises adopt AI and realize its full potential through powerful, secure, and scalable solutions.",
+      "content_type": "post",
+      "source_domain": "cohere.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://cohere.com/about"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:45Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Aidan Gomez",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://cohere.com/fr/about",
+      "title": "À propos de notre entreprise | Cohere",
+      "summary": "Cohere permet à chaque développeur et à chaque entreprise de créer des applications à fort impact, grâce à une IA sécurisée et évolutive.",
+      "content_type": "post",
+      "source_domain": "cohere.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://cohere.com/about"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:55Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Aidan Gomez",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://cohere.com/blog/mixture-of-experts-models-get-more-from-speculative-decoding",
+      "title": "Why MoE models get more from speculative decoding",
+      "summary": "MoE models enhance speculative decoding through bandwidth-bound sweet spots, expert routing correlation reducing unique weight loading, and fixed-overhead amortization at low batch sizes.",
+      "content_type": "post",
+      "source_domain": "cohere.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:32Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://cohere.com/about"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:29:59Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "person",
+      "entity_name": "Elon Musk",
+      "published_at": "2026-04-23T00:00:00.000Z",
+      "source_platform": "website",
+      "source_url": "https://x.ai/news/grok-voice-think-fast-1",
+      "title": "xAI — Creators of Grok, the AI Chatbot",
+      "summary": "xAI builds Grok, an AI chatbot with voice chat, image and video generation, real-time search, and advanced reasoning. Try Grok at grok.com.",
+      "content_type": "post",
+      "source_domain": "x.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:36Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23T00:00:00.000Z",
+        "feed_source": "https://x.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:02Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "title": "Gemini 3.1 Pro - Model Card — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://deepmind.google/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:04Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/research/publications/240658/",
+      "title": "Image Generators are Generalist Vision Learners — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://deepmind.google/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:05Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "title": "Gemini Robotics ER 1.6: Enhanced Embodied Reasoning — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://deepmind.google/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:07Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "title": "Google DeepMind partners with global consultancies to accelerate enterprise AI adoption. — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://deepmind.google/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:09Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://deepmind.google/blog/decoupled-diloco/",
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale — Google DeepMind",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://deepmind.google/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:10Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/authors/jeff-dean/",
+      "title": "Jeff Dean",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:11Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
+      "title": "Find out what’s new in the Gemini app in April&#x27;s Gemini Drop.",
+      "summary": "Gemini Drops is our regular monthly update on how to get the most out of the Gemini app.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:13Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/",
+      "title": "Google Cloud",
+      "summary": "Read the latest news and updates about Google Cloud.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:15Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+      "title": "Cloud Next ‘26: Momentum and innovation at Google scale",
+      "summary": "Google CEO Sundar Pichai discusses the top announcements at Cloud Next 2026.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:17Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-enterprise-agent-platform/",
+      "title": "Gemini Enterprise Agent Platform lets you build, govern and optimize your agents.",
+      "summary": "This new platform creates a single environment for technical teams to build, scale, govern and optimize autonomous agents.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:19Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-24T14:19:00.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "title": "An update on recent Claude Code quality reports",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T14:19:00.000Z",
+        "feed_source": "https://www.anthropic.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:21Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-24T14:21:28.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T14:21:28.000Z",
+        "feed_source": "https://www.anthropic.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:27Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-24T14:19:43.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/engineering/managed-agents",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T14:19:43.000Z",
+        "feed_source": "https://www.anthropic.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:32Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-24T15:50:13.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T15:50:13.000Z",
+        "feed_source": "https://www.anthropic.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:39Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-24T04:06:50.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/news/anthropic-nec",
+      "title": "Anthropic and NEC partner to build AI-native engineering at scale in Japan",
+      "summary": "NEC will deploy Claude to 30,000 employees and become Anthropic&#x27;s first Japan-based global partner, co-developing AI products for finance, manufacturing, and government",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T04:06:50.000Z",
+        "feed_source": "https://www.anthropic.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:41Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "NVIDIA",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/high-performance-computing/earth-2/",
+      "title": "NVIDIA Earth 2 Platform",
+      "summary": "AI-powered climate and weather simulation with NVIDIA Earth-2.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://www.nvidia.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:46Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "NVIDIA",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/geforce/news/rtx-remix-advanced-particle-vfx/",
+      "title": "NVIDIA RTX Remix Advanced Particle VFX Update Released",
+      "summary": "New RTX Remix update available now, adding powerful new tools for fine-tuning and enhancing particle effects in path-traced mods for classic games. Take a first look by downloading the Quake III Arena RTX mod demo today.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://www.nvidia.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:49Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "NVIDIA",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/product-security/acknowledgements/",
+      "title": "NVIDIA Product Security Acknowledgements",
+      "summary": "NVIDIA Product Security Acknowledgements",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://www.nvidia.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:52Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "NVIDIA",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/events/",
+      "title": "NVIDIA Corporate and Investor Events Calendar",
+      "summary": "NVIDIA corporate, developer, CUDA, and investor events.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://www.nvidia.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:55Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "NVIDIA",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://www.nvidia.com/en-gb/studio/news/",
+      "title": "What’s New | NVIDIA Studio",
+      "summary": "Discover the latest NVIDIA creator news, updates, trends, and more.",
+      "content_type": "post",
+      "source_domain": "www.nvidia.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:05:51Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://www.nvidia.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:30:58Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "DeepSeek",
+      "published_at": "2026-04-22T08:26:51Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/deepseek-ai/DeepGEMM/releases/tag/nv_dev_c491439",
+      "title": "deepseek-ai/DeepGEMM nv_dev_c491439: nv_dev_c491439",
+      "summary": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling - Release nv_dev_c491439 · deepseek-ai/DeepGEMM",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: deepseek-ai/DeepGEMM",
+        "published_label": "2026-04-22T08:26:51Z",
+        "feed_source": "https://github.com/deepseek-ai"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:02Z",
+        "status": "ok",
+        "fields_added": [
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Alibaba / Qwen",
+      "published_at": "2026-04-24T12:11:44Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.2",
+      "title": "QwenLM/qwen-code v0.15.2: Release v0.15.2",
+      "summary": "What's Changed fix(core): treat empty 'pages' parameter as unset in ReadFile by @zhangxy-zju in https://github.com/QwenLM/qwen-code/pull/3559 feat(session): auto-title sessions via fast model, add /rename --auto by @wenshao in https://github.com/QwenLM/qwen-code/pull/3540 fix(i1…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-24T12:11:44Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Alibaba / Qwen",
+      "published_at": "2026-04-24T00:27:12Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.1-nightly.20260424.4e0a37549",
+      "title": "QwenLM/qwen-code v0.15.1-nightly.20260424.4e0a37549: Release v0.15.1-nightly.20260424.4e0a37549",
+      "summary": "What's Changed fix(core): treat empty 'pages' parameter as unset in ReadFile by @zhangxy-zju in https://github.com/QwenLM/qwen-code/pull/3559 feat(session): auto-title sessions via fast model, add /rename --auto by @wenshao in https://github.com/QwenLM/qwen-code/pull/3540 fix(i1…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-24T00:27:12Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Alibaba / Qwen",
+      "published_at": "2026-04-23T03:57:40Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.1",
+      "title": "QwenLM/qwen-code v0.15.1: Release v0.15.1",
+      "summary": "What's Changed fix(core): scope StreamingToolCallParser per stream, not per Converter (#3516) by @zhangxy-zju in https://github.com/QwenLM/qwen-code/pull/3525 feat(cli): combine elapsed + timeout in shell time indicator by @wenshao in https://github.com/QwenLM/qwen-code/pull/351…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-23T03:57:40Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Alibaba / Qwen",
+      "published_at": "2026-04-23T00:28:05Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.0-nightly.20260423.d40fe7cdb",
+      "title": "QwenLM/qwen-code v0.15.0-nightly.20260423.d40fe7cdb: Release v0.15.0-nightly.20260423.d40fe7cdb",
+      "summary": "What's Changed fix(core): scope StreamingToolCallParser per stream, not per Converter (#3516) by @zhangxy-zju in https://github.com/QwenLM/qwen-code/pull/3525 Full Changelog**: https://github.com/QwenLM/qwen-code/compare/v0.15.0...v0.15.0-nightly.20260423.d40fe7cdb",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-23T00:28:05Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Alibaba / Qwen",
+      "published_at": "2026-04-22T11:45:35Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.0",
+      "title": "QwenLM/qwen-code v0.15.0: Release v0.15.0",
+      "summary": "What's Changed feat(acp): add complete hooks support for ACP integration by @DennisYu07 in https://github.com/QwenLM/qwen-code/pull/3248 feat: optimize compact mode UX — shortcuts, settings sync, and safety by @chiga0 in https://github.com/QwenLM/qwen-code/pull/3100 feat(hooks):…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:19Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-22T11:45:35Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T00:00:00.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/blog/deepseekv4",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T00:00:00.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:05Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-23T00:00:00.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23T00:00:00.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:06Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-22T06:40:11.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/sdasdawq234/H-LLM-LOCAL",
+      "title": "sdasdawq234/H-LLM-LOCAL · Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T06:40:11.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:07Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:55:07.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/Ezembeethan/MMSoc_Memotion",
+      "title": "Ezembeethan/MMSoc_Memotion · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:55:07.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:08Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:54:31.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/MrLabra/items_prompts_full",
+      "title": "MrLabra/items_prompts_full · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:54:31.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:14Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:53:27.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/electricsheepafrica/africa-who-historical-data-for-gha",
+      "title": "electricsheepafrica/africa-who-historical-data-for-gha · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:53:27.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:17Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:52:28.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/ansulev/opus-4.7-reasoning-cot",
+      "title": "ansulev/opus-4.7-reasoning-cot · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:52:28.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:29Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:51:08.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/Ethosoft/izmir-hava",
+      "title": "Ethosoft/izmir-hava · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:51:08.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:33Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:50:15.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/bcckfdn/InstrucTR_v1",
+      "title": "bcckfdn/InstrucTR_v1 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:50:15.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:36Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-24T23:47:13.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/ansulev/Cybersecurity-Dataset-Fenrir-v2.1",
+      "title": "ansulev/Cybersecurity-Dataset-Fenrir-v2.1 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:47:13.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:38Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-23T18:36:03Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/huggingface/transformers/releases/tag/v5.6.2",
+      "title": "huggingface/transformers v5.6.2: Patch release v5.6.2",
+      "summary": "Patch release v5.6.2 Qwen 3.5 and 3.6 MoE (text-only) were broken when using with FP8. It should now work again with this :saluting_face: Fix configuration reading and error handling for kernels (https://github.com/huggingface/transformers/pull/45610) by @hmellor Full Changelog*…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "GitHub: huggingface/transformers",
+        "published_label": "2026-04-23T18:36:03Z",
+        "feed_source": "https://github.com/huggingface"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-23T08:20:03Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/huggingface/transformers/releases/tag/v5.6.1",
+      "title": "huggingface/transformers v5.6.1: Patch release v5.6.1",
+      "summary": "Patch release v5.6.1 Flash attention path was broken! Sorry everyone for this one 🤗 Fix AttributeError on s_aux=None in flash_attention_forward (https://github.com/huggingface/transformers/pull/45589) by @jamesbraza",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "GitHub: huggingface/transformers",
+        "published_label": "2026-04-23T08:20:03Z",
+        "feed_source": "https://github.com/huggingface"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Hugging Face",
+      "published_at": "2026-04-22T15:52:30Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/huggingface/transformers/releases/tag/v5.6.0",
+      "title": "huggingface/transformers v5.6.0: Release v5.6.0",
+      "summary": "Release v5.6.0 New Model additions OpenAI Privacy Filter OpenAI Privacy Filter is a bidirectional token-classification model for personally identifiable information (PII) detection and masking in text. It is intended for high-throughput data sanitization workflows where teams ne…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:34Z",
+      "raw_source": {
+        "publisher": "GitHub: huggingface/transformers",
+        "published_label": "2026-04-22T15:52:30Z",
+        "feed_source": "https://github.com/huggingface"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anysphere",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://cursor.com/",
+      "title": "The best way to code with AI",
+      "summary": "Built to make you extraordinarily productive, Cursor is the best way to build software with AI.",
+      "content_type": "post",
+      "source_domain": "cursor.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "cursor.com",
+        "published_label": "2026-04-24T00:00:00Z",
+        "feed_source": "https://cursor.com/"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://tinker-docs.thinkingmachines.ai/",
+      "title": "Tinker - Tinker Documentation",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "tinker-docs.thinkingmachines.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://tinker-docs.thinkingmachines.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:42Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://tinker-docs.thinkingmachines.ai/cookbook/",
+      "title": "Tinker Cookbook - Tinker Documentation",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "tinker-docs.thinkingmachines.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://tinker-docs.thinkingmachines.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:43Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://tinker-docs.thinkingmachines.ai/cookbook/contributing/",
+      "title": "Contributing - Tinker Documentation",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "tinker-docs.thinkingmachines.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://tinker-docs.thinkingmachines.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:45Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://tinker-docs.thinkingmachines.ai/cookbook/quickstart/",
+      "title": "Get Started - Tinker Documentation",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "tinker-docs.thinkingmachines.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://tinker-docs.thinkingmachines.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:46Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://tinker-docs.thinkingmachines.ai/cookbook/storage/",
+      "title": "Storage - Tinker Documentation",
+      "summary": "",
+      "content_type": "post",
+      "source_domain": "tinker-docs.thinkingmachines.ai",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:06:45Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://tinker-docs.thinkingmachines.ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:48Z",
+        "status": "ok",
+        "fields_added": [
+          "title"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-24T18:01:39.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/news/election-safeguards-update",
+      "title": "An update on our election safeguards",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T18:01:39.000Z",
+        "feed_source": "https://www.anthropic.com/claude"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:50Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-22T17:04:00.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/research/81k-economics",
+      "title": "What 81,000 people told us about the economics of AI",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T17:04:00.000Z",
+        "feed_source": "https://www.anthropic.com/claude"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:56Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-22T17:01:04.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/research/economic-index-survey-announcement",
+      "title": "Announcing the Anthropic Economic Index Survey",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22T17:01:04.000Z",
+        "feed_source": "https://www.anthropic.com/claude"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:31:58Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-24T17:10:04.000Z",
+      "source_platform": "website",
+      "source_url": "https://www.anthropic.com/transparency",
+      "title": "Anthropic’s Transparency Hub",
+      "summary": "A look at Anthropic&#x27;s key processes, programs, and practices for responsible AI development.",
+      "content_type": "post",
+      "source_domain": "www.anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T17:10:04.000Z",
+        "feed_source": "https://www.anthropic.com/claude"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:04Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-24T17:32:16Z",
+      "source_platform": "website",
+      "source_url": "https://status.claude.com/incidents/s0lttkq5mmt2",
+      "title": "Issues with sign-ups on platform.claude.com",
+      "summary": "Apr 24 , 17:32 UTC Resolved - This incident has been resolved. Apr 24 , 17:03 UTC Investigating - We are currently investigating an issue resulting in errors when attempting to sign up at platform.claude.com",
+      "content_type": "post",
+      "source_domain": "status.claude.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "Claude Status - Incident History",
+        "published_label": "2026-04-24T17:32:16Z",
+        "feed_source": "https://status.anthropic.com/"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-24T10:59:52Z",
+      "source_platform": "website",
+      "source_url": "https://status.claude.com/incidents/1mx31vhgl3ms",
+      "title": "Elevated errors on Claude Opus 4.7",
+      "summary": "Apr 24 , 10:59 UTC Resolved - The incident has been resolved. We had 3 blips of unavailability: * 2:53 PT / 9:53 UTC -- 2:57 PT / 9:57 UTC * 3:01 PT / 10:01 UTC -- 3:06 PT / 10:06 UTC * 3:34 PT / 10:34 UTC -- 3:36 PT / 10:36 UTC Apr 24 , 10:51 UTC Update - We are continuing to…",
+      "content_type": "post",
+      "source_domain": "status.claude.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "Claude Status - Incident History",
+        "published_label": "2026-04-24T10:59:52Z",
+        "feed_source": "https://status.anthropic.com/"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-24T03:34:28Z",
+      "source_platform": "website",
+      "source_url": "https://status.claude.com/incidents/wlysnq540b32",
+      "title": "Elevated errors on Sonnet 4.6",
+      "summary": "Apr 24 , 03:34 UTC Resolved - This incident has been resolved. Apr 24 , 03:15 UTC Monitoring - A fix has been implemented and we are monitoring the results. Apr 24 , 03:09 UTC Identified - The issue has been identified and a fix is being implemented. Apr 24 , 02:55 UTC Update …",
+      "content_type": "post",
+      "source_domain": "status.claude.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "Claude Status - Incident History",
+        "published_label": "2026-04-24T03:34:28Z",
+        "feed_source": "https://status.anthropic.com/"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-23T15:59:21Z",
+      "source_platform": "website",
+      "source_url": "https://status.claude.com/incidents/1gz3fcvd76fx",
+      "title": "Elevated errors on Claude Opus 4.7",
+      "summary": "Apr 23 , 15:59 UTC Resolved - We've had an incident between 08:23 PT / 15:23 UTC and 8:35 PT / 15:35 UTC. We have fully recovered. Apr 23 , 15:37 UTC Monitoring - A fix has been implemented and we are monitoring the results. Apr 23 , 15:29 UTC Investigating - We are currently …",
+      "content_type": "post",
+      "source_domain": "status.claude.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "Claude Status - Incident History",
+        "published_label": "2026-04-23T15:59:21Z",
+        "feed_source": "https://status.anthropic.com/"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Claude",
+      "published_at": "2026-04-23T02:09:00Z",
+      "source_platform": "website",
+      "source_url": "https://status.claude.com/incidents/9tyl1z4b03cs",
+      "title": "MCP apps unavailable on Claude.ai",
+      "summary": "Apr 23 , 02:09 UTC Resolved - This incident has been resolved. Apr 23 , 00:57 UTC Update - We have resolved the issue impacting MCP Apps on Claude.ai. Apr 23 , 00:41 UTC Identified - We have identified an issue impacting the availability of MCP applications on Claude.ai, inclu…",
+      "content_type": "post",
+      "source_domain": "status.claude.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:17Z",
+      "raw_source": {
+        "publisher": "Claude Status - Incident History",
+        "published_label": "2026-04-23T02:09:00Z",
+        "feed_source": "https://status.anthropic.com/"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Gemini",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/next-2026/",
+      "title": "Google Cloud Next ‘26",
+      "summary": "Here’s a look at what Google announced at Google Cloud Next ‘26.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:14Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Gemini",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "summary": "An overview of Google’s eighth generation TPUs, built for the agentic era.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:17Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Gemini",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "title": "We&#x27;re launching two specialized TPUs for the agentic era.",
+      "summary": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:19Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Gemini",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "summary": "Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:22Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Gemini",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-customer-round-up/",
+      "title": "10 leading enterprises show why agents mean business",
+      "summary": "Capcom, Home Depot, Mars and more businesses that are turning AI into an operational advantage.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-22",
+        "feed_source": "https://blog.google/technology/ai/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:24Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "NotebookLM",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/google-cloud-next-26-recap/",
+      "title": "7 highlights from Google Cloud Next ‘26",
+      "summary": "Catch up on our biggest updates from this year’s Cloud Next, including Gemini Enterprise Agent Platform and our newest TPUs.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:33Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/notebooklm/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:26Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "NotebookLM",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "summary": "Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:33Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://blog.google/technology/ai/notebooklm/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:28Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "NotebookLM",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2-generally-available/",
+      "title": "Gemini Embedding 2 is now generally available.",
+      "summary": "We’re announcing the general availability of Gemini Embedding 2 via the Gemini API and Vertex AI.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:33Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://blog.google/technology/ai/notebooklm/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:31Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "NotebookLM",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-sessions-artists-lessons/",
+      "title": "3 creative tips from our Flow Sessions artists",
+      "summary": "Learn more about Google’s Flow Sessions, an artist cohort focusing on using AI in film while also using Google’s AI filmmaking tool, Flow.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:33Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-23",
+        "feed_source": "https://blog.google/technology/ai/notebooklm/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:33Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "NotebookLM",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/",
+      "title": "Android",
+      "summary": "Read the latest news and updates about Android, the world&#x27;s most popular mobile platform.",
+      "content_type": "post",
+      "source_domain": "blog.google",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:07:33Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24",
+        "feed_source": "https://blog.google/technology/ai/notebooklm/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:35Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:17.411Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/de/plugins/cascade/models",
+      "title": "Cascade-Modelle - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:17.411Z",
+        "feed_source": "https://docs.windsurf.com/windsurf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:37Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:17.615Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/de/windsurf/models",
+      "title": "AI-Modelle - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:17.615Z",
+        "feed_source": "https://docs.windsurf.com/windsurf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:42Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:17.770Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/es/plugins/cascade/models",
+      "title": "Modelos de Cascade - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:17.770Z",
+        "feed_source": "https://docs.windsurf.com/windsurf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:49Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:17.936Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/es/windsurf/models",
+      "title": "Modelos de IA - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:17.936Z",
+        "feed_source": "https://docs.windsurf.com/windsurf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:32:56Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.092Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/fr/plugins/cascade/models",
+      "title": "Modèles d’IA Cascade - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.092Z",
+        "feed_source": "https://docs.windsurf.com/windsurf"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:04Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.307Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/fr/windsurf/models",
+      "title": "Modèles d’IA - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.307Z",
+        "feed_source": "https://docs.windsurf.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:12Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.418Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/ja/plugins/cascade/models",
+      "title": "Cascade のモデル - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.418Z",
+        "feed_source": "https://docs.windsurf.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:16Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.608Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/ja/windsurf/models",
+      "title": "AI モデル - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.608Z",
+        "feed_source": "https://docs.windsurf.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:24Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.709Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/plugins/cascade/models",
+      "title": "Cascade Models - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.709Z",
+        "feed_source": "https://docs.windsurf.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:29Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Windsurf",
+      "published_at": "2026-04-24T20:15:18.835Z",
+      "source_platform": "website",
+      "source_url": "https://docs.windsurf.com/pt-BR/plugins/cascade/models",
+      "title": "Modelos do Cascade - Windsurf Docs",
+      "summary": "Docs for Windsurf (formerly Codeium): your modern coding superpowers.",
+      "content_type": "post",
+      "source_domain": "docs.windsurf.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T20:15:18.835Z",
+        "feed_source": "https://docs.windsurf.com/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:33Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Qwen",
+      "published_at": "2026-04-22T01:54:19Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.15.0-preview.2",
+      "title": "QwenLM/qwen-code v0.15.0-preview.2: Release v0.15.0-preview.2",
+      "summary": "What's Changed feat(acp): add complete hooks support for ACP integration by @DennisYu07 in https://github.com/QwenLM/qwen-code/pull/3248 feat: optimize compact mode UX — shortcuts, settings sync, and safety by @chiga0 in https://github.com/QwenLM/qwen-code/pull/3100 feat(hooks):…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-22T01:54:19Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Qwen",
+      "published_at": "2026-04-22T00:25:35Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.14.5-preview.0",
+      "title": "QwenLM/qwen-code v0.14.5-preview.0: Release v0.14.5-preview.0",
+      "summary": "What's Changed feat(acp): add complete hooks support for ACP integration by @DennisYu07 in https://github.com/QwenLM/qwen-code/pull/3248 feat: optimize compact mode UX — shortcuts, settings sync, and safety by @chiga0 in https://github.com/QwenLM/qwen-code/pull/3100 feat(hooks):…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-22T00:25:35Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Qwen",
+      "published_at": "2026-04-22T00:23:02Z",
+      "source_platform": "github",
+      "source_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.14.5-nightly.20260422.d1c8dff4d",
+      "title": "QwenLM/qwen-code v0.14.5-nightly.20260422.d1c8dff4d: Release v0.14.5-nightly.20260422.d1c8dff4d",
+      "summary": "What's Changed feat(acp): add complete hooks support for ACP integration by @DennisYu07 in https://github.com/QwenLM/qwen-code/pull/3248 feat: optimize compact mode UX — shortcuts, settings sync, and safety by @chiga0 in https://github.com/QwenLM/qwen-code/pull/3100 feat(hooks):…",
+      "content_type": "release-notes",
+      "source_domain": "github.com",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:05Z",
+      "raw_source": {
+        "publisher": "GitHub: QwenLM/qwen-code",
+        "published_label": "2026-04-22T00:23:02Z",
+        "feed_source": "https://github.com/QwenLM"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:45:39.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/Pixelber/Flipradio_DeepSeek_Datase_v2_5000",
+      "title": "Pixelber/Flipradio_DeepSeek_Datase_v2_5000 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:45:39.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:37Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:43:56.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/introvoyz041/MathNet",
+      "title": "introvoyz041/MathNet · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:43:56.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:40Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:42:25.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/DCAgent2/terminal_bench_2_g1_diverse_tezos_100k_8b_20260424_173354",
+      "title": "DCAgent2/terminal_bench_2_g1_diverse_tezos_100k_8b_20260424_173354 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:42:25.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:47Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:42:38.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/keisuke-miyako/text-commands-2026-0429",
+      "title": "keisuke-miyako/text-commands-2026-0429 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:42:38.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:50Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:41:54.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/stefanocarrera/autophagycode_D_he_train-mercury_Qwen3-4B_strategy_scm_t0.2_g8_metrics",
+      "title": "stefanocarrera/autophagycode_D_he_train-mercury_Qwen3-4B_strategy_scm_t0.2_g8_metrics · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": true,
+      "collected_at": "2026-04-28T03:08:18Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:41:54.000Z",
+        "feed_source": "https://huggingface.co/"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:33:53Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:41:01.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/stefanocarrera/autophagycode_D_he_train-mercury_Qwen3-4B_strategy_scm_t0.2_g8",
+      "title": "stefanocarrera/autophagycode_D_he_train-mercury_Qwen3-4B_strategy_scm_t0.2_g8 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:23Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:41:01.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:34:04Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:40:56.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/DCAgent2/medagentbench_DeepSeek_R1_Distill_Qwen_7B_20260424_175120",
+      "title": "DCAgent2/medagentbench_DeepSeek_R1_Distill_Qwen_7B_20260424_175120 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:23Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:40:56.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:34:08Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:40:35.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/keisuke-miyako/text-commands-2026-0428",
+      "title": "keisuke-miyako/text-commands-2026-0428 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:23Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:40:35.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:34:13Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:38:42.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/keisuke-miyako/text-commands-2026-0427",
+      "title": "keisuke-miyako/text-commands-2026-0427 · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:23Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:38:42.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:34:17Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Hugging Face Hub",
+      "published_at": "2026-04-24T23:34:53.000Z",
+      "source_platform": "website",
+      "source_url": "https://huggingface.co/datasets/ansulev/reasoning-distill-opus-4-7-max-sft",
+      "title": "ansulev/reasoning-distill-opus-4-7-max-sft · Datasets at Hugging Face",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "content_type": "post",
+      "source_domain": "huggingface.co",
+      "is_official": false,
+      "collected_at": "2026-04-28T03:08:23Z",
+      "raw_source": {
+        "publisher": "",
+        "published_label": "2026-04-24T23:34:53.000Z",
+        "feed_source": "https://hf.co/join/discord"
+      },
+      "enrichment": {
+        "at": "2026-04-28T03:34:21Z",
+        "status": "ok",
+        "fields_added": [
+          "title",
+          "summary"
+        ]
+      }
+    }
+  ]
+}

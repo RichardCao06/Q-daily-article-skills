@@ -1,0 +1,25 @@
+{
+  "domain": "example-domain",
+  "snapshot_date": "YYYY-MM-DD",
+  "entities": [
+    {
+      "entity_group": "person",
+      "rank": 1,
+      "name": "Example Name",
+      "description": "Why this entity matters in the domain.",
+      "official_url": "https://example.com",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://example.com",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Primary source"
+        }
+      ]
+    }
+  ]
+}

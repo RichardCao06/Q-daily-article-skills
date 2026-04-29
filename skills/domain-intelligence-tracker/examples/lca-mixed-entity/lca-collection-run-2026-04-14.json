@@ -1,0 +1,30 @@
+{
+  "domain": "lca",
+  "goal": "Validate that domain-intelligence-tracker generalizes from AI to lifecycle assessment.",
+  "window_start": "2026-03-01",
+  "window_end": "2026-04-14",
+  "entity_scope": [
+    "person",
+    "company",
+    "product",
+    "institution",
+    "project"
+  ],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official blog or updates page",
+      "official docs",
+      "official news or event page"
+    ],
+    "include_media": false,
+    "include_community": false,
+    "notes": "LCA domain puts more weight on docs, release notes, webinars, and methodology pages than on social media."
+  },
+  "output_targets": [
+    "entities",
+    "entity_sources",
+    "entity_updates"
+  ],
+  "notes": "This sample intentionally uses a mixed-entity watchlist to show that the same workflow can adapt to a domain where institutions, databases, and software tools matter as much as people."
+}

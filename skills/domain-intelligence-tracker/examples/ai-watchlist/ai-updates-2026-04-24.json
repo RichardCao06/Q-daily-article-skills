@@ -1,0 +1,109 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-24",
+  "updates": [
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.roborhythms.com/openai-gpt-5-5-launch-april-2026/",
+      "title": "OpenAI ships GPT-5.5 as an autonomous agent model",
+      "summary": "OpenAI 于 2026 年 4 月推出 GPT-5.5，定位为可自主完成多步骤任务的 agent——可规划、切换工具、自查、在模糊中继续推进；价格为标准版 $5/$30 per million input/output tokens，Pro 版 $30/$180；同步发布面向美国持证临床人员免费的 ChatGPT for Clinicians 专门线。",
+      "content_type": "product",
+      "source_domain": "roborhythms.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T09:00:00Z",
+      "raw_source": {
+        "publisher": "Roborhythms",
+        "published_label": "April 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
+      "title": "Google debuts TPU 8t (training) and TPU 8i (inference) at Cloud Next 2026",
+      "summary": "Google 于 Cloud Next 2026 发布两款自研 AI 芯片——训练用的 TPU 8t 与推理用的 TPU 8i。训练性能为第七代 Ironwood TPU 的 2.8 倍（同价位），推理侧性能较上代提升 80%。此举把 Google 与 NVIDIA 之间的对抗从模型层推进到硬件层。",
+      "content_type": "product",
+      "source_domain": "cnbc.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T09:05:00Z",
+      "raw_source": {
+        "publisher": "CNBC",
+        "published_label": "April 22, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Thinking Machines Lab",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "title": "Thinking Machines Lab signs multi-billion-dollar Google Cloud deal on NVIDIA GB300",
+      "summary": "Mira Murati 创办的 Thinking Machines Lab 与 Google Cloud 签订数十亿美元 AI 基础设施协议，底座是 NVIDIA 最新 GB300 芯片。这笔合作把 Google Cloud 推进到 OpenAI 量级的 Frontier Lab 基础设施供给方。",
+      "content_type": "news",
+      "source_domain": "techcrunch.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T09:10:00Z",
+      "raw_source": {
+        "publisher": "TechCrunch",
+        "published_label": "April 22, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "title": "Amazon commits up to $25B in Anthropic as part of $100B AWS Trainium pact",
+      "summary": "Amazon 同意追投 Anthropic 最多 250 亿美元，Anthropic 承诺未来 10 年在 AWS（含现有和未来代次的 Trainium 芯片）上累计支出超过 1000 亿美元。加上 Microsoft 同周宣布的 50 亿美元投资 + 300 亿美元 Azure 承诺，Anthropic 现在是横跨 AWS、Azure、Google Cloud 的唯一一家 Frontier Lab。",
+      "content_type": "news",
+      "source_domain": "cnbc.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T14:00:00Z",
+      "raw_source": {
+        "publisher": "CNBC",
+        "published_label": "April 20, 2026"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "ChatGPT",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/",
+      "title": "OpenAI ships GPT-5.5 with agentic capabilities and a 2× API price hike",
+      "summary": "OpenAI 于 2026-04-24 正式面向 ChatGPT Plus/Pro/Business/Enterprise 推送 GPT-5.5，API 单价相较 GPT-5.4 翻倍：标准版 $5/$30 per million input/output tokens；Pro 版 $30/$180。OpenAI 将这次升级定位为 agent 型 AI 的里程碑，模型可计划、调用工具、自我校验并在不确定中继续推进长链任务。",
+      "content_type": "product",
+      "source_domain": "fortune.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T14:05:00Z",
+      "raw_source": {
+        "publisher": "Fortune",
+        "published_label": "April 23, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "DeepSeek",
+      "published_at": "2026-04-24T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.sohu.com/a/1010838825_122523043",
+      "title": "DeepSeek V4 临近发布——万亿参数、去 CUDA 化、原生图像视频文本生成",
+      "summary": "多方信源指向 DeepSeek 将于 4 月下旬发布旗舰大模型 V4，原生支持图像、视频与文本生成，并迈向万亿参数规模。若按此路线，V4 会成为 Opus 4.6 / GPT-6 之外的第三极，对开源权重模型的基线再抬一档。",
+      "content_type": "news",
+      "source_domain": "sohu.com",
+      "is_official": false,
+      "collected_at": "2026-04-24T09:15:00Z",
+      "raw_source": {
+        "publisher": "搜狐",
+        "published_label": "2026-04 月"
+      }
+    }
+  ]
+}
