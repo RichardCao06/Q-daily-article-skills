@@ -25,9 +25,77 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+import urllib.parse
 from pathlib import Path
 from typing import Any
+
+
+# Path segments that indicate a localized variant of a page. The English
+# version at /about and the French version at /fr/about should collapse.
+# We strip these segments from the path during URL normalization for the
+# purpose of detecting duplicates ONLY — the original `source_url` on the
+# canonical record is preserved.
+#
+# Common 2-letter ISO 639-1 codes (lowercased), plus the few hyphenated
+# regional codes that appear in real publisher URLs.
+_LOCALE_SEGMENTS = frozenset({
+    # 2-letter language codes — the most common case
+    "en", "zh", "ja", "ko", "fr", "de", "es", "it", "pt", "ru", "nl",
+    "ar", "hi", "tr", "pl", "sv", "no", "da", "fi", "cs", "el", "he",
+    "th", "vi", "id", "uk", "ro", "hu", "bg",
+    # Hyphenated regional codes seen in CMSes
+    "en-us", "en-gb", "en-ca", "en-au",
+    "zh-cn", "zh-tw", "zh-hk",
+    "fr-ca", "fr-fr",
+    "es-es", "es-mx", "es-ar",
+    "pt-br", "pt-pt",
+    "de-de", "de-at",
+    "ja-jp", "ko-kr",
+})
+
+
+def normalize_url_for_dedup(url: str) -> str:
+    """Strip i18n path segments + query/fragment to build a dedup key.
+
+    Examples:
+        cohere.com/about               -> cohere.com/about
+        cohere.com/fr/about            -> cohere.com/about
+        cohere.com/fr-CA/about         -> cohere.com/about
+        cohere.com/blog/post           -> cohere.com/blog/post
+        anthropic.com/news/foo?utm=... -> anthropic.com/news/foo
+        anthropic.com/news/foo/        -> anthropic.com/news/foo
+
+    Only strips the FIRST path segment if it looks like a locale code.
+    Doesn't touch later segments — `cohere.com/blog/fr/post` would NOT
+    have its `/fr/` removed (we'd risk merging two unrelated articles).
+    """
+    if not url:
+        return ""
+    try:
+        parsed = urllib.parse.urlsplit(url)
+    except ValueError:
+        return url
+
+    netloc = parsed.netloc.lower()
+    # Strip a leading `www.`
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+
+    # Split path into non-empty segments
+    segments = [s for s in parsed.path.split("/") if s]
+    if segments and segments[0].lower() in _LOCALE_SEGMENTS:
+        segments = segments[1:]
+
+    # Reassemble path; ignore query/fragment for dedup purposes
+    path = "/" + "/".join(segments)
+    if path != "/" and parsed.path.endswith("/"):
+        path += "/"
+    # Strip a trailing slash for stable comparison
+    path = path.rstrip("/") if path != "/" else path
+
+    return f"{parsed.scheme.lower() or 'https'}://{netloc}{path}"
 
 
 def _sort_key(upd: dict) -> tuple[int, str]:
@@ -41,8 +109,16 @@ def _sort_key(upd: dict) -> tuple[int, str]:
     return (2, "")
 
 
-def dedupe(doc: dict) -> tuple[dict, dict]:
-    """Return (deduped_doc, summary)."""
+def dedupe(doc: dict, *, normalize_locale: bool = True) -> tuple[dict, dict]:
+    """Return (deduped_doc, summary).
+
+    By default, URLs are bucketed by `normalize_url_for_dedup(source_url)`
+    so that localized variants of the same page (`/about`, `/fr/about`,
+    `/zh-CN/about`) collapse into one record. Pass
+    `normalize_locale=False` to fall back to literal source_url
+    bucketing — useful when a publisher's locale paths host genuinely
+    different content rather than translations.
+    """
     updates = doc.get("updates")
     if not isinstance(updates, list):
         return doc, {
@@ -53,28 +129,37 @@ def dedupe(doc: dict) -> tuple[dict, dict]:
             "note": "no updates[] array; nothing to do",
         }
 
-    # Preserve first-seen order while bucketing by source_url
+    # Preserve first-seen order while bucketing by normalized URL.
+    # The canonical record keeps its original `source_url`; only the
+    # bucket key is normalized for the purpose of finding duplicates.
     groups: dict[str, list[dict]] = {}
     null_url_bucket: list[dict] = []
     order: list[str] = []
+    locale_collapsed_groups = 0
     for upd in updates:
         url = upd.get("source_url")
         if not isinstance(url, str) or not url:
             null_url_bucket.append(upd)
             continue
-        if url not in groups:
-            groups[url] = []
-            order.append(url)
-        groups[url].append(upd)
+        key = normalize_url_for_dedup(url) if normalize_locale else url
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(upd)
 
     deduped: list[dict] = []
     duplicate_groups = 0
     removed = 0
-    for url in order:
-        bucket = groups[url]
+    for key in order:
+        bucket = groups[key]
         if len(bucket) > 1:
             duplicate_groups += 1
             removed += len(bucket) - 1
+            # If the duplicates have DIFFERENT raw source_urls, this group
+            # was collapsed by locale normalization (not by exact match).
+            raw_urls = {u.get("source_url", "") for u in bucket}
+            if len(raw_urls) > 1:
+                locale_collapsed_groups += 1
             # pick earliest by the sort key
             bucket.sort(key=_sort_key)
         deduped.append(bucket[0])
@@ -92,6 +177,7 @@ def dedupe(doc: dict) -> tuple[dict, dict]:
         "removed": removed,
         "output_count": len(deduped),
         "without_source_url": len(null_url_bucket),
+        "locale_collapsed_groups": locale_collapsed_groups,
     }
     return new_doc, summary
 
@@ -102,6 +188,14 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--output", help="Write deduped JSON here")
     parser.add_argument(
         "--in-place", action="store_true", help="Overwrite the input file"
+    )
+    parser.add_argument(
+        "--no-locale-collapse", action="store_true",
+        help="Disable i18n URL normalization. By default, URLs that differ "
+             "only in their locale prefix (`/fr/about` vs `/about`) are "
+             "treated as the same record. Pass this flag to keep them "
+             "separate (use when a publisher's locale paths host "
+             "genuinely different content, not translations).",
     )
     return parser.parse_args(argv)
 
@@ -114,12 +208,13 @@ def main(argv: list[str]) -> int:
         return 2
 
     doc = json.loads(input_path.read_text(encoding="utf-8"))
-    deduped, summary = dedupe(doc)
+    deduped, summary = dedupe(doc, normalize_locale=not args.no_locale_collapse)
 
     # Summary to stderr regardless of output mode
     print(
         f"input count: {summary['input_count']}\n"
         f"duplicate groups: {summary['duplicate_groups']}\n"
+        f"  (of which locale-collapsed: {summary.get('locale_collapsed_groups', 0)})\n"
         f"removed: {summary['removed']}\n"
         f"output count: {summary['output_count']}",
         file=sys.stderr,
