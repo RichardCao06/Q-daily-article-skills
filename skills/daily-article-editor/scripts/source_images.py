@@ -89,7 +89,7 @@ def build_queries(slot: dict, official_domain: str) -> list[tuple[str, str]]:
     for token in ("WSBK", "夺冠", "赛场", "领奖台", "庆祝", "葡萄牙", "冠军"):
         if token in anchor_text or token in source_hint:
             event_tokens.append(token)
-    if slot_name in {"hero", "achievement"} and subject and event_tokens:
+    if slot_name in {"cover", "hero", "achievement"} and subject and event_tokens:
         token_text = " ".join(dict.fromkeys(event_tokens))
         enriched_queries.append(f"{subject} {token_text}")
         enriched_queries.append(f"{subject} 机车 创始人 {token_text}")
@@ -162,6 +162,10 @@ def official_keyword_score(text: str, slot: dict) -> int:
         for token in ("赛事", "wsbk", "夺冠", "赛场", "category&id=3"):
             if token in haystack:
                 score -= 2
+    if slot_name == "cover":
+        for token in ("首页", "人物", "品牌", "现场", "封面"):
+            if token in haystack:
+                score += 1
     if slot_name == "hero":
         for token in ("首页", "人物", "品牌", "现场"):
             if token in haystack:
@@ -170,6 +174,8 @@ def official_keyword_score(text: str, slot: dict) -> int:
 
 
 def slot_kind_bonus(slot_name: str, page_kind: str) -> int:
+    if slot_name == "cover":
+        return {"event": 5, "person": 4, "brand": 1, "product": 1}.get(page_kind, 0)
     if slot_name == "product_or_project":
         return {"product": 4, "brand": 1, "event": -1, "person": 0}.get(page_kind, 0)
     if slot_name == "achievement":
@@ -182,6 +188,16 @@ def slot_kind_bonus(slot_name: str, page_kind: str) -> int:
 
 
 def slot_tier_bonus(slot_name: str, source_tier: str, page_kind: str) -> int:
+    if slot_name == "cover":
+        return {
+            ("media", "event"): 15,
+            ("media", "person"): 10,
+            ("official", "event"): 5,
+            ("official", "person"): 4,
+            ("official", "brand"): 0,
+            ("official", "product"): 0,
+            ("web", "event"): 1,
+        }.get((source_tier, page_kind), 0)
     if slot_name == "hero":
         return {
             ("media", "event"): 14,
