@@ -222,12 +222,59 @@ def jaccard(a: set[str], b: set[str]) -> float:
 
 
 def novelty_concerns(candidate: Candidate, history: list[HistoryDoc], threshold: float) -> list[tuple[float, HistoryDoc]]:
+    """Find published articles that probably cover the same story.
+
+    Two signals, either is enough to surface a concern:
+
+    1. Token-Jaccard between the candidate's title-bag and the published
+       title-bag. Works when both are written in the same language.
+
+    2. Entity-name appearance: if the candidate's entity name (or a
+       lowercased variant) is a substring of the published title or slug.
+       This catches the cross-language case where the candidate's English
+       entity-update titles share zero tokens with a Chinese published
+       title — common for Q-daily where prose is Chinese but the source
+       posts are English.
+
+    The entity-name signal returns a synthetic score of `1.0` so it
+    always sorts above token matches.
+    """
     cand_bag = candidate.title_words
     hits: list[tuple[float, HistoryDoc]] = []
+
+    # Signal 1: token Jaccard
     for h in history:
         score = jaccard(cand_bag, h.bag)
         if score >= threshold:
             hits.append((score, h))
+
+    # Signal 2: entity-name word-component match against title / slug.
+    # An entity like "Google DeepMind" should match a slug like
+    # `google-cloud-next-2026-04-22` even though the full string doesn't
+    # appear. We match each name-component (>= 4 chars to avoid noise like
+    # "AI" or "the") with word-boundary anchors against the haystack.
+    seen_slugs = {h.slug for _, h in hits}
+    name_components = [
+        c for c in re.split(r"[\s/\-]+", (candidate.entity_name or "").lower())
+        if len(c) >= 4 and not c.isdigit()
+    ]
+    if name_components:
+        for h in history:
+            if h.slug in seen_slugs:
+                continue
+            haystack = f"{h.title} {h.slug}".lower()
+            # Slug uses dashes, title may use anything; treat both as word-
+            # boundary delimited to avoid "open" matching "openai".
+            matched = any(
+                re.search(rf"(?:^|[^a-z]){re.escape(comp)}(?:[^a-z]|$)", haystack)
+                for comp in name_components
+            )
+            if matched:
+                # Synthetic score 1.0 — entity-name match is a stronger
+                # signal than partial token overlap, sort it to the top.
+                hits.append((1.0, h))
+                seen_slugs.add(h.slug)
+
     hits.sort(key=lambda pair: pair[0], reverse=True)
     return hits[:3]
 

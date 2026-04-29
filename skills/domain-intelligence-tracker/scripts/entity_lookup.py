@@ -28,16 +28,97 @@ query.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import sys
+import urllib.error
+import urllib.request
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
 _TOKEN_RE = re.compile(r"[\w一-鿿]+", re.UNICODE)
+
+
+# ---------------------------------------------------------------------------
+# byline extraction
+# ---------------------------------------------------------------------------
+
+# A `byline` is "who actually wrote this post" — distinct from the entity
+# (often a company). We look for it on every published-update URL so the
+# editor can quote the real author rather than defaulting to the founder.
+#
+# Heuristics, in priority order:
+#   1. <meta name="author" content="..."> / property="article:author"
+#   2. <a rel="author">name</a>
+#   3. JSON-LD `"author": { "name": "..." }`
+#   4. Open-graph `og:article:author`
+#
+# All four are stdlib-friendly regex matches against a single GET. We do NOT
+# attempt full HTML parsing — partial matches are acceptable and the editor
+# is the final authority.
+
+_BYLINE_PATTERNS = [
+    (re.compile(r'<meta\s+(?:name|property)=["\'](?:author|article:author)["\']\s+content=["\']([^"\']+)["\']', re.IGNORECASE), "meta"),
+    (re.compile(r'<a\s+[^>]*rel=["\']author["\'][^>]*>([^<]+)</a>', re.IGNORECASE), "rel-author"),
+    # JSON-LD object form: "author": { "@type": "Person", "name": "..." }
+    (re.compile(r'"author"\s*:\s*\{\s*"@type"\s*:\s*"Person"\s*,\s*"name"\s*:\s*"([^"]+)"', re.IGNORECASE), "json-ld-object"),
+    # JSON-LD array form: "author":["Name"] (Cohere / Sanity-CMS style).
+    # Also catches escaped form `\"author\":[\"Name\"]` after Next.js
+    # serializes RSC into <script>.
+    (re.compile(r'\\?"author\\?"\s*:\s*\[\s*\\?"([^"\\\]]+)\\?"', re.IGNORECASE), "json-ld-array"),
+    (re.compile(r'<meta\s+property=["\']article:author["\']\s+content=["\']([^"\']+)["\']', re.IGNORECASE), "og-author"),
+    # Fallback: Sanity / Notion-CMS style author profile link with portrait
+    # alt text. Matches <img alt="Portrait of <Name>">, very specific to
+    # avoid false positives from generic <img alt> tags.
+    (re.compile(r'alt=["\']Portrait of ([^"\']+)["\']', re.IGNORECASE), "portrait-alt"),
+]
+
+
+def fetch_byline(url: str, timeout: float = 5.0) -> tuple[str, str]:
+    """Returns (byline, source_label) or ("", "") on miss.
+
+    `source_label` is one of `meta` / `rel-author` / `json-ld` / `og-author`
+    so the editor can audit which heuristic fired.
+    """
+    if not url or not url.startswith(("http://", "https://")):
+        return "", ""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "QDailyEntityLookup/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read(128 * 1024).decode("utf-8", errors="ignore")
+    except (urllib.error.URLError, TimeoutError, ValueError, OSError):
+        return "", ""
+
+    for pat, label in _BYLINE_PATTERNS:
+        m = pat.search(body)
+        if m:
+            byline = html.unescape(m.group(1)).strip()
+            # Filter junk: an entire URL, a generic site name, or empty.
+            if byline.startswith("http") or len(byline) > 80 or len(byline) < 2:
+                continue
+            return byline, label
+    return "", ""
+
+
+def fetch_bylines_parallel(urls: list[str], max_workers: int = 6, timeout: float = 5.0) -> dict[str, tuple[str, str]]:
+    """Fetch bylines for many URLs in parallel. Returns {url: (byline, label)}."""
+    out: dict[str, tuple[str, str]] = {}
+    if not urls:
+        return out
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = {pool.submit(fetch_byline, url, timeout): url for url in urls}
+        for fut in as_completed(futures):
+            url = futures[fut]
+            try:
+                out[url] = fut.result()
+            except Exception:
+                out[url] = ("", "")
+    return out
 
 
 def tokens(s: str) -> set[str]:
@@ -111,7 +192,7 @@ def prior_coverage(history: list[dict[str, Any]], entity_name: str) -> list[dict
     return out
 
 
-def render(entity: dict[str, Any], updates: list[dict[str, Any]], neighbours: list[tuple[str, float]], prior: list[dict[str, Any]]) -> str:
+def render(entity: dict[str, Any], updates: list[dict[str, Any]], neighbours: list[tuple[str, float]], prior: list[dict[str, Any]], bylines: dict[str, tuple[str, str]] | None = None) -> str:
     name = entity.get("name", "?")
     lines = [f"# {name}", ""]
 
@@ -139,6 +220,13 @@ def render(entity: dict[str, Any], updates: list[dict[str, Any]], neighbours: li
             url = u.get("source_url", "")
             lines.append(f"- [{ct}/{sp}/{pa}] {title}")
             lines.append(f"  {url}")
+            # If bylines were fetched, show the actual author so the editor
+            # doesn't default to the entity name (e.g. company founder)
+            # when the post was written by a researcher / staff engineer.
+            if bylines and url in bylines:
+                byline, label_src = bylines[url]
+                if byline:
+                    lines.append(f"  ✍ byline: **{byline}** _(via {label_src})_")
     else:
         lines.append("_(no updates in window — entity might be quiet, or feed broken)_")
     lines.append("")
@@ -179,6 +267,14 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--updates",  required=True, type=Path)
     p.add_argument("--history",  type=Path, default=None)
     p.add_argument("--output",   type=Path, default=None)
+    p.add_argument("--fetch-bylines", action="store_true",
+                   help="Fetch each update URL and extract its <meta name=author> / "
+                        "rel=author / JSON-LD byline. Slower (one HTTP request per "
+                        "update) but catches the case where the entity is a company "
+                        "but the post is by a research engineer — don't default to "
+                        "the founder's name when there's a real byline.")
+    p.add_argument("--byline-timeout", type=float, default=5.0,
+                   help="Per-URL timeout in seconds for --fetch-bylines (default 5).")
     return p.parse_args()
 
 
@@ -218,7 +314,12 @@ def main() -> int:
     neighbours = theme_neighbours(updates, name)
     prior = prior_coverage(history, name)
 
-    out = render(entity, ent_updates, neighbours, prior)
+    bylines: dict[str, tuple[str, str]] | None = None
+    if args.fetch_bylines:
+        urls = [u.get("source_url", "") for u in ent_updates if u.get("source_url")]
+        bylines = fetch_bylines_parallel(urls, timeout=args.byline_timeout)
+
+    out = render(entity, ent_updates, neighbours, prior, bylines=bylines)
     if args.output:
         args.output.write_text(out, encoding="utf-8")
     else:
