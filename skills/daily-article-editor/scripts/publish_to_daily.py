@@ -445,7 +445,31 @@ def parse_args() -> argparse.Namespace:
         help="Seconds to wait between commit and render verification, "
              "to let CDN / Next.js ISR pick up the new article (default 10).",
     )
+    ap.add_argument(
+        "--skip-content-check", action="store_true",
+        help="Skip the Final Read Pass (validate_article.py). By default the "
+             "publish flow refuses to commit if the article body contains "
+             "meta-commentary, draft markers (TODO/FIXME), editor placeholders "
+             "([insert quote here]), empty headings, or empty list items. "
+             "Override only for metacritical pieces about Q-daily itself.",
+    )
     return ap.parse_args()
+
+
+def run_content_check(md_path: Path) -> tuple[bool, str]:
+    """Invoke validate_article.py as a sibling script. Returns (passed, output)."""
+    import subprocess
+    validator = Path(__file__).resolve().parent / "validate_article.py"
+    if not validator.exists():
+        return True, f"[content-check] skipped: {validator} not present"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(validator), str(md_path)],
+            capture_output=True, text=True, timeout=30,
+        )
+    except subprocess.TimeoutExpired:
+        return False, "[content-check] validator timed out after 30s"
+    return result.returncode == 0, result.stdout
 
 
 def main() -> int:
@@ -510,9 +534,30 @@ def main() -> int:
         print("\n[dry-run] pass --execute to upload images + write to DAILY")
         return 0
 
-    # 0. Pre-flight DB checks. Resolve every FK we'll need later, BEFORE any
-    #    Storage upload happens — otherwise a failing FK leaves orphan files
-    #    in the bucket that nobody knows to clean up.
+    # 0a. Pre-flight content check (Final Read Pass). Run before any DB
+    #     query or Storage upload. If the article still has meta-commentary,
+    #     draft markers, editor placeholders, empty headings, etc., refuse
+    #     to publish — the failure mode this catches is "draft accidentally
+    #     shipped as published," which has happened before and was the
+    #     reason this gate exists.
+    if not args.skip_content_check:
+        passed, output = run_content_check(md_path)
+        if not passed:
+            print("[content-check] FAIL — article body has unresolved draft markers:", file=sys.stderr)
+            print(output, file=sys.stderr)
+            print("[content-check] fix the violations above, or pass --skip-content-check "
+                  "to override (only for metacritical pieces about Q-daily itself)",
+                  file=sys.stderr)
+            return 6
+        # Quietly print the OK summary so the operator sees the gate ran.
+        if output.strip():
+            print(f"[content-check] {output.strip()}")
+    else:
+        print("[content-check] skipped (--skip-content-check)")
+
+    # 0b. Pre-flight DB checks. Resolve every FK we'll need later, BEFORE any
+    #     Storage upload happens — otherwise a failing FK leaves orphan files
+    #     in the bucket that nobody knows to clean up.
     pre_conn = psycopg2.connect(db_url, connect_timeout=8)
     pre_conn.autocommit = True
     try:
