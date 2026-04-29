@@ -85,5 +85,88 @@ class DedupeUpdatesTest(unittest.TestCase):
         self.assertIn("no updates[] array", summary["note"])
 
 
+class NormalizeUrlForDedupTest(unittest.TestCase):
+    """G3 — locale-prefix collapsing."""
+
+    def test_strips_two_letter_locale_prefix(self) -> None:
+        self.assertEqual(
+            DEDUPE.normalize_url_for_dedup("https://cohere.com/fr/about"),
+            DEDUPE.normalize_url_for_dedup("https://cohere.com/about"),
+        )
+
+    def test_strips_hyphenated_regional_locale(self) -> None:
+        self.assertEqual(
+            DEDUPE.normalize_url_for_dedup("https://example.com/zh-CN/blog/post"),
+            DEDUPE.normalize_url_for_dedup("https://example.com/blog/post"),
+        )
+
+    def test_does_not_strip_non_locale_first_segment(self) -> None:
+        normalized = DEDUPE.normalize_url_for_dedup("https://cohere.com/blog/x")
+        self.assertIn("/blog/x", normalized)
+
+    def test_does_not_strip_locale_in_later_segments(self) -> None:
+        # We only strip the first segment to avoid merging unrelated content
+        a = DEDUPE.normalize_url_for_dedup("https://example.com/blog/fr/post1")
+        b = DEDUPE.normalize_url_for_dedup("https://example.com/blog/post1")
+        self.assertNotEqual(a, b)
+
+    def test_strips_www_prefix(self) -> None:
+        self.assertEqual(
+            DEDUPE.normalize_url_for_dedup("https://www.example.com/x"),
+            DEDUPE.normalize_url_for_dedup("https://example.com/x"),
+        )
+
+    def test_drops_query_and_fragment(self) -> None:
+        self.assertEqual(
+            DEDUPE.normalize_url_for_dedup("https://example.com/x?utm=foo#frag"),
+            DEDUPE.normalize_url_for_dedup("https://example.com/x"),
+        )
+
+
+class DedupeWithLocaleCollapsingTest(unittest.TestCase):
+    """End-to-end: i18n duplicates collapse, summary reports it."""
+
+    def test_collapses_localized_about_pages(self) -> None:
+        doc = {
+            "updates": [
+                _upd("https://cohere.com/about", title="About"),
+                _upd("https://cohere.com/fr/about", title="À propos"),
+                _upd("https://cohere.com/zh-CN/about", title="关于"),
+                _upd("https://cohere.com/blog/post-1", title="Post 1"),
+            ]
+        }
+        out, summary = DEDUPE.dedupe(doc)
+        # 3 about variants collapse to 1, plus 1 blog post = 2 total
+        self.assertEqual(summary["output_count"], 2)
+        self.assertEqual(summary["duplicate_groups"], 1)
+        self.assertEqual(summary["locale_collapsed_groups"], 1)
+        self.assertEqual(summary["removed"], 2)
+
+    def test_no_locale_collapse_flag_disables(self) -> None:
+        doc = {
+            "updates": [
+                _upd("https://cohere.com/about", title="About"),
+                _upd("https://cohere.com/fr/about", title="À propos"),
+            ]
+        }
+        out, summary = DEDUPE.dedupe(doc, normalize_locale=False)
+        # No collapse — both records retained
+        self.assertEqual(summary["output_count"], 2)
+        self.assertEqual(summary["duplicate_groups"], 0)
+
+    def test_locale_collapsed_only_counts_when_raw_urls_differ(self) -> None:
+        # Exact-duplicate URLs collapse but should NOT be counted as
+        # locale-collapsed, because no locale collision happened.
+        doc = {
+            "updates": [
+                _upd("https://example.com/x", title="A"),
+                _upd("https://example.com/x", title="B"),
+            ]
+        }
+        out, summary = DEDUPE.dedupe(doc)
+        self.assertEqual(summary["duplicate_groups"], 1)
+        self.assertEqual(summary["locale_collapsed_groups"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()
