@@ -1,0 +1,342 @@
+{
+  "domain": "lca",
+  "snapshot_date": "2026-04-14",
+  "entities": [
+    {
+      "entity_group": "person",
+      "rank": 1,
+      "name": "Andreas Ciroth",
+      "description": "GreenDelta 创始人之一，openLCA 生态的重要代表人物。",
+      "official_url": "https://www.greendelta.com/about-us/team/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "GreenDelta team",
+          "url": "https://www.greendelta.com/about-us/team/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Institutional profile entry point"
+        },
+        {
+          "source_type": "product",
+          "platform": "website",
+          "label": "openLCA",
+          "url": "https://www.openlca.org/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Primary product ecosystem associated with Andreas Ciroth"
+        }
+      ]
+    },
+    {
+      "entity_group": "person",
+      "rank": 2,
+      "name": "Chris Mutel",
+      "description": "Brightway 生态的关键作者之一，LCA 开源工具链的重要人物。",
+      "official_url": "https://mutel.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Personal website",
+          "url": "https://mutel.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official personal website"
+        },
+        {
+          "source_type": "docs",
+          "platform": "docs",
+          "label": "Brightway docs",
+          "url": "https://docs.brightway.dev/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Primary project documentation"
+        }
+      ]
+    },
+    {
+      "entity_group": "company",
+      "rank": 1,
+      "name": "GreenDelta",
+      "description": "openLCA 背后的软件公司，是开源 LCA 软件生态的重要节点。",
+      "official_url": "https://www.greendelta.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.greendelta.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Company homepage"
+        },
+        {
+          "source_type": "product",
+          "platform": "website",
+          "label": "openLCA",
+          "url": "https://www.openlca.org/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Flagship product site"
+        }
+      ]
+    },
+    {
+      "entity_group": "company",
+      "rank": 2,
+      "name": "One Click LCA",
+      "description": "建筑与制造领域影响较大的 LCA 软件平台公司。",
+      "official_url": "https://oneclicklca.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://oneclicklca.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Company homepage"
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog",
+          "url": "https://oneclicklca.com/blog/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Official blog and product updates"
+        }
+      ]
+    },
+    {
+      "entity_group": "company",
+      "rank": 3,
+      "name": "Sphera",
+      "description": "企业可持续与产品生命周期管理软件的重要供应商。",
+      "official_url": "https://sphera.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://sphera.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Company homepage"
+        },
+        {
+          "source_type": "newsroom",
+          "platform": "news",
+          "label": "Resources and news",
+          "url": "https://sphera.com/resources/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Official news, webinars, and product resources"
+        }
+      ]
+    },
+    {
+      "entity_group": "product",
+      "rank": 1,
+      "name": "openLCA",
+      "description": "最重要的开源 LCA 软件之一。",
+      "official_url": "https://www.openlca.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official product website",
+          "url": "https://www.openlca.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Product homepage"
+        },
+        {
+          "source_type": "community",
+          "platform": "forum",
+          "label": "ask.openLCA",
+          "url": "https://ask.openlca.org/",
+          "is_official": false,
+          "is_primary": false,
+          "notes": "High-signal community support forum"
+        }
+      ]
+    },
+    {
+      "entity_group": "product",
+      "rank": 2,
+      "name": "SimaPro",
+      "description": "生命周期评价领域历史最久、应用最广的软件之一。",
+      "official_url": "https://simapro.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official product website",
+          "url": "https://simapro.com/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Product homepage"
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "SimaPro updates",
+          "url": "https://simapro.com/updates/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Official product updates and release notes"
+        }
+      ]
+    },
+    {
+      "entity_group": "product",
+      "rank": 3,
+      "name": "LCA for Experts",
+      "description": "Sphera 旗下的重要企业级 LCA 软件产品。",
+      "official_url": "https://sphera.com/solutions/product-sustainability/lca-for-experts/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Product page",
+          "url": "https://sphera.com/solutions/product-sustainability/lca-for-experts/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official product page"
+        },
+        {
+          "source_type": "newsroom",
+          "platform": "news",
+          "label": "Sphera resources",
+          "url": "https://sphera.com/resources/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Resource center for product-related announcements"
+        }
+      ]
+    },
+    {
+      "entity_group": "institution",
+      "rank": 1,
+      "name": "ecoinvent",
+      "description": "LCA 数据库领域最重要的机构之一。",
+      "official_url": "https://ecoinvent.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://ecoinvent.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Institution homepage"
+        },
+        {
+          "source_type": "blog",
+          "platform": "blog",
+          "label": "Blog",
+          "url": "https://ecoinvent.org/blog/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Methodology and database updates"
+        }
+      ]
+    },
+    {
+      "entity_group": "institution",
+      "rank": 2,
+      "name": "Life Cycle Initiative",
+      "description": "联合国体系下的重要生命周期方法学与协调平台。",
+      "official_url": "https://www.lifecycleinitiative.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official website",
+          "url": "https://www.lifecycleinitiative.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Institution homepage"
+        },
+        {
+          "source_type": "newsroom",
+          "platform": "news",
+          "label": "News",
+          "url": "https://www.lifecycleinitiative.org/news-and-events/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Official news and event announcements"
+        }
+      ]
+    },
+    {
+      "entity_group": "project",
+      "rank": 1,
+      "name": "Brightway",
+      "description": "重要的开源 Python LCA 项目与计算框架。",
+      "official_url": "https://docs.brightway.dev/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "docs",
+          "platform": "docs",
+          "label": "Official docs",
+          "url": "https://docs.brightway.dev/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Project documentation"
+        },
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Chris Mutel website",
+          "url": "https://mutel.org/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Maintainer-linked project context"
+        }
+      ]
+    },
+    {
+      "entity_group": "project",
+      "rank": 2,
+      "name": "Biogenic Carbon Project Phase 2",
+      "description": "Life Cycle Initiative 推进的生物碳方法学项目。",
+      "official_url": "https://www.lifecycleinitiative.org/biogenic-carbon-project-phase-2-kicks-off/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Project page",
+          "url": "https://www.lifecycleinitiative.org/biogenic-carbon-project-phase-2-kicks-off/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Project announcement page"
+        },
+        {
+          "source_type": "newsroom",
+          "platform": "news",
+          "label": "Life Cycle Initiative news",
+          "url": "https://www.lifecycleinitiative.org/news-and-events/",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Institutional update stream"
+        }
+      ]
+    }
+  ]
+}

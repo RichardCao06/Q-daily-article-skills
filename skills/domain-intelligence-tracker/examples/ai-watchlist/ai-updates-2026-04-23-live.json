@@ -1,0 +1,111 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-23",
+  "window_end": "2026-04-23",
+  "updates": [
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://securitybrief.com.au/story/anthropic-openai-split-on-cyber-ai-release-strategy",
+      "title": "Anthropic launches Claude Mythos Preview under Project Glasswing",
+      "summary": "Anthropic 于 2026-04-23 推出面向网络安全的 Claude Mythos Preview，运行在受限的 Project Glasswing 合作框架内，初始伙伴包括 AWS、Apple、Google、Microsoft、Nvidia、Cisco、CrowdStrike 与 Linux 基金会；模型未面向一般客户开放，因其具备自动发现严重漏洞的能力。",
+      "content_type": "product",
+      "source_domain": "securitybrief.com.au",
+      "is_official": true,
+      "collected_at": "2026-04-23T10:00:00Z",
+      "raw_source": {
+        "publisher": "SecurityBrief",
+        "published_label": "April 23, 2026",
+        "evidence": "SecurityBrief coverage of Anthropic's cyber AI release strategy"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://securitybrief.com.au/story/anthropic-openai-split-on-cyber-ai-release-strategy#openai",
+      "title": "OpenAI launches GPT-5.4-Cyber under Trusted Access for Cyber",
+      "summary": "OpenAI 于 2026-04-23 推出 GPT-5.4-Cyber，纳入扩展后的 Trusted Access for Cyber 计划，对数千名独立安全从业者与数百家企业安全团队开放，自我定义为“民主化防御”路径——与 Anthropic 的封闭路径形成明显分化。",
+      "content_type": "product",
+      "source_domain": "securitybrief.com.au",
+      "is_official": true,
+      "collected_at": "2026-04-23T10:05:00Z",
+      "raw_source": {
+        "publisher": "SecurityBrief",
+        "published_label": "April 23, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.axios.com/2026/04/23/anthropic-openai-showdown",
+      "title": "Anthropic's growing pains mount ahead of OpenAI showdown",
+      "summary": "Axios 于 2026-04-23 报道，Anthropic 正在调查一小批未授权用户访问 Mythos 模型的事件；该模型因进攻性网络能力存在安全隐忧而未公开发布。公司在潜在 IPO（估值约 8000 亿美元）前夕迎来多重压力。",
+      "content_type": "news",
+      "source_domain": "axios.com",
+      "is_official": false,
+      "collected_at": "2026-04-23T10:10:00Z",
+      "raw_source": {
+        "publisher": "Axios",
+        "published_label": "April 23, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://news.quantosei.com/2026/04/23/anthropic-has-surged-to-a-trillion-dollar-valuation-on-secondary-markets-overtaking-openai/",
+      "title": "Anthropic 二级市场估值突破 1 万亿美元，首次超越 OpenAI",
+      "summary": "QuantoSei 于 2026-04-23 报道，Anthropic 在二级市场的估值已冲至 1 万亿美元，首次超过 OpenAI 的相应估值。这是 AI 基础模型赛道的重要估值拐点，但并非正式融资数据，需与后续一级市场动作对照。",
+      "content_type": "news",
+      "source_domain": "news.quantosei.com",
+      "is_official": false,
+      "collected_at": "2026-04-23T10:15:00Z",
+      "raw_source": {
+        "publisher": "QuantoSei News",
+        "published_label": "April 23, 2026"
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "Grok",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "press",
+      "source_url": "https://www.ibtimes.com.au/grok-down-now-grok-ai-experiences-intermittent-outages-amid-high-demand-april-23-2026-1867290",
+      "title": "Grok experiences intermittent outages on April 23",
+      "summary": "IBTimes 于 2026-04-23 报道，xAI 旗下 Grok 在 web、移动端和 X 平台集成处出现间歇性连接问题与响应延迟；官方状态页面显示服务大体可用，但部分用户遭遇简单查询失败或回复变慢。",
+      "content_type": "news",
+      "source_domain": "ibtimes.com.au",
+      "is_official": false,
+      "collected_at": "2026-04-23T10:20:00Z",
+      "raw_source": {
+        "publisher": "IBTimes AU",
+        "published_label": "April 23, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://www.cnblogs.com/yumingwen/p/19912767",
+      "title": "Google DeepMind 发布 Gemma 4 开源大模型",
+      "summary": "Google DeepMind 在 2026-04-23 发布 Gemma 4 开源大模型，通过架构优化在中等参数规模上取得性能跃升。此举进一步抬高了开源权重模型的基线，也与 DeepSeek V4 的发布节奏形成对冲。",
+      "content_type": "product",
+      "source_domain": "cnblogs.com",
+      "is_official": true,
+      "collected_at": "2026-04-23T10:25:00Z",
+      "raw_source": {
+        "publisher": "AI 资讯速递 (yumingwen)",
+        "published_label": "2026-04-23",
+        "evidence": "中文 AI 资讯速递汇总"
+      }
+    }
+  ]
+}

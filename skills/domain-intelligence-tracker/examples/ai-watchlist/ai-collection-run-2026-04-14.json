@@ -1,0 +1,29 @@
+{
+  "domain": "ai",
+  "goal": "Track official updates for priority AI entities and validate the generic domain intelligence schema.",
+  "window_start": "2026-04-07",
+  "window_end": "2026-04-14",
+  "entity_scope": [
+    "person",
+    "company",
+    "product"
+  ],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official newsroom",
+      "official x",
+      "official youtube"
+    ],
+    "include_media": false,
+    "include_community": false,
+    "notes": "This run keeps only first-party sources for recent updates."
+  },
+  "output_targets": [
+    "tracked_entities",
+    "entity_sources",
+    "entity_updates",
+    "collection_runs"
+  ],
+  "notes": "Derived from the AI tracking directory and official person updates snapshot."
+}

@@ -1,0 +1,50 @@
+{
+  "domain": "ai",
+  "snapshot_date": "2026-04-20",
+  "entities": [
+    {
+      "entity_group": "person",
+      "rank": 1,
+      "name": "Sam Altman",
+      "description": "CEO, OpenAI",
+      "official_url": "https://blog.samaltman.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official blog",
+          "url": "https://blog.samaltman.com/",
+          "is_official": true,
+          "is_primary": true
+        },
+        {
+          "source_type": "x",
+          "platform": "x",
+          "label": "X",
+          "url": "https://x.com/sama",
+          "is_official": true,
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "entity_group": "company",
+      "rank": 1,
+      "name": "OpenAI",
+      "description": "Foundation-model research lab",
+      "official_url": "https://openai.com/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "website",
+          "platform": "website",
+          "label": "Official site",
+          "url": "https://openai.com/",
+          "is_official": true,
+          "is_primary": true
+        }
+      ]
+    }
+  ]
+}

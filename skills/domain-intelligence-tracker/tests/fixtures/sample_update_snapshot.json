@@ -1,0 +1,37 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-23",
+  "updates": [
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "title": "Introducing workspace agents in ChatGPT",
+      "summary": "OpenAI 推出 workspace agents，支持团队级共享 agent。",
+      "content_type": "product",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "collected_at": "2026-04-23T08:00:00Z",
+      "raw_source": {
+        "publisher": "OpenAI",
+        "published_label": "April 22, 2026"
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-23T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://www.anthropic.com/news/claude-1m-context",
+      "title": "Claude Opus 4.7 with 1M context",
+      "summary": "Anthropic ships 1M context window on Opus 4.7.",
+      "content_type": "product",
+      "source_domain": "anthropic.com",
+      "is_official": true,
+      "collected_at": "2026-04-23T08:30:00Z"
+    }
+  ]
+}

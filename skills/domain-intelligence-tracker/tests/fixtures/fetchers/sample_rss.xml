@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Lab Blog</title>
+    <link>https://example.com/blog</link>
+    <description>Test feed</description>
+    <item>
+      <title>Within window — recent post</title>
+      <link>https://example.com/blog/post-a</link>
+      <description>This is the most recent &lt;b&gt;post&lt;/b&gt; in the feed.</description>
+      <pubDate>Wed, 23 Apr 2026 10:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/post-a</guid>
+    </item>
+    <item>
+      <title>Also within window</title>
+      <link>https://example.com/blog/post-b</link>
+      <description>Second post.</description>
+      <pubDate>Tue, 22 Apr 2026 12:00:00 +0000</pubDate>
+      <guid>post-b</guid>
+    </item>
+    <item>
+      <title>Outside window — too old</title>
+      <link>https://example.com/blog/post-c</link>
+      <description>Old item.</description>
+      <pubDate>Sat, 01 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>post-c</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+{
+  "domain": "ai",
+  "goal": "2026-04-28 baseline auto-collected via execute_jobs.py (12 workers, 15s job-cap, sitemap 4s + early-exit). Wall-clock 6:49 with 11.3% hit rate.",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-24",
+  "entity_scope": [
+    "person",
+    "company",
+    "product"
+  ],
+  "source_policy": {
+    "priority": [
+      "rss",
+      "sitemap",
+      "github_releases",
+      "html_dated"
+    ],
+    "include_media": false,
+    "include_community": true
+  },
+  "output_targets": [
+    "entity_updates"
+  ],
+  "notes": "auto-collect baseline; v5 config (sitemap 4s) preserved hit rate while staying under 10min budget",
+  "started_at": "2026-04-28T03:27:55Z",
+  "finished_at": "2026-04-28T03:27:55Z"
+}

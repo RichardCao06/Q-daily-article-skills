@@ -1,0 +1,474 @@
+{
+  "domain": "ai",
+  "snapshot_date": "2026-04-20",
+  "entities": [
+    {
+      "entity_group": "project",
+      "rank": 1,
+      "name": "arXiv cs.LG",
+      "description": "机器学习论文主入口；AI 论文日更必看源之一。",
+      "official_url": "https://arxiv.org/list/cs.LG/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/cs.LG/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for machine learning papers."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Machine learning preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["foundation-models", "reasoning", "agents", "training", "inference-systems"],
+        "notes": "Primary daily paper feed for machine learning."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 2,
+      "name": "arXiv cs.AI",
+      "description": "通用 AI、规划、推理与知识表示的重要预印本入口。",
+      "official_url": "https://arxiv.org/list/cs.AI/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/cs.AI/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for general AI."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "General AI preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["reasoning", "planning", "agents", "knowledge-representation"],
+        "notes": "Important feed for general AI and reasoning papers."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 3,
+      "name": "arXiv cs.CL",
+      "description": "NLP、LLM、RAG、对话与评测论文核心入口。",
+      "official_url": "https://arxiv.org/list/cs.CL/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/cs.CL/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for NLP and LLM work."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Computational linguistics preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["llm", "rag", "evaluation", "agents", "multilingual"],
+        "notes": "Core feed for LLM and NLP developments."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 4,
+      "name": "arXiv cs.CV",
+      "description": "视觉、多模态、视频与生成式视觉论文核心入口。",
+      "official_url": "https://arxiv.org/list/cs.CV/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/cs.CV/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for vision and multimodal work."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Computer vision preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["multimodal", "vision", "video-generation", "image-generation", "world-models"],
+        "notes": "Core feed for vision and multimodal papers."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 5,
+      "name": "arXiv cs.RO",
+      "description": "机器人与具身智能方向的关键预印本入口。",
+      "official_url": "https://arxiv.org/list/cs.RO/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/cs.RO/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for robotics and embodied AI."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Robotics preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["robotics", "embodied-ai", "control", "world-models"],
+        "notes": "Core feed for robotics and embodied intelligence."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 6,
+      "name": "arXiv stat.ML",
+      "description": "统计学习与方法论论文入口，经常出现训练与推断的重要工作。",
+      "official_url": "https://arxiv.org/list/stat.ML/recent",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "arxiv",
+          "label": "Recent papers",
+          "url": "https://arxiv.org/list/stat.ML/recent",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "P0 daily feed for statistical ML methods."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Statistical machine learning preprints",
+        "priority": "P0",
+        "update_frequency": "daily",
+        "topics": ["training", "optimization", "evaluation", "theory"],
+        "notes": "Important feed for ML methods and theory."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 7,
+      "name": "OpenReview ICLR",
+      "description": "ICLR 官方评审与论文入口，适合跟踪接收论文与讨论过程。",
+      "official_url": "https://openreview.net/group?id=ICLR.cc",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "conference",
+          "platform": "openreview",
+          "label": "Conference page",
+          "url": "https://openreview.net/group?id=ICLR.cc",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Top conference review and acceptance hub."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Top ML conference papers",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["machine-learning", "representation-learning", "agents", "reasoning"],
+        "notes": "Use for accepted papers and review-stage tracking."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 8,
+      "name": "OpenReview NeurIPS",
+      "description": "NeurIPS 官方评审与论文入口，覆盖最广的 AI/ML 前沿工作。",
+      "official_url": "https://openreview.net/group?id=NeurIPS.cc",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "conference",
+          "platform": "openreview",
+          "label": "Conference page",
+          "url": "https://openreview.net/group?id=NeurIPS.cc",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Top conference review and acceptance hub."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Top AI and ML conference papers",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["foundation-models", "multimodal", "optimization", "systems", "agents"],
+        "notes": "Broad top-tier conference watch source."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 9,
+      "name": "OpenReview ICML",
+      "description": "ICML 官方评审与论文入口，适合看机器学习方法与系统演进。",
+      "official_url": "https://openreview.net/group?id=ICML.cc",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "conference",
+          "platform": "openreview",
+          "label": "Conference page",
+          "url": "https://openreview.net/group?id=ICML.cc",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Top conference review and acceptance hub."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Machine learning conference papers",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["machine-learning", "training", "evaluation", "inference-systems"],
+        "notes": "Use for formal ML conference outputs."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 10,
+      "name": "ACL Anthology",
+      "description": "NLP 正式论文库，适合跟踪 ACL 体系内的正式发表版本。",
+      "official_url": "https://aclanthology.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "publication-index",
+          "platform": "acl-anthology",
+          "label": "Anthology",
+          "url": "https://aclanthology.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official archive for ACL-family venues."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Formal NLP publications",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["llm", "nlp", "multilingual", "evaluation", "dialogue"],
+        "notes": "Best source for final NLP conference papers."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 11,
+      "name": "CVF Open Access",
+      "description": "视觉顶会正式论文入口，覆盖 CVPR、ICCV、WACV 等。",
+      "official_url": "https://openaccess.thecvf.com/menu",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "publication-index",
+          "platform": "cvf",
+          "label": "Open access portal",
+          "url": "https://openaccess.thecvf.com/menu",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official open-access archive for CVF venues."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Formal computer vision publications",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["vision", "multimodal", "video", "image-generation", "3d"],
+        "notes": "Best source for final vision conference papers."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 12,
+      "name": "Hugging Face Papers",
+      "description": "社区热度筛选入口，适合发现当天被讨论最多的论文。",
+      "official_url": "https://huggingface.co/papers",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "paper_feed",
+          "platform": "huggingface",
+          "label": "Daily papers",
+          "url": "https://huggingface.co/papers",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Daily paper discovery feed."
+        },
+        {
+          "source_type": "trending",
+          "platform": "huggingface",
+          "label": "Trending papers",
+          "url": "https://huggingface.co/papers/trending",
+          "is_official": true,
+          "is_primary": false,
+          "notes": "Community-trending paper view."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Community-trending paper discovery",
+        "priority": "P1",
+        "update_frequency": "daily",
+        "topics": ["open-source-models", "hot-papers", "code-available"],
+        "notes": "Useful for spotting what the community is discussing."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 13,
+      "name": "Semantic Scholar",
+      "description": "论文发现与引用追踪工具，适合追某篇论文的后续传播与相关工作。",
+      "official_url": "https://www.semanticscholar.org/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "discovery",
+          "platform": "semantic-scholar",
+          "label": "Main site",
+          "url": "https://www.semanticscholar.org/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Useful for citation and related-paper discovery."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Citation graph and related-paper discovery",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["citations", "related-work", "paper-discovery"],
+        "notes": "Useful after a key paper has already been identified."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 14,
+      "name": "OpenAI Research",
+      "description": "OpenAI 官方研究输出页，适合跟 frontier model、agents、安全与多模态论文。",
+      "official_url": "https://openai.com/research/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "research-publications",
+          "platform": "website",
+          "label": "Research page",
+          "url": "https://openai.com/research/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official OpenAI research and publication index."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Lab-origin frontier research",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["foundation-models", "agents", "alignment-safety", "multimodal"],
+        "notes": "High-signal first-party research source."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 15,
+      "name": "Google DeepMind Publications",
+      "description": "DeepMind 官方论文与研究输出入口。",
+      "official_url": "https://deepmind.google/research/publications/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "research-publications",
+          "platform": "website",
+          "label": "Publications page",
+          "url": "https://deepmind.google/research/publications/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official Google DeepMind publications page."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Lab-origin frontier research",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["reasoning", "robotics", "multimodal", "science"],
+        "notes": "High-signal first-party research source."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 16,
+      "name": "Anthropic Research",
+      "description": "Anthropic 官方研究输出页，适合跟踪 alignment、interpretability 与模型系统论文。",
+      "official_url": "https://www.anthropic.com/research",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "research-publications",
+          "platform": "website",
+          "label": "Research page",
+          "url": "https://www.anthropic.com/research",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official Anthropic research page."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Lab-origin frontier research",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["alignment-safety", "interpretability", "evaluation", "agents"],
+        "notes": "High-signal first-party research source."
+      }
+    },
+    {
+      "entity_group": "project",
+      "rank": 17,
+      "name": "Meta AI Research Publications",
+      "description": "Meta AI 官方研究论文入口，适合跟踪开源模型、多模态与系统论文。",
+      "official_url": "https://ai.meta.com/research/publications/",
+      "status": "active",
+      "sources": [
+        {
+          "source_type": "research-publications",
+          "platform": "website",
+          "label": "Publications page",
+          "url": "https://ai.meta.com/research/publications/",
+          "is_official": true,
+          "is_primary": true,
+          "notes": "Official Meta AI research publications page."
+        }
+      ],
+      "raw_entity": {
+        "entity_group": "project",
+        "scope": "Lab-origin frontier research",
+        "priority": "P1",
+        "update_frequency": "weekly",
+        "topics": ["open-source-models", "multimodal", "vision", "systems"],
+        "notes": "High-signal first-party research source."
+      }
+    }
+  ]
+}

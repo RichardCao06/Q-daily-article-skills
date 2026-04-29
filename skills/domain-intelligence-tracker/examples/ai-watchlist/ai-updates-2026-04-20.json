@@ -1,0 +1,151 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-14",
+  "window_end": "2026-04-20",
+  "updates": [
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-14T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "title": "Trusted access for the next era of cyber defense",
+      "summary": "OpenAI 于 2026-04-14 扩大 Trusted Access for Cyber 计划，并引入面向防御场景的 GPT-5.4-Cyber，说明其正在把高权限网络安全能力做成更成熟的产品化入口。",
+      "content_type": "announcement",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 14, 2026",
+        "evidence": "OpenAI official post dated April 14, 2026 on the company site."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-15T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
+      "title": "The next evolution of the Agents SDK",
+      "summary": "OpenAI 于 2026-04-15 发布新版 Agents SDK，引入更强的 harness、原生 sandbox 执行与长任务支持，明显强化了其面向开发者的 agent 基础设施布局。",
+      "content_type": "product",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 15, 2026",
+        "evidence": "OpenAI official product page dated April 15, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-16T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/codex-for-almost-everything/",
+      "title": "Codex for (almost) everything",
+      "summary": "OpenAI 于 2026-04-16 扩展 Codex 的电脑操作、浏览器、图像生成、插件与自动化能力，信号是其把 Codex 从代码助手推进到更完整的开发工作台。",
+      "content_type": "product",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 16, 2026",
+        "evidence": "OpenAI official product page dated April 16, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-14T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://www.anthropic.com/news/narasimhan-board",
+      "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+      "summary": "Anthropic 于 2026-04-14 宣布诺华 CEO Vas Narasimhan 进入董事会，继续强化其在治理与高影响行业连接上的布局。",
+      "content_type": "announcement",
+      "source_domain": "anthropic.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Anthropic",
+        "official_entity": "Anthropic",
+        "published_label": "Apr 14, 2026",
+        "evidence": "Anthropic newsroom post dated Apr 14, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-16T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Introducing Claude Opus 4.7",
+      "summary": "Anthropic 于 2026-04-16 推出 Claude Opus 4.7，强调其在编码、agents、vision 与多步任务上的提升，继续加码高端模型竞争。",
+      "content_type": "product",
+      "source_domain": "anthropic.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Anthropic",
+        "official_entity": "Anthropic",
+        "published_label": "Apr 16, 2026",
+        "evidence": "Anthropic newsroom product post dated Apr 16, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Anthropic",
+      "published_at": "2026-04-17T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Anthropic 于 2026-04-17 发布 Claude Design 研究预览，把 Claude 延伸到设计、原型、演示与 handoff 场景，显示其正在拓展生成式工作流的产品边界。",
+      "content_type": "product",
+      "source_domain": "anthropic.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Anthropic",
+        "official_entity": "Anthropic",
+        "published_label": "Apr 17, 2026",
+        "evidence": "Anthropic newsroom product post dated Apr 17, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-14T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "summary": "Google DeepMind 于 2026-04-14 发布 Gemini Robotics-ER 1.6，强化空间与物理推理并开放 Gemini API/AI Studio，可视为其机器人能力商业化推进的最新节点。",
+      "content_type": "product",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Google DeepMind",
+        "official_entity": "Google DeepMind",
+        "published_label": "April 14, 2026",
+        "evidence": "Google DeepMind official blog post dated April 14, 2026."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-17T00:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://deepmind.google/blog/strengthening-our-frontier-safety-framework/",
+      "title": "Strengthening our Frontier Safety Framework",
+      "summary": "Google DeepMind 在 2026-04-17 更新 Frontier Safety Framework，新增 manipulation 与 tracked capability levels 等机制，释放出其对更强模型前置治理的信号。",
+      "content_type": "policy",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Google DeepMind",
+        "official_entity": "Google DeepMind",
+        "published_label": "Updated April 17, 2026",
+        "evidence": "Google DeepMind official blog page shows Updated April 17, 2026."
+      }
+    }
+  ]
+}

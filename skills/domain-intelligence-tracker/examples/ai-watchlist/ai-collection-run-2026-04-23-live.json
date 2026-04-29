@@ -1,0 +1,22 @@
+{
+  "domain": "ai",
+  "goal": "2026-04-23 live end-to-end test of the tracker skill: generate jobs, fetch via WebSearch, validate, dedupe, bridge to news-brief.",
+  "window_start": "2026-04-23",
+  "window_end": "2026-04-23",
+  "entity_scope": ["person", "company", "product"],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official blog or newsroom",
+      "official x",
+      "official docs or release notes",
+      "media coverage of official announcements"
+    ],
+    "include_media": true,
+    "include_community": false
+  },
+  "output_targets": ["entity_updates"],
+  "notes": "由 scripts/collect_updates.py 生成 228 条采集任务；本次仅对头部实体执行 WebSearch，覆盖 4 条官方发布 + 2 条媒体新闻。",
+  "started_at": "2026-04-23T09:00:00Z",
+  "finished_at": "2026-04-23T10:30:00Z"
+}

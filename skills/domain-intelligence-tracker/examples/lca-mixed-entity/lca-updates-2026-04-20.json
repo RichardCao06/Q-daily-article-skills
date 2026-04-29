@@ -1,0 +1,61 @@
+{
+  "domain": "lca",
+  "window_start": "2026-04-14",
+  "window_end": "2026-04-20",
+  "updates": [
+    {
+      "entity_group": "product",
+      "entity_name": "SimaPro",
+      "published_at": "2026-04-15T00:00:00Z",
+      "source_platform": "website",
+      "source_url": "https://simapro.com/simapro-lca-summit-april-2026/",
+      "title": "SimaPro LCA Summit | April 2026",
+      "summary": "SimaPro 官方在 2026-04-15 举办线上 LCA Summit，并明确将展示最新产品创新与实践案例，说明其近期重点仍在把软件更新与企业落地案例绑定输出。",
+      "content_type": "event",
+      "source_domain": "simapro.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "SimaPro",
+        "official_entity": "SimaPro",
+        "published_label": "April 15, 2026",
+        "evidence": "Official SimaPro summit page for the April 15, 2026 event."
+      }
+    },
+    {
+      "entity_group": "product",
+      "entity_name": "SimaPro",
+      "published_at": "2026-04-19T00:00:00Z",
+      "source_platform": "support",
+      "source_url": "https://support.simapro.com/articles/Article/SimaPro-Installation/",
+      "title": "SimaPro desktop | Install & Update",
+      "summary": "SimaPro 官方帮助中心在本周更新桌面版安装与升级说明，持续把 10.4 版本迁移与运维文档向现网用户推进。",
+      "content_type": "support-update",
+      "source_domain": "support.simapro.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "SimaPro Help Center",
+        "official_entity": "SimaPro",
+        "published_label": "Updated yesterday as of 2026-04-20 search snapshot",
+        "evidence": "Official help-center page showed “Updated yesterday”; date inferred as 2026-04-19 from the run date."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "One Click LCA",
+      "published_at": "2026-04-16T00:00:00Z",
+      "source_platform": "webinar",
+      "source_url": "https://oneclicklca.com/sv/resources/webinars/nya-gr%C3%A4nsv%C3%A4rden-och-eu-reglering-vad-betyder-det-f%C3%B6r-tillverkare-av-vvs-och-eltekniska-produkter",
+      "title": "Nya gränsvärden och EU-reglering – vad betyder det för tillverkare av VVS- och eltekniska produkter?",
+      "summary": "One Click LCA 官方在 2026-04-16 围绕 CPR、ESPR、EPBD 等法规举办专题 webinar，延续其把合规解读与平台获客结合的内容策略。",
+      "content_type": "webinar",
+      "source_domain": "oneclicklca.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "One Click LCA",
+        "official_entity": "One Click LCA",
+        "published_label": "Published 4 days ago as of 2026-04-20 search snapshot; event dated April 16, 2026",
+        "evidence": "Official One Click LCA webinar page appeared in search results with an April 16, 2026 event date; publication timing is inferred to the same weekly window."
+      }
+    }
+  ]
+}

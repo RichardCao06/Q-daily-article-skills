@@ -1,0 +1,20 @@
+{
+  "domain": "ai",
+  "goal": "2026-04-24 daily tracker run + full editor pipeline end-to-end (select → write → illustrate → publish). Trailing 3-day sliding window to cover late-breaking stories from 2026-04-22.",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-24",
+  "entity_scope": ["company", "product"],
+  "source_policy": {
+    "priority": [
+      "official blog / newsroom / press",
+      "major tech media (CNBC, TechCrunch, Bloomberg)",
+      "official product release posts"
+    ],
+    "include_media": true,
+    "include_community": false
+  },
+  "output_targets": ["entity_updates"],
+  "notes": "4 条条目：OpenAI GPT-5.5 / Google TPU 8t&8i / Thinking Machines Lab × Google Cloud / DeepSeek V4 临近发布。全部为 media 报道，is_official=false；其中一条（GPT-5.5）来源权威度偏低，在稿件引用时需标注。",
+  "started_at": "2026-04-24T09:00:00Z",
+  "finished_at": "2026-04-24T09:20:00Z"
+}

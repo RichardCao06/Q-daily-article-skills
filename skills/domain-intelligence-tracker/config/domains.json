@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "domains": [
+    {
+      "domain": "ai",
+      "enabled": true,
+      "entity_snapshot": "../examples/ai-watchlist/ai-entities-2026-04-20.json",
+      "update_snapshot": "../examples/ai-watchlist/ai-updates-2026-04-23.json",
+      "collection_run": "../examples/ai-watchlist/ai-collection-run-2026-04-23.json",
+      "notes": "Generic AI watchlist sample refreshed for 2026-04-23"
+    },
+    {
+      "domain": "lca",
+      "enabled": true,
+      "entity_snapshot": "../examples/lca-mixed-entity/lca-entities-2026-04-20.json",
+      "update_snapshot": "../examples/lca-mixed-entity/lca-updates-2026-04-20.json",
+      "collection_run": "../examples/lca-mixed-entity/lca-collection-run-2026-04-20.json",
+      "notes": "Generic LCA mixed-entity sample"
+    }
+  ]
+}

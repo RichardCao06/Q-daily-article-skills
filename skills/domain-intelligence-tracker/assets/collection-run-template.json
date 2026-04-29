@@ -1,0 +1,27 @@
+{
+  "domain": "example-domain",
+  "goal": "Track official updates for priority entities.",
+  "window_start": "YYYY-MM-DD",
+  "window_end": "YYYY-MM-DD",
+  "entity_scope": [
+    "person",
+    "company",
+    "product"
+  ],
+  "source_policy": {
+    "priority": [
+      "official website",
+      "official blog",
+      "official x",
+      "official youtube"
+    ],
+    "include_media": false,
+    "include_community": false
+  },
+  "output_targets": [
+    "entities",
+    "entity_sources",
+    "entity_updates"
+  ],
+  "notes": "Use exact dates and traceable URLs."
+}

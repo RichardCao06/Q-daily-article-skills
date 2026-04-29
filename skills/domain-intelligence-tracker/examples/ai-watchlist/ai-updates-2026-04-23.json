@@ -1,0 +1,97 @@
+{
+  "domain": "ai",
+  "window_start": "2026-04-22",
+  "window_end": "2026-04-23",
+  "updates": [
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "title": "Introducing workspace agents in ChatGPT",
+      "summary": "OpenAI 于 2026-04-22 推出 workspace agents，把 GPT 从个人使用场景推进到组织级共享 agent：可运行长任务、遵循团队流程、在 ChatGPT 与 Slack 中复用，并在企业权限控制内运行。",
+      "content_type": "product",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 22, 2026",
+        "evidence": "OpenAI official product post announcing workspace agents in ChatGPT for Business, Enterprise, Edu, and Teachers plans."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "developer",
+      "source_url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets/",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "summary": "OpenAI 于 2026-04-22 说明其通过 WebSockets、缓存和栈级优化，把基于 Responses API 的 agent loop 端到端提速 40%，释放出更适合长链路 agent 工作流的开发者基础设施信号。",
+      "content_type": "engineering",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 22, 2026",
+        "evidence": "OpenAI engineering post states agent loops using the API became 40% faster end-to-end via WebSockets and related optimizations."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/introducing-openai-privacy-filter/",
+      "title": "Introducing OpenAI Privacy Filter",
+      "summary": "OpenAI 于 2026-04-22 发布开源权重的 Privacy Filter，用于识别和脱敏文本中的个人身份信息，支持本地运行、单次高吞吐处理，并以 Apache 2.0 许可开放给开发者定制。",
+      "content_type": "research",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 22, 2026",
+        "evidence": "OpenAI research/security post presents Privacy Filter as an open-weight model for context-aware PII detection and redaction."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "OpenAI",
+      "published_at": "2026-04-22T00:00:00Z",
+      "source_platform": "newsroom",
+      "source_url": "https://openai.com/index/making-chatgpt-better-for-clinicians/",
+      "title": "Making ChatGPT better for clinicians",
+      "summary": "OpenAI 于 2026-04-22 推出面向美国认证临床人员免费开放的 ChatGPT for Clinicians，把文档、医学研究与临床问答纳入专门产品线，并同步强调 HIPAA 支持、医生评审与开放健康基准。",
+      "content_type": "product",
+      "source_domain": "openai.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "OpenAI",
+        "official_entity": "OpenAI",
+        "published_label": "April 22, 2026",
+        "evidence": "OpenAI product post says ChatGPT for Clinicians is free for verified clinicians in the U.S. and highlights safety review plus HealthBench Professional."
+      }
+    },
+    {
+      "entity_group": "company",
+      "entity_name": "Google DeepMind",
+      "published_at": "2026-04-22T13:00:00Z",
+      "source_platform": "blog",
+      "source_url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "title": "Google DeepMind partners with global consultancies to accelerate enterprise AI adoption",
+      "summary": "Google DeepMind 于 2026-04-22 宣布与 Accenture、Bain、BCG、Deloitte、McKinsey 等咨询公司合作推动企业采用 Gemini，提醒人们企业 AI 竞争不仅在模型与产品，还在实施与分发网络。",
+      "content_type": "announcement",
+      "source_domain": "deepmind.google",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Google DeepMind",
+        "official_entity": "Google DeepMind",
+        "published_label": "April 22, 2026",
+        "evidence": "Google DeepMind official blog post dated April 22, 2026 announces consultancy partnerships to close the enterprise AI adoption gap."
+      }
+    }
+  ]
+}

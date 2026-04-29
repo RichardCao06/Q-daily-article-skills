@@ -1,0 +1,23 @@
+{
+  "domain": "example-domain",
+  "window_start": "YYYY-MM-DD",
+  "window_end": "YYYY-MM-DD",
+  "updates": [
+    {
+      "entity_group": "person",
+      "entity_name": "Example Name",
+      "published_at": "YYYY-MM-DDTHH:MM:SSZ",
+      "source_platform": "x",
+      "source_url": "https://x.com/example/status/123",
+      "title": "Short title",
+      "summary": "Short factual summary of the update and why it matters.",
+      "content_type": "post",
+      "source_domain": "x.com",
+      "is_official": true,
+      "raw_source": {
+        "publisher": "Example publisher",
+        "published_label": "Exact date label from source"
+      }
+    }
+  ]
+}

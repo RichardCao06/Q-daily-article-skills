@@ -1,0 +1,18 @@
+[
+  {
+    "id": 12345,
+    "name": "v4.0.0",
+    "tag_name": "v4.0.0",
+    "html_url": "https://github.com/example/repo/releases/tag/v4.0.0",
+    "published_at": "2026-04-23T10:00:00Z",
+    "body": "## Big release\n\nLots of changes\n- One\n- Two\n- Three\n"
+  },
+  {
+    "id": 12346,
+    "name": "v3.5.0",
+    "tag_name": "v3.5.0",
+    "html_url": "https://github.com/example/repo/releases/tag/v3.5.0",
+    "published_at": "2025-12-01T10:00:00Z",
+    "body": "Old release."
+  }
+]
