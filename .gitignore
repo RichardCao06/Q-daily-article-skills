@@ -1,2 +1,36 @@
 
 .DS_Store
+
+# env / secrets — never check these in
+.env
+.env.*
+!.env.example
+
+# python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# editor
+.vscode/
+.idea/
+
+# Claude Code agent metadata + worktrees
+.claude/
+.superpowers/
+
+# Playwright debug output
+.playwright-cli/
+
+# generated editorial artifacts — these are produced by the publish
+# pipeline and the agent runs; they don't belong in source control.
+output/
+
+# old generated tracker snapshots / directories that pre-date the
+# current scripts/ layout
+data/
+ai-tracking-directory-*.md
+
+# external project state synced into here for cross-skill testing
+docs/superpowers/
